@@ -1,0 +1,15 @@
+{
+  "store.home": {
+    "blocks": [
+      "responsive-layout.desktop",
+      "responsive-layout.mobile",
+      "responsive-layout.phone#home_info_phone",
+      "responsive-layout.tablet#home_info_tablet"
+
+
+     /* 
+      /* "flex-layout.row#home-section_two", */ 
+    ]
+  }
+
+}

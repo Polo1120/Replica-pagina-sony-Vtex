@@ -1,0 +1,21 @@
+{
+  "responsive-layout.desktop": {
+    "title": "Componente desktop",
+    "children": [
+      "slider-layout#home_slider--children",
+      "flex-layout.row#home_slider--children-visa",
+      "list-context.image-list#home_slider--list",
+      "rich-text#home-impersibles-mes",
+      "flex-layout.row#home_section--one",
+      "rich-text#home_info_desktop",
+      "modal-trigger#home_modal",
+      "modal-trigger#home_modal--event"
+
+    ]
+  },
+  "rich-text#home_info_desktop": {
+    "props": {
+      "text": "Resolucion desktop"
+    }
+  }
+}

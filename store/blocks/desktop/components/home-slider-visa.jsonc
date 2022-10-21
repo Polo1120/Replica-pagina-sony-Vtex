@@ -1,0 +1,26 @@
+{
+ 
+  "flex-layout.row#home_slider--children-visa":{
+    "children": [
+      "image#home_slider--image-visa",
+      "rich-text#home_slider--visa-text"
+    ],
+    "props": {
+      "blockClass":"flex-slider-visa"
+    }
+  },
+
+  "image#home_slider--image-visa":{
+    "props": {
+      "src": "assets/img/LOGO-VISA-BLANCO.png",
+      "blockClass":"imagen-visa"
+    }
+  },
+
+  "rich-text#home_slider--visa-text":{
+    "props": {
+      "text": " | Ofertas Exclusivas Pagando*.",
+      "blockClass":"Texto-visa"
+    }
+  }
+}

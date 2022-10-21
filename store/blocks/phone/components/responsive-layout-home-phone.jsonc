@@ -1,0 +1,12 @@
+{
+  "responsive-layout.phone#home_info_phone": {
+    "title": "Componente phone",
+    "children": ["rich-text#home_info_phone"]
+  },
+
+  "rich-text#home_info_phone":{
+    "props": {
+      "text": "Componente phone"
+    }
+  }
+}

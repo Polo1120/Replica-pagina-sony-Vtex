@@ -1,0 +1,31 @@
+.flexRow--flex-slider-visa{
+  background-color: #2C303B;
+  max-height: 45px
+}
+
+
+.flexCol--flex-image-visa{
+  height: 90%;
+}
+
+
+/* header-despktop */
+.flexRowContent--flex-header{
+  background-color: black;
+}
+
+
+/* header-mobile */
+.flexRowContent--header-mobile{
+  background-color: black;
+}
+
+
+
+.flexCol--imagen-camara{
+  padding-left: 65px;
+}
+.flexCol--imagen-barra-sonido{
+  padding-right: 65px;
+}
+

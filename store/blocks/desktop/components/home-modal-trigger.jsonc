@@ -1,0 +1,52 @@
+{
+  "modal-trigger#home_modal":{
+    "title": "modal-trigger#home_modal",
+    "children":[
+      "rich-text#home_modal--trigger",
+      "modal-layout#home_modal--layout"
+    ]
+  },
+  "rich-text#home_modal--trigger":{
+    "props": {
+      "text": "Termimos y condiciones"
+    }
+  },
+  "modal-layout#home_modal--layout":{
+    "children":[
+      "rich-text#home_modal--content"
+    ]
+  },
+  "rich-text#home_modal--content":{
+  "props": {
+    "text": "# Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean erat sapien, pharetra eget nisl eget, iaculis commodo dui. Sed tincidunt ultrices tellus, sed laoreet sem rutrum eu. Duis vitae magna facilisis ante volutpat elementum. Ut in scelerisque risus. Proin venenatis."
+  }
+  },
+
+
+  "modal-trigger#home_modal--event":{
+    "children":[
+      "modal-layout#home_modal--event"
+    ],
+    "props": {
+      "trigger": "load",
+      "customPixelEventName": "pageView"
+    }
+  },
+
+  "modal-layout#home_modal--event":{
+    "children":[
+      "modal-header#home_modal--event",
+     "image#load--image"
+    ]
+  },
+  "image#load--image":{
+    "props": {
+      "src": "assets/img/ahorra-mobile.jpg"
+    }
+  },
+  "modal-header#home_modal--event":{
+    "props": {
+      "showCloseButton": true
+    }
+  }
+}

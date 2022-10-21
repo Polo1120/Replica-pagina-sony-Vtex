@@ -1,0 +1,40 @@
+{
+  "image#home_image-camara-sony": {
+    "blocks":[
+      "rich-text#texto-card-sony"
+    ],
+    "title": "Image Home",
+    "props": {
+      "src": "assets/img/camara-sony.jpg",
+      "maxHeight": 600,
+      "title": "Camara_sony",
+      "blockClass": "home_camara__sony",
+      "link": {
+        "url": "https://store.sony.com.co/zv-e10l/p?cpint=HOME-SPAN1-CO-VLOGGERS-SEP-2022",
+        "newTab":true,
+        "attributesNoFollow": true
+      }
+    }
+  },
+  "image#home_image-barra-sonido": {
+    "title": "Image Home",
+    "props": {
+      "src": "assets/img/mueble.jpg",
+      "maxHeight": 600,
+      "title": "Barra-sonido",
+      "blockClass": "home-barra-de-sonido",
+      "link": {
+        "url": "https://store.sony.com.co/zv-e10l/p?cpint=HOME-SPAN1-CO-VLOGGERS-SEP-2022",
+        "newTab":true,
+        "attributesNoFollow": true
+      }
+    }
+  },
+
+  "rich-text#texto-card-sony":{
+    "props": {
+    "text": "hola"
+    }
+  }
+  
+}

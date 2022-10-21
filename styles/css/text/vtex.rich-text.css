@@ -1,0 +1,11 @@
+.paragraph--Texto-visa{
+  margin-block-start: 10px;
+  color: white;
+}
+.container--text-impersibles{
+  transform: translateY(-50px);
+}
+
+.paragraph--text-impersibles{
+  font-size: 37px;
+  }

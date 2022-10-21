@@ -1,0 +1,80 @@
+{
+  "slider-layout#home_slider--children": {
+    "title": "slider con hijos declarados",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "home_slider"
+      /* "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      } */
+    },
+    "children": [
+      "image#home_slider--one",
+      "image#home_slider--two",
+      "image#home_slider--three"
+    ]
+  },
+  "image#home_slider--one": {
+    "props": {
+      "src": "assets/img/parlante.jpg"
+    }
+  },
+  "image#home_slider--two": {
+    "props": {
+      "src": "assets/img/audifonos.jpg"
+    }
+  },
+  "image#home_slider--three": {
+    "props": {
+      "src": "assets/img/cod.jpg"
+    }
+  },
+  
+
+  "image#home_slider--visa":{
+    "props": {
+      "src": "assets/img/LOGO-VISA-BLANCO.png"
+    }
+  },
+
+
+
+"list-context.image-list#home_slider--list": {
+    "title": "lista de imagenes slider 2",
+    "children": ["slider-layout#home_slider--list"],
+    "props": {
+      "blockClass": "lista-imagenes",
+      "preload": true,
+      "height": 120,
+      "images": [
+        {
+          "image": "assets/img/ahorra.png",
+          "description": "slider1"
+        },
+        {
+          "image": "assets/img/god-war.png",
+          "description": "slider2"
+        }
+      ]
+    }
+  },
+  "slider-layout#home_slider--list": {
+    "title": "slider con lista",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "home_slider_list",
+      "fullWidth": false
+    }
+  }
+}
