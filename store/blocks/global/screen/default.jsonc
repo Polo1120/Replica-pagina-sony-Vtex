@@ -25,14 +25,26 @@
   "product-summary.shelf": {
     "children": [
       
-      /* "product-summary-add-to-list-button", */
+      "product-summary-add-to-list-button",
       "product-summary-name",
       "product-summary-image",
-      /* "product-rating-inline",
-      "product-summary-space", */
+      "product-rating-inline",
+      "product-summary-space",
       "product-summary-price",
-      /* "product-identifier.summary", */
+      "product-identifier.summary",
       "add-to-cart-button"
-    ]
+    ],
+    "props":{
+      "orderBy": "OrderByTopSeleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList":{
+        "maxItems":4,
+        "itemsPerPage":4,
+        "minItemsPerPage":1,
+        "scroll":"BY_PAGE",
+        "arrows":true,
+        "titleText": "Ofertas"
+      } 
+    } 
   }
 }

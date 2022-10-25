@@ -1,0 +1,9 @@
+.link--boton-link-camara-usa{
+  margin: 0px auto 2em;
+  display: flex;
+  max-width: 40%;
+}
+
+.label--boton-link-camara-usa{
+  font-size: 14px;
+}

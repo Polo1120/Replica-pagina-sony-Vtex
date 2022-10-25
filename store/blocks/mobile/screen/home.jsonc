@@ -1,8 +1,9 @@
 {
   "responsive-layout.mobile":{
     "children":[
-      "slider-layout#home_slider--mobile",
-      "list-context.image-list#slider--list.mobile"
+      "flex-layout.row#home-slider",
+      "list-context.image-list#slider--list.mobile",
+      "flex-layout.row#list-card"
     ]
   }
 }
