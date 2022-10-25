@@ -1,0 +1,56 @@
+{
+  "drawer#desktop":{
+    "children":[
+      
+    ],
+    "props":{
+    }
+  },
+
+  "flex-layout.col#despartament-oferta":{
+    "children": [
+      
+    ]
+  },
+  
+  "vtex.menu@2.x:menu#header__menu-desktop":{
+    "children": [
+      "menu-item#pruba-menu-desktop",
+      "menu-item#pruba-menu-desktop2"
+    ]
+  },
+  "menu-item#pruba-menu-desktop":{
+    "props":{
+      "id":"despartament-1",
+      "type": "custom",
+      "iconProps":{
+        "id":"hpa-cart",
+        "isActive": false
+        },
+      "itemProps": {
+        "type": "external",
+        "href": "https://store.sony.com.co/promociones%20?order=",
+        "noFollow": true,
+        "tagTitle": "Promociones",
+        "text": "Promociones"
+      }
+
+    }
+  },
+  "menu-item#pruba-menu-desktop2":{
+    "props":{
+      "id":"despartament-2",
+      "type": "custom",
+      "iconProps":{
+        "id":"mpa-play"
+        },
+      "itemProps": {
+        "type": "external",
+        "href": "https://store.sony.com.co/televisores-y-teatros-en-casa",
+        "noFollow": true,
+        "tagTitle": "Tv-y-Teatro-en-casa ",
+        "text": "Tv y Teatro en casa"
+      }
+  }
+}
+}
