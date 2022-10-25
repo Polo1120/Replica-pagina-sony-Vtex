@@ -46,7 +46,10 @@
   "flex-layout.col#audifonos":{
     "children": [
       "image#audifonos",
-      "rich-text#text-audifonos"
+      "rich-text#subtitle-audifonos",
+      "rich-text#title-audifonos",
+      "rich-text#descriptiom-audifonos",
+      "link.product#link-audifonos"
     ]
   },
   "flex-layout.col#parlantes":{
@@ -105,13 +108,38 @@
       "blockClass": "subtitle-parlante"
     }
   },
-  "rich-text#text-audifonos":{
+  "rich-text#subtitle-audifonos":{
     "props": {
       "text": "Audífonos para juegos INZONE",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "subtitle-audifonos"
     }
+  },
+
+  "rich-text#title-audifonos":{
+    "props":{
+      "text":"Audífonos para juegos INZONE\n con Sonido Espacial 360",
+      "textPosition":"CENTER",
+      "textAlignment":"CENTER",
+      "blockClass":"title-audifonos"
+    }
+  },
+  "rich-text#descriptiom-audifonos":{
+    "props":{
+      "text":"Prepárate para la victoria con los audífonos prémium Sony para juegos INZONE H9.\n Con sonido espacial 360, el sonido estará amplificado para la misión",
+      "textAlignment":"CENTER",
+      "textPosition":"CENTER"
+      
+    }
+  },
+  "link.product#link-audifonos":{
+    "props":{
+   
+
+    }
+
+    }
+    
   }
  
-}
