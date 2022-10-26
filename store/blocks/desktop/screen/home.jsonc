@@ -4,7 +4,7 @@
     "children": [
       "slider-layout#home_slider--children",
       "flex-layout.row#home_slider--children-visa",
-      "icon#prueba",
+      /* "icon#prueba", */
       "list-context.image-list#home_slider--list",
       /* "rich-text#home-impersibles-mes", */
       "flex-layout.row#home_cards-grandes",

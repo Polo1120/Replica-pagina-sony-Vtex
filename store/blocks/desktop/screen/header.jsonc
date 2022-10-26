@@ -15,7 +15,7 @@
     "props": {
       "blockClass": "sticky-header11"
     },
-    "children": ["flex-layout.row#desktop", "flex-layout.row#menu--desktop"]
+    "children": ["flex-layout.row#desktop"]
   },
   "flex-layout.row#desktop": {
     "props": {
@@ -28,11 +28,12 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
+      "flex-layout.col#drawer-desktop",
       "flex-layout.col#spacer",
       "search-bar",
       "locale-switcher",
       "login",
-      "minicart.v2"
+      "minicart.v2#desktop"
     ]
   },
   "flex-layout.col#spacer": {
@@ -54,13 +55,13 @@
       "width": "80"
     }
   },
-  "flex-layout.row#menu--desktop":{
-    "title":"contenedor-menu-desktop",
-    "children":[
-      "vtex.menu@2.x:menu#header__menu-desktop"
-      
-    ]
-  },
+  "minicart.v2#desktop":{
+      "props": {
+        "variation": "popup",
+        "itemCountMode": "total",
+        "quantityDisplay": "never"
+      }
+    },
  
 
 

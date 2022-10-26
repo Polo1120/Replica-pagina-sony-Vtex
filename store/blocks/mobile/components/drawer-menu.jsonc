@@ -83,12 +83,5 @@
         "text": "Reproductores de Blu-ray y DVD"
       }
     }
-  },
-  "minicart.v2":{
-    "props": {
-      "variation": "popup",
-      "itemCountMode": "total",
-      "quantityDisplay": "never"
-    }
   }
 }
