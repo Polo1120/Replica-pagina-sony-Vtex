@@ -1,0 +1,539 @@
+{
+  "vtex.menu@2.x:submenu#tv-teatro-casa": {
+    "title": "submenu catogory",
+    "children": ["vtex.menu@2.x:menu#submenutelevisores"],
+    "props": {
+      "blockClass": "sub-menu--tv"
+    }
+  },
+  "vtex.menu@2.x:menu#submenutelevisores": {
+    "children": [
+      "menu-item#televisores",
+      "menu-item#teatro-en-casa",
+      "menu-item#reproductores-blue-ray"
+    ]
+  },
+  
+  "menu-item#televisores": {
+    "children":[
+      "image#submenu-tv-img"
+    ],
+    "props": {
+      "id": "televisores",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "televisores",
+        "text": "Televisores"
+      },"blockClass":"submenu-item-televidores"
+    }
+  },
+  "image#submenu-tv-img":{
+    "props":{
+      "src":"assets/img/tv-televisores.png"
+    }
+  },
+  "menu-item#teatro-en-casa": {
+    "children":[
+      "image#submenu-teatro-casa-img"
+    ],
+    "props": {
+      "id": "teatro-casa",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "teatro-casa1",
+        "text": "Teatro En Casa"
+      },"blockClass":"submenu-item-teatro-en-casa"
+    }
+  },
+  "image#submenu-teatro-casa-img":{
+    "props":{
+      "src": "assets/img/teatro-en-casa.png"
+    }
+  },
+  "menu-item#reproductores-blue-ray": {
+    "children":[
+      "image#submenu-reproductores-blue-ray-img"
+    ],
+    "props": {
+      "id": "idreproductores-blue-ray",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "reproductores-blue-ray",
+        "text": "Reproductores\n de Blu-ray Disc y DVD"
+      },"blockClass":"submenu-item-reproductores-blue-ray"
+    }
+  },
+  "image#submenu-reproductores-blue-ray-img":{
+    "props":{
+      "src":"assets/img/reproductores-Blu-ray.png"
+    }
+  },
+
+  /*  submenu Camaras */
+  "vtex.menu@2.x:submenu#camaras": {
+    "title": "submenu catogory camaras",
+    "children": ["vtex.menu@2.x:menu#submenucamaras"],
+    "props": {
+      "blockClass": "sub-menu--camaras"
+    }
+  },
+  "vtex.menu@2.x:menu#submenucamaras": {
+    "children": [
+      "menu-item#camaras-con-lentes-intercambiable",
+      "menu-item#syber-shot",
+      "menu-item#lentes",
+      "menu-item#accesorios",
+      "menu-item#camara-cine"
+    ]
+  },
+  "menu-item#camaras-con-lentes-intercambiable": {
+    "children":[
+      "image#camara-con-lentes-intercambiable-img"
+    ],
+    "props": {
+      "id": "idcamra-lentes",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "camaras-lentes",
+        "text": "Cámaras con Lentes Intercambiables"
+      },"blockClass":"submenu-item-camaras-con-lentes-inter"
+    }
+  },
+  "image#camara-con-lentes-intercambiable-img":{
+    "props":{
+      "src":"assets/img/photo-camaras-lentes-intercambiables.png"
+    }
+  },
+  "menu-item#syber-shot": {
+    "children":[
+      "image#cyber-shot-img"
+    ],
+    "props": {
+      "id": "idcyber-shot",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Cyber-Shot",
+        "text": "Cyber-Shot"
+      },"blockClass":"submenu-item-syber-shot"
+    }
+  },
+  "image#cyber-shot-img":{
+    "props":{
+      "src":"assets/img/photo-cybershot.png"
+    }
+  },
+  "menu-item#lentes": {
+    "children":[
+      "image#lentes-img"
+    ],
+    "props": {
+      "id": "idlentes",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "lentes",
+        "text": "Lentes"
+      },"blockClass":"submenu-item-lentes"
+    }
+  },
+  "image#lentes-img":{
+    "props":{
+      "src":"assets/img/photo-lentes.png"
+    }
+  },
+  "menu-item#accesorios": {
+    "children":[
+      "image#accesorios-img"
+    ],
+    "props": {
+      "id": "idaccesorios",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios"
+      },"blockClass":"submenu-item-accesorios"
+    }
+  },
+  "image#accesorios-img":{
+    "props":{
+      "src":"assets/img/photo-accesorios.png"
+    }
+  },
+  "menu-item#camara-cine": {
+    "children":[
+      "image#camara-cine-img"
+    ],
+    "props": {
+      "id": "idcamara-cine",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "camara-cine",
+        "text": "Cámaras de Cine"
+      },"blockClass":"submenu-item-camara-cine"
+    }
+  },
+  "image#camara-cine-img":{
+    "props":{
+      "src":"assets/img/camaras-cine.png"
+    }
+  },
+  /*  submenu Video-Camaras */
+  "vtex.menu@2.x:submenu#video-camaras": {
+    "title": "submenu catogory video camara",
+    "children": ["vtex.menu@2.x:menu#submenuvideo-camaras"],
+    "props": {
+      "blockClass": "sub-menu--video-camaras"
+    }
+  },
+  "vtex.menu@2.x:menu#submenuvideo-camaras": {
+    
+    "children": [
+      "menu-item#handycam",
+      "menu-item#accesorios--video-camaras",
+      "menu-item#camaras-del-cine"
+    ]
+  },
+  "menu-item#handycam": {
+    "children":[
+      "image#handy-cam-img"
+    ],
+    "props": {
+      "id": "idhandycam",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "handycam",
+        "text": "Handycam"
+      },"blockClass":"submenu-item-handycam"
+    }
+  },
+  "image#handy-cam-img":{
+    "props":{
+      "src":"assets/img/video-handycam.png"
+    }
+  },
+  "menu-item#accesorios--video-camaras": {
+    "children":[
+      "image#video-camara-accesorios-img"
+    ],
+    "props": {
+      "id": "idaccesorios--video-camaras",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "accesorios--video-camaras",
+        "text": "Accesorios"
+      },"blockClass":"submenu-item-accesorios-video-camara"
+    }
+  },
+  "image#video-camara-accesorios-img":{
+    "props":{
+      "src":"assets/img/video-accesorios.png"
+    }
+  },
+  "menu-item#camaras-del-cine": {
+    "children":[
+      "image#video-camara--camara-cine-img"
+    ],
+    "props": {
+      "id": "idcamaras-del-cine",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "camaras-del-cine",
+        "text": "Cámaras de Cine"
+      },"blockClass":"submenu-item-camaras-del-cine"
+    }
+  },
+  "image#video-camara--camara-cine-img":{
+    "props":{
+      "src":"assets/img/camaras-cine.png"
+    }
+  },
+  /* submenu Audio */
+  "vtex.menu@2.x:submenu#audio": {
+    "title": "submenu catogory audio",
+    "children": ["vtex.menu@2.x:menu#submenuaudio"],
+    "props": {
+      "blockClass": "sub-menu--audio"
+    }
+  },
+  "vtex.menu@2.x:menu#submenuaudio": {
+    "children": [
+      "menu-item#sistema-audio",
+      "menu-item#parlantes-inalambricos",
+      "menu-item#audifonos",
+      "menu-item#reproductores-walkman"
+    ]
+  },
+  "menu-item#sistema-audio": {
+    "children":[
+      "image#sistema-de-audio-img"
+    ],
+    "props": {
+      "id": "idsistema-audio",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Sistemas de Audio",
+        "text": "Sistemas de Audio"
+      },"blockClass":"submenu-item-sistema-audio"
+    }
+  },
+  "image#sistema-de-audio-img":{
+    "props":{
+      "src":"assets/img/sistema-de-audio.png"
+    }
+  },
+  "menu-item#parlantes-inalambricos": {
+    "children":[
+      "image#parlante-inalambricos-img"
+    ],
+    "props": {
+      "id": "idparlantes-inalambricos",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Parlantes Inalámbricos",
+        "text": "Parlantes Inalámbricos"
+      },"blockClass":"submenu-item-parlante-inalambricos"
+    }
+  },
+  "image#parlante-inalambricos-img":{
+    "props":{
+      "src":"assets/img/parlantes-inalambricos.png"
+    }
+  },
+  "menu-item#audifonos": {
+    "children":[
+      "image#audifonos-img"
+    ],
+    "props": {
+      "id": "idaudifonos",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Audifonos",
+        "text": "Audífonos"
+      },"blockClass":"submenu-item-audifonos"
+    }
+  },
+  "image#audifonos-img":{
+    "props":{
+      "src":"assets/img/audifonos-categoria.png"
+    }
+  },
+  "menu-item#reproductores-walkman": {
+    "children":[
+      "image#reproductor-walkman-img"
+    ],
+    "props": {
+      "id": "idreproductores-walkman",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Reproductores de Música Digital Walkman",
+        "text": "Reproductores\n de Música Digital Walkman"
+      },"blockClass":"submenu-item-reproductores-walkman"
+    }
+  },
+  "image#reproductor-walkman-img":{
+    "props":{
+      "src":"assets/img/reproductor-walkman.png"
+    }
+  },
+
+  /* submenu PlayStation */
+  "vtex.menu@2.x:submenu#playstation": {
+    "title": "submenu catogory playstation",
+    "children": ["vtex.menu@2.x:menu#submenuplaystation"],
+    "props": {
+      "blockClass": "sub-menu--playstation"
+    }
+  },
+  "vtex.menu@2.x:menu#submenuplaystation": {
+    "children": [
+      "menu-item#playstation-5",
+      "menu-item#consolas",
+      "menu-item#games",
+      "menu-item#accesorios-playstation"
+    ]
+  },
+  "menu-item#playstation-5": {
+    "children":[
+      "image#playstation-5-img"
+    ],
+    "props": {
+      "id": "idplaystation-5",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "PlayStation 5",
+        "text": "PlayStation 5"
+      },"blockClass":"submenu-item-playstation-5"
+    }
+  },
+  "image#playstation-5-img":{
+    "props":{
+      "src":"assets/img/menu-ps5-v1.png"
+    }
+  },
+  "menu-item#consolas": {
+    "children":[
+      "image#consolas-img"
+    ],
+    "props": {
+      "id": "idconsolas",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Consolas",
+        "text": "Consolas"
+      },"blockClass":"submenu-item-consolas"
+    }
+  },
+  "image#consolas-img":{
+    "props":{
+      "src":"assets/img/playstation-consolas.png"
+    }
+  },
+  "menu-item#games": {
+    "children":[
+      "image#games-img"
+    ],
+    "props": {
+      "id": "idagames",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Juegos",
+        "text": "Juegos"
+      },"blockClass":"submenu-item-games"
+    }
+  },
+  "image#games-img":{
+    "props":{
+      "src":"assets/img/playstation-juegos.png"
+    }
+  },
+  "menu-item#accesorios-playstation": {
+    "children":[
+      "image#accesorios-playstation-img" 
+    ],
+    "props": {
+      "id": "idaccesorios-playstation",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Accesorios para PlayStation",
+        "text": "Accesorios para PlayStation"
+      },"blockClass":"submenu-item-accesorios-playstation"
+    }
+  },
+  "image#accesorios-playstation-img":{
+    "props":{
+      "src":"assets/img/playstation-accesorios.png"
+    }
+  },
+  /* audio para Auto */
+  "vtex.menu@2.x:submenu#audio-para-auto": {
+    "title": "submenu catogory playstation",
+    "children": ["vtex.menu@2.x:menu#submenuaudio-para-auto"],
+    "props": {
+      "blockClass": "sub-menu--audio-para-auto"
+    }
+  },
+  "vtex.menu@2.x:menu#submenuaudio-para-auto": {
+    "children": [
+      "menu-item#reproductores-para-automovil",
+      "menu-item#bocinas-y-amplificadores"
+    ]
+  },
+  "menu-item#reproductores-para-automovil": {
+    "children":[
+      "image#reproductores-para-autos-img"
+    ],
+    "props": {
+      "id": "idreproductores-para-automovil",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Reproductores para Automovil",
+        "text": "Reproductores para Automóvil"
+      },"blockClass":"submenu-item-reproductores-para-automovil"
+    }
+  },
+  "image#reproductores-para-autos-img":{
+    "props":{
+      "src":"assets/img/reproductores-automovil.png"
+    }
+  },
+  "menu-item#bocinas-y-amplificadores": {
+    "children":[
+      "image#bocinas-amplicadoras-img"
+    ],
+    "props": {
+      "id": "idbocinas-y-amplificadores",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Bocinas y Amplificadores",
+        "text": "Bocinas y Amplificadores"
+      },"blockClass":"submenu-item-bocinas-y-amplificadores"
+    }
+  },
+  "image#bocinas-amplicadoras-img":{
+    "props":{
+      "src":"assets/img/audio-auto-bocinas-amplificadores.png"
+    }
+  }
+}

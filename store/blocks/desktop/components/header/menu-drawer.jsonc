@@ -1,0 +1,173 @@
+{
+  "flex-layout.col#drawer-desktop": {
+    "children": ["drawer#desktop"],
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "container-drawer-col"
+    }
+  },
+  "drawer#desktop": {
+    "title": "drawer menu",
+    "children": ["vtex.menu@2.x:menu#header__menu-desktop"],
+    "props": {
+      "blockClass": "drawer-menu",
+      "isFullWidth": true,
+      "maxWidth": "100%"
+    }
+  },
+
+  "vtex.menu@2.x:menu#header__menu-desktop": {
+    "title": "Menu desktop",
+    "children": [
+      "menu-item#despartament--promo",
+      "menu-item#despartament--tv",
+      "menu-item#despartament--camaras",
+      "menu-item#despartament--video-camaras",
+      "menu-item#despartament--audio",
+      "menu-item#despartament--playstation",
+      "menu-item#despartament--audio-auto"
+    ],
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "menu-contenedor-item"
+    }
+  },
+  "menu-item#despartament--promo": {
+    "props": {
+      "id": "dpromo",
+      "type": "custom",
+      "iconProps": {
+        "id": "icon-promo",
+        "size": 40
+      },
+      "itemProps": {
+        "type": "external",
+        "href": "https://store.sony.com.co/promociones%20?order=",
+        "noFollow": true,
+        "tagTitle": "Promociones",
+        "text": "Promociones"
+      },
+      "blockClass": "catogory-promo"
+    }
+  },
+  "menu-item#despartament--tv": {
+    "props": {
+      "id": "dtv",
+      "type": "custom",
+      "iconProps": {
+        "id": "icon-tv",
+        "viewBox": "0 0 128 128",
+        "size": 40
+      },
+      "itemProps": {
+        "type": "external",
+        "href": "https://store.sony.com.co/televisores-y-teatros-en-casa",
+        "noFollow": true,
+        "tagTitle": "Tv-y-Teatro-en-casa ",
+        "text": "Tv y Teatro en casa"
+      },
+      "blockClass": "catogory-tv"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#tv-teatro-casa"]
+  },
+  "menu-item#despartament--camaras": {
+    "props": {
+      "id": "dcamaras",
+      "type": "custom",
+      "iconProps": {
+        "id": "icon-camara",
+        "size": 40,
+        "viewBox": "0 0 32 32"
+      },
+      "itemProps": {
+        "type": "external",
+        "href": "https://store.sony.com.co/televisores-y-teatros-en-casa",
+        "noFollow": true,
+        "tagTitle": "Camara",
+        "text": "Camaras"
+      },
+      "blockClass": "catogory-camaras"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#camaras"]
+  },
+  "menu-item#despartament--video-camaras": {
+    "props": {
+      "id": "dvideo-camaras",
+      "type": "custom",
+      "iconProps": {
+        "id": "icon-video-camara",
+        "size": 40,
+        "viewBox": "0 0 32 32"
+      },
+      "itemProps": {
+        "type": "external",
+        "href": "https://store.sony.com.co/televisores-y-teatros-en-casa",
+        "noFollow": true,
+        "tagTitle": "Video-camaras",
+        "text": "Videocámaras"
+      },
+      "blockClass": "catogory-video-camaras"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#video-camaras"]
+  },
+  "menu-item#despartament--audio": {
+    "props": {
+      "id": "daudio",
+      "type": "custom",
+      "iconProps": {
+        "id": "icon-audio",
+        "size": 40,
+        "viewBox": "0 0 128 128"
+      },
+      "itemProps": {
+        "type": "external",
+        "href": "https://store.sony.com.co/televisores-y-teatros-en-casa",
+        "noFollow": true,
+        "tagTitle": "Audio-item",
+        "text": "Audio"
+      },
+      "blockClass": "catogory-audio"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#audio"]
+  },
+  "menu-item#despartament--playstation": {
+    "props": {
+      "id": "dplaystation",
+      "type": "custom",
+      "iconProps": {
+        "id": "icon-ps4",
+        "viewBox": "0 0 430.118 430.118",
+        "size": 40
+      },
+      "itemProps": {
+        "type": "external",
+        "href": "https://store.sony.com.co/televisores-y-teatros-en-casa",
+        "noFollow": true,
+        "tagTitle": "PlayStation-item",
+        "text": "PlayStation"
+      },
+      "blockClass": "catogory-playstation"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#playstation"]
+  },
+  "menu-item#despartament--audio-auto": {
+    "props": {
+      "id": "daudio-auto",
+      "type": "custom",
+      "iconProps": {
+        "id": "icon-carro-audio",
+        "viewBox": "0 0 100 100",
+        "size": 40
+      },
+      "itemProps": {
+        "type": "external",
+        "href": "https://store.sony.com.co/televisores-y-teatros-en-casa",
+        "noFollow": true,
+        "tagTitle": "Audio-para-Auto-item",
+        "text": "Audio para Auto"
+      },
+      "blockClass": "catogory-audio-auto"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#audio-para-auto"]
+  }
+}
