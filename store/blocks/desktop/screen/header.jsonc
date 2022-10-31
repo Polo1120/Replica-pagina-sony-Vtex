@@ -5,6 +5,8 @@
   "header.full": {
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
+
+  
   "header-layout.desktop": {
     "title": "header-layout.desktop",
     "children": ["sticky-layout#desktop"]
@@ -26,11 +28,12 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
+      "flex-layout.col#drawer-desktop",
       "flex-layout.col#spacer",
       "search-bar",
       "locale-switcher",
       "login",
-      "minicart.v2"
+      "minicart.v2#desktop"
     ]
   },
   "flex-layout.col#spacer": {
@@ -52,6 +55,17 @@
       "width": "80"
     }
   },
+  "minicart.v2#desktop":{
+      "props": {
+        "variation": "popup",
+        "itemCountMode": "total",
+        "quantityDisplay": "never"
+      }
+    },
+ 
+
+
+  //header mobile
   "header-layout.mobile": {
     "title": "header-layout.mobile",
     "children": ["sticky-layout#mobile"]
@@ -61,7 +75,7 @@
   },
   "flex-layout.row#mobile": {
     "children": [
-      "drawer",
+      "drawer#mobile",
       "flex-layout.col#logo-mobile",
       "flex-layout.col#spacer",
       "search-bar#mobile",
@@ -98,96 +112,5 @@
       "verticalAlign": "middle"
     },
     "children": ["logo"]
-  },
-  "drawer": {
-    "children": ["vtex.menu@2.x:menu#header__menu"]
-  },
-  "vtex.menu@2.x:menu#header__menu": {
-    "children": ["menu-item#department_one", "menu-item#department_two"],
-    "props": {
-      "orientation": "vertical"
-    }
-  },
-  "menu-item#department_one": {
-    "props": {
-      "id": "department-one",
-      "type": "custom",
-      "itemProps": {
-        "type": "external",
-        "href": "https://store.sony.com.co/promociones%20?order=",
-        "noFollow": true,
-        "tagTitle": "Promociones",
-        "text": "Promociones"
-      }
-    }
-  },
-  "menu-item#department_two": {
-    "props": {
-      "id": "department-tow",
-      "type": "custom",
-      "itemProps": {
-        "type": "external",
-        "href": "https://store.sony.com.co/televisores-y-teatros-en-casa/televisores",
-        "noFollow": true,
-        "tagTitle": "Tv-teatros-casa",
-        "text": "Tv y Teatros en casa"
-      }
-    },
-    "blocks": ["submenu.accordion#department__one"]
-  },
-  "submenu.accordion#department__one": {
-    "children": ["menu#department__one"]
-  },
-  "menu#department__one": {
-    "children": ["menu-item#sub-category_tv", "menu-item#sub-category_teatro", "menu-item#sub-category_blu-ray"],
-    "props": {
-      "orientation": "vertical"
-    }
-  },
-  "menu-item#sub-category_tv": {
-    "props": {
-      "id": "category_one",
-      "type": "custom",
-      "itemProps": {
-        "type": "external",
-        "href": "0 0 16 16",
-        "noFollow": true,
-        "tagTitle": "televisores",
-        "text": "Televisores"
-      }
-    }
-  },
-  "menu-item#sub-category_teatro": {
-    "props": {
-      "id": "category_two",
-      "type": "custom",
-      "itemProps": {
-        "type": "external",
-        "href": "0 0 16 16",
-        "noFollow": true,
-        "tagTitle": "teatro-en-casa",
-        "text": "Teatro en Casa"
-      }
-    }
-  },
-  "menu-item#sub-category_blu-ray":{
-    "props": {
-      "id": "sub-category_blu-ray",
-      "type": "custom",
-      "itemProps": {
-        "type": "external",
-        "href": "0 0 16 16",
-        "noFollow": true,
-        "tagTitle": "blu-ray",
-        "text": "Reproductores de Blu-ray y DVD"
-      }
-    }
-  },
-  "minicart.v2":{
-    "props": {
-      "variation": "popup",
-      "itemCountMode": "total",
-      "quantityDisplay": "never"
-    }
   }
 }

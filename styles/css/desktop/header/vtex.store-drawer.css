@@ -1,0 +1,24 @@
+/* .openIconContainer--drawer-menu{
+  color: white;
+} */
+
+.opened--drawer-menu{
+  height: fit-content;
+  transform: translate3d(0%, 62px, 0px) !important;
+}
+
+
+.closed--drawer-menu{
+ display: none;
+
+  
+}
+
+.closeIconContainer--drawer-menu{
+  display: none;
+}
+
+
+.childrenContainer--drawer-menu{
+  justify-content: center;
+}
