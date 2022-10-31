@@ -1,0 +1,34 @@
+{
+  "list-context.image-list#slider--list.mobile": {
+    "title": "lista de imagenes slider mobile",
+    "children": ["slider-layout#home_slider--list-mobile"],
+    "props": {
+      "blockClass": "lista-imagenes",
+      "preload": true,
+      "height": 120,
+      "images": [
+        {
+          "image": "assets/img/ahorra-mobile.jpg",
+          "description": "slide"
+        },
+        {
+          "image": "assets/img/godwar-mobile.jpg",
+          "description": "slider22"
+        }
+      ]
+    }
+  },
+  "slider-layout#home_slider--list-mobile": {
+    "title": "slider con lista",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "slider2-mobile",
+      "fullWidth": false
+    }
+  }
+}

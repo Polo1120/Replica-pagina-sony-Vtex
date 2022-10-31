@@ -1,0 +1,30 @@
+{
+  "flex-layout.row#home_cards-grandes-text":{
+    "title": "ofertas",
+    "children": [
+      "flex-layout.col#oferta-title"
+    ]
+  },
+  
+  "flex-layout.col#oferta-title": {
+    "children": [
+      "rich-text#oferta-title-text",
+      "shelf#home-producto"],
+    "props": {
+      
+    }
+  },
+  "shelf#home-producto":{
+    "blocks": [
+      "product-summary.shelf"
+    ]
+  },
+
+  "rich-text#oferta-title-text": {
+    "props": {
+      "text": "#### OFERTAS QUE NO TE PUEDES PERDER\n Precios especiales por tiempo limitado.",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  }
+}

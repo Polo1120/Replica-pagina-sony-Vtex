@@ -1,8 +1,6 @@
 {
   "image#home_image-camara-sony": {
-    "blocks":[
-      "rich-text#texto-card-sony"
-    ],
+   
     "title": "Image Home",
     "props": {
       "src": "assets/img/camara-sony.jpg",
@@ -28,12 +26,6 @@
         "newTab":true,
         "attributesNoFollow": true
       }
-    }
-  },
-
-  "rich-text#texto-card-sony":{
-    "props": {
-    "text": "hola"
     }
   }
   

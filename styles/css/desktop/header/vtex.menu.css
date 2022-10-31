@@ -1,0 +1,198 @@
+/* icon menu category */
+
+.styledLinkContent--catogory-promo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.styledLinkContent--catogory-tv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.styledLinkContent--catogory-camaras{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.styledLinkContent--catogory-video-camaras{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.styledLinkContent--catogory-audio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.styledLinkContent--catogory-playstation{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.styledLinkContent--catogory-audio-auto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* submenu despliegue*/
+.submenuWrapper--sub-menu--tv{
+    position: fixed;
+    width: -webkit-fill-available;
+}
+.submenuWrapper--sub-menu--camaras{
+    position: fixed;
+    width: -webkit-fill-available;
+}
+.submenuWrapper--sub-menu--video-camaras{
+    position: fixed;
+    width: -webkit-fill-available;
+}
+.submenuWrapper--sub-menu--audio{
+    position: fixed;
+    width: -webkit-fill-available;
+}
+.submenuWrapper--sub-menu--playstation{
+    position: fixed;
+    width: -webkit-fill-available;
+}
+.submenuWrapper--sub-menu--audio-para-auto{
+    position: fixed;
+    width: -webkit-fill-available;
+}
+
+/* submenu item */
+
+.menuItem--submenu-item-televidores{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.menuItem--submenu-tem-teatro-en-casa{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.menuItem--submenu-item-reproductores-blue-ray{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+/* submenu item camara */
+.menuItem--submenu-item-camaras-con-lentes-inter{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.menuItem--submenu-item-syber-shot{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.menuItem--submenu-item-lentes{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.menuItem--submenu-item-accesorios{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.menuItem--submenu-item-camara-cine{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+/* submenu item video-camara */
+.menuItem--submenu-item-handycam{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.menuItem--submenu-item-accesorios-video-camara{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.menuItem--submenu-item-camaras-del-cine{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+/* submenu item audio */
+.menuItem--submenu-item-sistema-audio{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.menuItem--submenu-item-parlante-inalambricos{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.menuItem--submenu-item-audifonos{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.menuItem--submenu-item-reproductores-walkman{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+/* submenu item playstation */
+.menuItem--submenu-item-playstation-5{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.menuItem--submenu-item-consolas{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.menuItem--submenu-item-games{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.menuItem--submenu-item-accesorios-playstation{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+/* submenu item video-camara */
+.menuItem--submenu-item-reproductores-para-automovil{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.menuItem--submenu-item-bocinas-y-amplificadores{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+

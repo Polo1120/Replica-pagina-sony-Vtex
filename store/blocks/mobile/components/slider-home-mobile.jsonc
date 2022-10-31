@@ -1,74 +1,145 @@
 {
+  "flex-layout.row#home-slider":{
+    "title": "contenedor-slider-mobile",
+    "children": [
+      "flex-layout.col#col-slider"
+    ]
+  },
+  "flex-layout.col#col-slider":{
+    "title": "slider-columna",
+    "children": [
+      "slider-layout#home_slider--mobile"
+    ]
+  },
+
   "slider-layout#home_slider--mobile": {
-    "title": "slider con hijos declarados",
+    "title": "slider con hijos declarados-mobile",
     "props": {
       "itemsPerPage": {
-        "desktop": 1,
         "tablet": 1,
         "mobile": 1
       },
       "infinite": true,
-      "blockClass": "home_slider"
+      "arrowSize": 0,
+      "blockClass": "home_slider-mobile"
       /* "autoplay": {
         "timeout": 3000,
         "stopOnHover": true
       } */
     },
     "children": [
-      "image#home_slider--one-mobile",
-      "image#home_slider--two-mobile",
-      "image#home_slider--three-mobile"
+      "flex-layout.col#camara-usa",
+      "flex-layout.col#audifonos",
+      "flex-layout.col#parlantes"
     ]
   },
-  "image#home_slider--one-mobile": {
+
+  "flex-layout.col#camara-usa":{
+    "children": [
+      "image#camara-usa",
+      "rich-text#text-camara-usa",
+      "rich-text#descriptiom-camara-usa",
+      "link.product#link.camara-usa"
+    ]
+  },
+
+  "flex-layout.col#audifonos":{
+    "children": [
+      "image#audifonos",
+      "rich-text#subtitle-audifonos",
+      "rich-text#title-audifonos",
+      "rich-text#descriptiom-audifonos",
+      "link.product#link-audifonos"
+    ]
+  },
+  "flex-layout.col#parlantes":{
+    "children": [
+      "image#parlantes",
+      "rich-text#text-parlantes"
+    ]
+  },
+  "image#camara-usa": {
     "props": {
-      "src": "assets/img/parlante.jpg"
+      "src": "assets/img/camara-usa.jpg"
     }
   },
-  "image#home_slider--two-mobile": {
+  "image#audifonos": {
     "props": {
-      "src": "assets/img/audifonos.jpg"
+      "src": "assets/img/audifonos-mobile.jpg"
     }
   },
-  "image#home_slider--three-mobile": {
+  "image#parlantes": {
     "props": {
-      "src": "assets/img/cod.jpg"
+      "src": "assets/img/parlante2.jpg"
     }
   },
 
-
-///lisya de imagenes slider
-
-  "list-context.image-list#slider--list.mobile": {
-    "title": "lista de imagenes slider mobile",
-    "children": ["slider-layout#home_slider--list-mobile"],
+  "rich-text#text-camara-usa":{
     "props": {
-      "blockClass": "lista-imagenes",
-      "preload": true,
-      "height": 120,
-      "images": [
-        {
-          "image": "assets/img/ahorra-mobile.jpg",
-          "description": "slide"
-        },
-        {
-          "image": "assets/img/godwar-mobile.jpg",
-          "description": "slider22"
-        }
-      ]
+      "text": "Tus cámaras\n al precio de USA",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass":"title-camara-usa"
+      
     }
   },
-  "slider-layout#home_slider--list-mobile": {
-    "title": "slider con lista",
+  "rich-text#descriptiom-camara-usa":{
     "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "mobile": 1
-      },
-      "infinite": true,
-      "blockClass": "slider2-mobile",
-      "fullWidth": false
+      "text": "La línea más completa de cámaras, lentes\n y accesorios.",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass" :"description-camara-usa"
     }
+  },
+
+  "link.product#link.camara-usa":{
+    "props": {
+      "href": "",
+      "label": "Descubre mas",
+      "displayMode": "button", 
+      "blockClass" :"boton-link-camara-usa"
+    }
+  },
+  "rich-text#text-parlantes":{
+    "props": {
+      "text": "¡Llévate la música contigo!",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "subtitle-parlante"
+    }
+  },
+  "rich-text#subtitle-audifonos":{
+    "props": {
+      "text": "Audífonos para juegos INZONE",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "subtitle-audifonos"
+    }
+  },
+
+  "rich-text#title-audifonos":{
+    "props":{
+      "text":"Audífonos para juegos INZONE\n con Sonido Espacial 360",
+      "textPosition":"CENTER",
+      "textAlignment":"CENTER",
+      "blockClass":"title-audifonos"
+    }
+  },
+  "rich-text#descriptiom-audifonos":{
+    "props":{
+      "text":"Prepárate para la victoria con los audífonos prémium Sony para juegos INZONE H9.\n Con sonido espacial 360, el sonido estará amplificado para la misión",
+      "textAlignment":"CENTER",
+      "textPosition":"CENTER"
+      
+    }
+  },
+  "link.product#link-audifonos":{
+    "props":{
+   
+
+    }
+
+    }
+    
   }
-}
+ 
