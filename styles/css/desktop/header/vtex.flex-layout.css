@@ -1,0 +1,31 @@
+ .flexCol--logo-class{
+  margin: 0px 0 0px 108px;
+}
+
+.flexCol--container-drawer-col{
+ color: white;
+ margin: 0px 90px 0px -22px;
+} 
+
+ .flexCol--col-search{
+  
+}
+
+/* .flexCol--minicart-desktop{
+  position: relative;
+  left: 146px
+} */
+.flexRow--menu-top{
+ margin: 5px 10px 5px 40px;
+}
+
+
+.flexColChild--logo-telef{
+  position: fixed;
+  margin: 3px 0px -67px -28px;
+
+}
+
+.flexColChild--col-menu{
+  margin: -4px 0px -18px
+}

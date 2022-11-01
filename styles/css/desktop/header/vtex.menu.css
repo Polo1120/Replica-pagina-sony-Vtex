@@ -1,198 +1,222 @@
 /* icon menu category */
 
-.styledLinkContent--catogory-promo{
+.styledLinkContent--catogory-promo {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-
-.styledLinkContent--catogory-tv{
+.styledLinkContent--catogory-tv {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-
-.styledLinkContent--catogory-camaras{
+.styledLinkContent--catogory-camaras {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.styledLinkContent--catogory-video-camaras{
+.styledLinkContent--catogory-video-camaras {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.styledLinkContent--catogory-audio{
+.styledLinkContent--catogory-audio {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.styledLinkContent--catogory-playstation{
+.styledLinkContent--catogory-playstation {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.styledLinkContent--catogory-audio-auto{
+.styledLinkContent--catogory-audio-auto {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 /* submenu despliegue*/
-.submenuWrapper--sub-menu--tv{
-    position: fixed;
-    width: -webkit-fill-available;
+.submenuWrapper--sub-menu--tv {
+  position: fixed;
+  width: -webkit-fill-available;
 }
-.submenuWrapper--sub-menu--camaras{
-    position: fixed;
-    width: -webkit-fill-available;
+.submenuWrapper--sub-menu--camaras {
+  position: fixed;
+  width: -webkit-fill-available;
 }
-.submenuWrapper--sub-menu--video-camaras{
-    position: fixed;
-    width: -webkit-fill-available;
+.submenuWrapper--sub-menu--video-camaras {
+  position: fixed;
+  width: -webkit-fill-available;
 }
-.submenuWrapper--sub-menu--audio{
-    position: fixed;
-    width: -webkit-fill-available;
+.submenuWrapper--sub-menu--audio {
+  position: fixed;
+  width: -webkit-fill-available;
 }
-.submenuWrapper--sub-menu--playstation{
-    position: fixed;
-    width: -webkit-fill-available;
+.submenuWrapper--sub-menu--playstation {
+  position: fixed;
+  width: -webkit-fill-available;
 }
-.submenuWrapper--sub-menu--audio-para-auto{
-    position: fixed;
-    width: -webkit-fill-available;
+.submenuWrapper--sub-menu--audio-para-auto {
+  position: fixed;
+  width: -webkit-fill-available;
 }
 
 /* submenu item */
 
-.menuItem--submenu-item-televidores{
+.menuItem--submenu-item-televidores {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
 }
-.menuItem--submenu-tem-teatro-en-casa{
+.menuItem--submenu-tem-teatro-en-casa {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
 }
-.menuItem--submenu-item-reproductores-blue-ray{
+.menuItem--submenu-item-reproductores-blue-ray {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
 }
 
 /* submenu item camara */
-.menuItem--submenu-item-camaras-con-lentes-inter{
+.menuItem--submenu-item-camaras-con-lentes-inter {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
 }
 
-.menuItem--submenu-item-syber-shot{
+.menuItem--submenu-item-syber-shot {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
 }
-.menuItem--submenu-item-lentes{
+.menuItem--submenu-item-lentes {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
 }
-.menuItem--submenu-item-accesorios{
+.menuItem--submenu-item-accesorios {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
 }
-.menuItem--submenu-item-camara-cine{
+.menuItem--submenu-item-camara-cine {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
 }
 
 /* submenu item video-camara */
-.menuItem--submenu-item-handycam{
+.menuItem--submenu-item-handycam {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
 }
 
-.menuItem--submenu-item-accesorios-video-camara{
+.menuItem--submenu-item-accesorios-video-camara {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
 }
-.menuItem--submenu-item-camaras-del-cine{
+.menuItem--submenu-item-camaras-del-cine {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
 }
 
 /* submenu item audio */
-.menuItem--submenu-item-sistema-audio{
+.menuItem--submenu-item-sistema-audio {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
 }
-.menuItem--submenu-item-parlante-inalambricos{
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
-}
-
-.menuItem--submenu-item-audifonos{
+.menuItem--submenu-item-parlante-inalambricos {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
 }
 
-.menuItem--submenu-item-reproductores-walkman{
+.menuItem--submenu-item-audifonos {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.menuItem--submenu-item-reproductores-walkman {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
 }
 
 /* submenu item playstation */
-.menuItem--submenu-item-playstation-5{
+.menuItem--submenu-item-playstation-5 {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
 }
 
-.menuItem--submenu-item-consolas{
+.menuItem--submenu-item-consolas {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
 }
 
-.menuItem--submenu-item-games{
+.menuItem--submenu-item-games {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
 }
 
-.menuItem--submenu-item-accesorios-playstation{
+.menuItem--submenu-item-accesorios-playstation {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
 }
 
 /* submenu item video-camara */
-.menuItem--submenu-item-reproductores-para-automovil{
+.menuItem--submenu-item-reproductores-para-automovil {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
 }
-.menuItem--submenu-item-bocinas-y-amplificadores{
+.menuItem--submenu-item-bocinas-y-amplificadores {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
 }
 
+/* menu-top */
 
+.menuItem--menu-item-seguimiento-pedido {
+  position: relative;
+  left: -32px;
+}
+.styledLinkContent--menu-item-menu {
+  font-size: 11px;
+  color: white;
+}
+
+.styledLinkContent--menu-item-seguimiento-pedido {
+  font-size: 11px;
+  color: white;
+}
+
+.styledLinkContent--item-sitio-web {
+  font-size: 11px;
+  color: white;
+}
+.menuItem--more-options {
+ 
+}
+
+.menuItem--item-sitio-web{
+
+}
