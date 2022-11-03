@@ -1,31 +1,45 @@
- .flexCol--logo-class{
-  margin: 0px 0 0px 108px;
+
+
+.flexCol--container-drawer-col {
+  color: white;
 }
 
-.flexCol--container-drawer-col{
- color: white;
- margin: 0px 90px 0px -22px;
+.flexColChild--col-search{
+  width: 300px;
+}
+
+.flexCol--minicart-desktop{
+  margin-left: -20px;
 } 
 
- .flexCol--col-search{
-  
-}
 
-/* .flexCol--minicart-desktop{
-  position: relative;
-  left: 146px
-} */
-.flexRow--menu-top{
- margin: 5px 10px 5px 40px;
+
+.flexRow--menu-top {
 }
 
 
-.flexColChild--logo-telef{
-  position: fixed;
-  margin: 3px 0px -67px -28px;
+
+.flexCol--menu-col {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.flexRowContent--col-venta-telef {
 
 }
 
-.flexColChild--col-menu{
-  margin: -4px 0px -18px
+
+/* header */
+.flexRowContent--flex-header{
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexCol--header-right-contenedor{
+  margin-left: 183px
+}
+
+.flexCol--header-contenedor{
+  margin-left: 77px;
 }

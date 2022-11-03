@@ -196,8 +196,7 @@
 /* menu-top */
 
 .menuItem--menu-item-seguimiento-pedido {
-  position: relative;
-  left: -32px;
+  
 }
 .styledLinkContent--menu-item-menu {
   font-size: 11px;
@@ -210,13 +209,50 @@
 }
 
 .styledLinkContent--item-sitio-web {
-  font-size: 11px;
+  font-size: 13px;
   color: white;
 }
-.menuItem--more-options {
- 
+
+.styledLinkContainer--more-options{
+  margin: 0;
 }
 
-.menuItem--item-sitio-web{
+.menuContainer--menu-superior{
+display: flex;
+align-items: baseline;
+}
 
+
+.menuItem--sitio-sony-menu{
+  background-color: #2C303B;
+  height: 40px;
+}
+
+.styledLinkContent--sitio-sony-menu{
+  color: white;
+  margin-top: -4px;
+}
+.menuItem--sitio-sony-menu:hover{
+background-color: #4572ED;
+}
+
+
+/* submenu more options */
+.styledLinkContent--submenu-item-ayuda{
+  margin-right: 22px;
+}
+.styledLinkContent--submenu-item-login-sony{
+  margin-right: -6px;
+}
+.styledLinkContent--submenu-item-micuenta:hover{
+color: #4572ED;
+}
+.styledLinkContent--submenu-item-ayuda:hover{
+color: #4572ED;
+}
+.styledLinkContent--submenu-item-login-sony:hover{
+color: #4572ED;
+}
+.styledLinkContent--submenu-item-sitio-sony:hover{
+color: #4572ED;
 }
