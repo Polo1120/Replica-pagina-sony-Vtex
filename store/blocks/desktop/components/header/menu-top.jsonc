@@ -1,0 +1,242 @@
+{
+  "flex-layout.row#menu-top": {
+    "title": "Menu top",
+    "children": ["flex-layout.col#menu"],
+    "props": {
+      "blockClass": "menu-top2"
+    }
+  },
+  "flex-layout.col#logo-telef": {
+    "title": "logo telef",
+    "children": ["icon#telefono"],
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "logo-telef"
+    }
+  },
+  "flex-layout.col#venta-linea": {
+    "children": [
+      "rich-text#text-contact",
+      "rich-text#numero-contact",
+      "rich-text#horario-contact"
+    ],
+    "props": {
+      "blockClass": "col-venta-telef",
+      "width": "25%"
+    }
+  },
+  "icon#telefono": {
+    "props": {
+      "id": "icon-phone",
+      "size": 20,
+      "orientation": "right",
+      "blockClass": "icono-telef",
+      "viewBox": "0 0 512 512"
+    }
+  },
+  "rich-text#text-contact": {
+    "props": {
+      "text": "VENTA TELEFÓNICA",
+      "textPosition": "LEFT",
+      "blockClass": "text-contact"
+    }
+  },
+  "rich-text#numero-contact": {
+    "props": {
+      "text": "601 786 8928",
+      "textPosition": "LEFT",
+      "blockClass": "numero-contact"
+    }
+  },
+
+  "rich-text#horario-contact": {
+    "props": {
+      "text": "LUNES A VIERNES 9 AM A 6 PM",
+      "textPosition": "LEFT",
+      "blockClass": "horario-contact"
+    }
+  },
+
+  "flex-layout.col#menu": {
+    "title":"col menu top",
+    "children": [
+      "flex-layout.row#col-ayuda"
+      /*  "flex-layout.col#col-seguimiento",
+      "flex-layout.col#col-more",
+      "flex-layout.col#col-sitio-web" */
+    ],
+    "props": {
+      "blockClass": "menu-col"
+    }
+  },
+  /* menu */
+  "flex-layout.row#col-ayuda": {
+    "children": ["vtex.menu@2.x:menu#menu-superior"],
+    "props": {
+      "blockClass": "col-menu"
+    }
+  },
+  "vtex.menu@2.x:menu#menu-superior": {
+    "title": "Menu superior",
+    "children": [
+      "menu-item#ayuda",
+      "menu-item#seguimiento-pedido",
+      "menu-item#more-options",
+      "menu-item#sitio-sony"
+    ],
+    "props":{
+      "blockClass":"menu-superior"
+    }
+  },
+  "menu-item#ayuda": {
+    "props": {
+      "id": "menu-item-ayuda",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://store.sony.com.co/centro-de-ayuda",
+        "noFollow": true,
+        "tagTitle": "Ayuda",
+        "text": "AYUDA"
+      },
+      "blockClass": "menu-item-menu",
+      "width": "37%"
+    }
+  },
+  "menu-item#seguimiento-pedido": {
+    "props": {
+      "id": "menu-item-seguimiento-pedido",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "seguimiento-de-pedido",
+        "text": "SEGUIMIENTO DE PEDIDO"
+      },
+      "blockClass": "menu-item-seguimiento-pedido",
+      "width": "25%"
+    }
+  },
+  "menu-item#more-options": {
+    "props": {
+      "iconProps": {
+        "id": "icon-puntos",
+        "size": 20,
+        "viewBox": "0 0 210 210"
+      },
+      "blockClass": "more-options"
+    },
+    "blocks": ["submenu#submenu-more-options"]
+  },
+  "submenu#submenu-more-options": {
+    "children": ["menu#submenu-more-options"]
+  },
+  "menu#submenu-more-options": {
+    "title":"Sub menu more options",
+    "children": [
+      "menu-item#submenu-micuenta",
+      "menu-item#submenu-ayuda",
+      "menu-item#submenu-login-sony",
+      "menu-item#submenu-sitio-sony"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"submenu-more-options"
+    }
+  },
+  "menu-item#submenu-micuenta": {
+    "props": {
+      "id": "menu-item-seguimiento-pedido",
+      "type": "custom",
+      "highlight": false,
+      "iconProps":{
+        "id":"icon-user",
+        "size":15,
+        "viewBox":"0 0 32 32"
+      },
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "mi-cuenta",
+        "text": "Mi Cuenta"
+      },"blockClass":"submenu-item-micuenta"
+    }
+  },
+  "menu-item#submenu-ayuda": {
+    "props": {
+      "id": "id-submenu-ayuda",
+      "type": "custom",
+      "highlight": false,
+      "iconProps":{
+        "id":"icon-ayuda",
+        "size":15,
+        "viewBox":"0 0 473.733 473.733"
+      },
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "ayuda",
+        "text": "Ayuda"
+      },"blockClass":"submenu-item-ayuda"
+    }
+  },
+  "menu-item#submenu-login-sony": {
+    "props": {
+      "id": "id-login-sony",
+      "type": "custom",
+      "highlight": false,
+      "iconProps":{
+        "id":"icon-user",
+        "size":15,
+        "viewBox":"0 0 32 32"
+      },
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "login-sony",
+        "text": "Login Sony"
+      },"blockClass":"submenu-item-login-sony"
+    }
+  },
+  "menu-item#submenu-sitio-sony": {
+    "props": {
+      "id": "id-sitio-sony",
+      "type": "custom",
+      "highlight": false,
+      "iconProps":{
+        "id":"icon-mundo",
+        "size":15,
+        "viewBox":"0 0 64 64"
+      },
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.sony.com.co/",
+        "noFollow": true,
+        "tagTitle": "sitio-sony",
+        "text": "Sitio Sony"
+      },"blockClass":"submenu-item-sitio-sony"
+    }
+  },
+
+  "menu-item#sitio-sony": {
+    "props": {
+      "id": "id-item-sitio-sony",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.sony.com.co/",
+        "noFollow": true,
+        "tagTitle": "item-sitio-sony",
+        "text": "Sitio Sony"
+      },
+      "blockClass":"sitio-sony-menu"
+    }
+  }
+}

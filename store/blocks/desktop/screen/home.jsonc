@@ -13,11 +13,6 @@
       /* "modal-trigger#home_modal--event" */
 
     ]
-  },
-  "icon#prueba":{
-    "props": {
-      "id": "itgloberspartnercl-icon",
-      "size": 20
-    }
   }
+  
 }
