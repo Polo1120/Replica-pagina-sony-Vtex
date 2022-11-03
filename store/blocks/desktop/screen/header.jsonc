@@ -62,6 +62,7 @@
   "flex-layout.row#header-right-contenedor":{
     "title":"header-contenedor 2",
     "children":[
+      "flex-layout.col#logo-telef",
       "flex-layout.col#venta-linea",
       "flex-layout.row#menu-top"
     ]
@@ -104,22 +105,14 @@
   },
   "flex-layout.col#cart":{
     "children":[
-      "minicart.v2#desktop"
+      "minicart.v2#carrito"
     ],
     "props":{
       "verticalAlign":"middle",
       "blockClass":"minicart-desktop"
     }
   },
-  "minicart.v2#desktop":{
-      "props": {
-        "variation": "popup",
-        "itemCountMode": "total",
-        "quantityDisplay": "never"
-      }
-    },
  
-
 
   //header mobile
   "header-layout.mobile": {

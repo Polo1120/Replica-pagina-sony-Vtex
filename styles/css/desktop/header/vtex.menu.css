@@ -222,6 +222,9 @@ display: flex;
 align-items: baseline;
 }
 
+.menuItem--menu-item-menu{
+  margin-right: -33px;
+}
 
 .menuItem--sitio-sony-menu{
   background-color: #2C303B;
@@ -238,6 +241,10 @@ background-color: #4572ED;
 
 
 /* submenu more options */
+
+.submenuWrapper--isOpen{
+  margin-left: -108px
+}
 .styledLinkContent--submenu-item-ayuda{
   margin-right: 22px;
 }

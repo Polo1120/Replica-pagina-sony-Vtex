@@ -3,8 +3,6 @@
     "children": ["drawer#desktop"],
     "props": {
       "verticalAlign": "middle",
-      "paddingRight":7,
-      "marginRight":0,
       "blockClass": "container-drawer-col"
     }
   },
