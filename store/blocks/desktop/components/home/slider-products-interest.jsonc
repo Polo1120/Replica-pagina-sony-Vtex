@@ -1,0 +1,79 @@
+{
+  "flex-layout.row#products-interest": {
+    "title": "Container productos que te interesaron",
+    "children": [
+      "flex-layout.col#list-context-products-interest",
+      "flex-layout.col#text-products-interest"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "products-interest-container"
+    }
+  },
+
+  "flex-layout.col#text-products-interest": {
+    "title": "Col texto productos que te interesaron",
+    "children": ["flex-layout.row#titulo-products-interest"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "flex-layout.row#titulo-products-interest": {
+    "title": "Row titulo productos que te interesaron",
+    "children": ["rich-text#products-interest"],
+    "props": {
+      "width": "100%",
+      "blockClass": "titulo-productos-products-interest"
+    }
+  },
+  "rich-text#products-interest": {
+    "props": {
+      "text": "#### PRODUCTOS QUE TE INTERESARON\n Cómpralos antes de que se agote el stock",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "titulo-products-interest"
+    }
+  },
+  "flex-layout.col#list-context-products-interest": {
+    "title": "Col list context productos que te interesaron",
+    "children": [
+      "list-context.product-list#list-context-product-products-interest"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+
+  "list-context.product-list#list-context-product-products-interest": {
+    "title": "list context productos que te interesaron",
+    "blocks": ["product-summary.shelf#product-products-interest"],
+    "children": ["slider-layout#product-products-interest-slider"],
+    "props": {
+      "blockClass": "product-interest-list-context"
+    }
+  },
+  "product-summary.shelf#product-products-interest": {
+    "title": "product summary productos que te interesaron",
+    "children": [
+      "product-summary-add-to-list-button",
+      "product-summary-name",
+      "product-summary-image",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-identifier.summary",
+      "add-to-cart-button"
+    ]
+  },
+  "slider-layout#product-products-interest-slider": {
+    "title": "slider product productos que te interesaron",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "slider-products-interest"
+    }
+  }
+}

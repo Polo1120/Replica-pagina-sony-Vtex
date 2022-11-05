@@ -1,0 +1,79 @@
+{
+  "flex-layout.row#products-mas-vendido": {
+    "title": "Container productos mas vendido",
+    "children": [
+      "flex-layout.col#list-context-products-mas-vendido",
+      "flex-layout.col#text-products-mas-vendido"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "products-mas-vendido-container"
+    }
+  },
+
+  "flex-layout.col#text-products-mas-vendido": {
+    "title": "Col texto productos mas vendido",
+    "children": ["flex-layout.row#titulo-products-mas-vendido"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "flex-layout.row#titulo-products-mas-vendido": {
+    "title": "Row titulo productos mas vendido",
+    "children": ["rich-text#products-mas-vendido"],
+    "props": {
+      "width": "100%",
+      "blockClass": "titulo-productos-products-mas-vendido"
+    }
+  },
+  "rich-text#products-mas-vendido": {
+    "props": {
+      "text": "#### LOS MÁS VENDIDOS",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "titulo-products-mas-vendido"
+    }
+  },
+  "flex-layout.col#list-context-products-mas-vendido": {
+    "title": "Col list context productos mas vendido",
+    "children": [
+      "list-context.product-list#list-context-product-products-mas-vendido"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+
+  "list-context.product-list#list-context-product-products-mas-vendido": {
+    "title": "list context productos mas vendido",
+    "blocks": ["product-summary.shelf#product-products-mas-vendido"],
+    "children": ["slider-layout#product-products-mas-vendido-slider"],
+    "props": {
+      "blockClass": "product-mas-vendido-list-context"
+    }
+  },
+  "product-summary.shelf#product-products-mas-vendido": {
+    "title": "product summary productos mas vendido",
+    "children": [
+      "product-summary-add-to-list-button",
+      "product-summary-name",
+      "product-summary-image",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-identifier.summary",
+      "add-to-cart-button"
+    ]
+  },
+  "slider-layout#product-products-mas-vendido-slider": {
+    "title": "slider product productos mas vendido",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "slider-products-mas-vendido"
+    }
+  }
+}

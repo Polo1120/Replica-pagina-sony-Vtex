@@ -46,6 +46,42 @@
 }
 
 
+/* container product games y accesorios */
+.flexRow--product-games-container{
+  border-top: 1px solid #e3e4e6;
+  margin: 45px 0 0;
+  padding: 45px 0;
+}
+
+.flexRowContent--product-games-container{
+display: flex;
+flex-direction: column-reverse;
+}
+
+
+/* container products interest  */
+.flexRow--products-interest-container{
+  border-top: 1px solid #e3e4e6;
+  margin: 45px 0 0;
+  padding: 45px 0;
+}
+
+.flexRowContent--products-interest-container{
+display: flex;
+flex-direction: column-reverse;
+}
+
+/* container products mas vendido  */
+.flexRow--products-mas-vendido-container{
+  border-top: 1px solid #e3e4e6;
+  margin: 45px 0 0;
+  padding: 45px 0;
+}
+
+.flexRowContent--products-mas-vendido-container{
+display: flex;
+flex-direction: column-reverse;
+}
 
 
 

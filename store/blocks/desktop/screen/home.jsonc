@@ -9,6 +9,9 @@
       "flex-layout.row#home_cards-grandes",
       "flex-layout.row#product-ofertas",
       "flex-layout.row#camaras-y-lentes",
+      "flex-layout.row#games-accesorios",
+      "flex-layout.row#products-interest",
+      "flex-layout.row#products-mas-vendido",
       "modal-trigger#home_modal"
       /* "modal-trigger#home_modal--event" */
 

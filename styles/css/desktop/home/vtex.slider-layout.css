@@ -18,64 +18,6 @@
   display: none;
 }
 
-/*flechas  slider-ofertas */
-.sliderLeftArrow--slider-product-oferta{
-  cursor: pointer;
-  z-index: 2;
-  width: 30px;
-  height: 52px;
-  font-size: 18px;
-  text-align: center;
-  line-height: 52px;
-  background-color: rgb(0, 0, 0) !important;
-  color: #fff;
-  border-radius: 3px;
-  opacity: 0.3;
-  transition: all 0.25s;
-}
-.sliderLeftArrow--slider-product-oferta:hover{
-  cursor: pointer;
-  z-index: 2;
-  width: 30px;
-  height: 52px;
-  font-size: 18px;
-  text-align: center;
-  line-height: 52px;
-  background-color: rgb(0, 0, 0) !important;
-  color: #fff;
-  border-radius: 3px;
-  opacity: 10;
-  transition: all 0.25s;
-}
-.sliderRightArrow--slider-product-oferta{
-  cursor: pointer;
-  z-index: 2;
-  width: 30px;
-  height: 52px;
-  font-size: 18px;
-  text-align: center;
-  line-height: 52px;
-  background-color: rgb(0, 0, 0) !important;
-  color: #fff;
-  border-radius: 3px;
-  opacity: 0.3;
-  transition: all 0.25s;
-}
-.sliderRightArrow--slider-product-oferta:hover{
-  cursor: pointer;
-  z-index: 2;
-  width: 30px;
-  height: 52px;
-  font-size: 18px;
-  text-align: center;
-  line-height: 52px;
-  background-color: rgb(0, 0, 0) !important;
-  color: #fff;
-  border-radius: 3px;
-  opacity: 10;
-  transition: all 0.25s;
-}
-
 /* slider product camaras y lentes */
 
 .sliderLayoutContainer--slider-product-camaras-lentes{
@@ -87,9 +29,45 @@
   display: none;
 }
 
+/* slider product games y acccesorios */
 
-/*flechas  slider-camaras-y lentes */
-.sliderLeftArrow--slider-product-camaras-lentes{
+.sliderLayoutContainer--slider-product-games-accesorios{
+  max-width: 95%;
+  margin: auto 50px;
+}
+
+.paginationDotsContainer--slider-product-games-accesorios{
+  display: none;
+}
+
+/* slider products interest */
+
+.sliderLayoutContainer--slider-products-interest{
+  max-width: 95%;
+  margin: auto 50px;
+}
+
+.paginationDotsContainer--slider-products-interest{
+  display: none;
+}
+
+/* slider products mas vendido */
+
+.sliderLayoutContainer--slider-products-mas-vendido{
+  max-width: 95%;
+  margin: auto 50px;
+}
+
+.paginationDotsContainer--slider-products-mas-vendido{
+  display: none;
+}
+
+
+
+
+
+/*flechas  sliders  */
+.sliderLeftArrow{
   cursor: pointer;
   z-index: 2;
   width: 30px;
@@ -103,7 +81,7 @@
   opacity: 0.3;
   transition: all 0.25s;
 }
-.sliderLeftArrow--slider-product-camaras-lentes:hover{
+.sliderLeftArrow:hover{
   cursor: pointer;
   z-index: 2;
   width: 30px;
@@ -117,7 +95,7 @@
   opacity: 10;
   transition: all 0.25s;
 }
-.sliderRightArrow--slider-product-camaras-lentes {
+.sliderRightArrow{
   cursor: pointer;
   z-index: 2;
   width: 30px;
@@ -131,7 +109,7 @@
   opacity: 0.3;
   transition: all 0.25s;
 }
-.sliderRightArrow--slider-product-camaras-lentes:hover{
+.sliderRightArrow:hover{
   cursor: pointer;
   z-index: 2;
   width: 30px;
@@ -145,3 +123,6 @@
   opacity: 10;
   transition: all 0.25s;
 }
+
+
+
