@@ -1,0 +1,79 @@
+{
+  "flex-layout.row#games-accesorios": {
+    "title": "Container Juegos y accesorios  ",
+    "children": [
+      "flex-layout.col#list-context-games-accesorios",
+      "flex-layout.col#text-games-accesorios"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "product-games-container"
+    }
+  },
+
+  "flex-layout.col#text-games-accesorios": {
+    "title": "Col texto Juegos y accesorios",
+    "children": ["flex-layout.row#titulo-games-accesorios"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "flex-layout.row#titulo-games-accesorios": {
+    "title": "Row titulo Juegos y accesorios",
+    "children": ["rich-text#games-accesorios-text"],
+    "props": {
+      "width": "100%",
+      "blockClass": "titulo-productos-games-accesorios"
+    }
+  },
+  "rich-text#games-accesorios-text": {
+    "props": {
+      "text": "#### PLAYSTATION, JUEGOS Y ACCESORIOS\n El Mejor lugar para jugar",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "titulo-product-games-accesorios"
+    }
+  },
+  "flex-layout.col#list-context-games-accesorios": {
+    "title": "Col list context Juegos y accesorios",
+    "children": [
+      "list-context.product-list#list-context-product-games-accesorios"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+
+  "list-context.product-list#list-context-product-games-accesorios": {
+    "title": "list context Juegos y accesorios",
+    "blocks": ["product-summary.shelf#product-games-acceserios"],
+    "children": ["slider-layout#product-games-accesorios-slider"],
+    "props": {
+      "blockClass": "games-list-context"
+    }
+  },
+  "product-summary.shelf#product-games-acceserios": {
+    "title": "product summary Juegos y accesorios",
+    "children": [
+      "product-summary-add-to-list-button",
+      "product-summary-name",
+      "product-summary-image",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-identifier.summary",
+      "add-to-cart-button"
+    ]
+  },
+  "slider-layout#product-games-accesorios-slider": {
+    "title": "slider product Juegos y accesorios",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "slider-product-games-accesorios"
+    }
+  }
+}

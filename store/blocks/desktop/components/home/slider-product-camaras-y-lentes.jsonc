@@ -1,0 +1,77 @@
+{
+  "flex-layout.row#camaras-y-lentes": {
+    "title": "Container camaras y lentes  ",
+    "children": [
+      "flex-layout.col#list-context-camaras-y-lentes",
+      "flex-layout.col#text-camaras-y-lentes"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "product-camaras-container"
+    }
+  },
+
+  "flex-layout.col#text-camaras-y-lentes": {
+    "title":"Col text-camaras-y-lentes",
+    "children": ["flex-layout.row#titulo-camaras-y-lentes"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "flex-layout.row#titulo-camaras-y-lentes": {
+    "title":"Row titulo-camaras-y-lentes",
+    "children": ["rich-text#camaras-y-lentes-text"],
+    "props": {
+      "width": "100%",
+      "blockClass": "titulo-productos-camaras-y-lentes"
+    }
+  },
+  "rich-text#camaras-y-lentes-text": {
+    "props": {
+      "text": "#### CÁMARAS Y LENTES\n El poder de las imágenes puede ser tuyo",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "titulo-product-camaras-lentes"
+    }
+  },
+  "flex-layout.col#list-context-camaras-y-lentes": {
+    "title":"Col list context camaras y lentes",
+    "children": ["list-context.product-list#camaras-y-lentes-list-context-product"],
+    "props": {
+      "width": "100%"
+    }
+  },
+
+  "list-context.product-list#camaras-y-lentes-list-context-product": {
+    "title":"list context camaras y lentes",
+    "blocks": ["product-summary.shelf#product-camaras-y-lentes"],
+    "children": ["slider-layout#product-camaras-y-lentes-slider"],
+    "props": {
+      "blockClass": "camaras-list-context"
+    }
+  },
+  "product-summary.shelf#product-camaras-y-lentes": {
+    "title":"product summary camaras",
+    "children": [
+      "product-summary-add-to-list-button",
+      "product-summary-name",
+      "product-summary-image",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-identifier.summary",
+      "add-to-cart-button"
+    ]
+  },
+  "slider-layout#product-camaras-y-lentes-slider": {
+    "title":"slider product camaras",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass":"slider-product-camaras-lentes"
+    }
+  }
+}
