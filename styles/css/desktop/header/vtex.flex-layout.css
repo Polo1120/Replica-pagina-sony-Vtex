@@ -1,0 +1,44 @@
+
+
+.flexCol--container-drawer-col {
+  color: white;
+  margin-left: -43px
+}
+
+.flexColChild--col-search{
+  width: 300px;
+}
+
+.flexCol--minicart-desktop{
+  margin-left: -20px;
+} 
+
+
+.flexCol--logo-telef{
+  margin: 7px 11px 0px 195px
+}
+
+.flexCol--menu-col {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.flexRowContent--col-venta-telef {
+
+}
+
+
+/* header */
+.flexRowContent--flex-header{
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexCol--header-right-contenedor{
+  margin-left: -105px
+}
+
+.flexCol--header-contenedor{
+  margin: 0px -15px 0px 180px
+}

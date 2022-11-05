@@ -1,10 +1,20 @@
-.paragraph--section__one--title{
+.paragraph--section__one--title {
   color: aliceblue;
 }
 
-.imageElement--imagen-visa{
+.imageElement--imagen-visa {
   padding-block-start: 4px;
   height: 45px;
   padding-left: 264px;
+}
+
+/* search - bar  */
+.searchBarInnerContainer--search-bar-desktop {
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  border-radius: 0;
+  border: 1px solid #dfdede;
+  height: 46px;
 }
 

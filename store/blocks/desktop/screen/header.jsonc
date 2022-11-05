@@ -27,23 +27,56 @@
       "blockClass": "flex-header"
     },
     "children": [
+      "flex-layout.col#header",
+      "flex-layout.col#header-right",
+      "flex-layout.col#cart"
+    ]
+  },
+
+  "flex-layout.col#header":{
+    "title":"col header",
+    "children":[
+      "flex-layout.row#header-contenedor"
+    ],
+    "props":{
+      "blockClass":"header-contenedor"
+    }
+  },
+  "flex-layout.row#header-contenedor":{
+    "title":"header contenedor 1",
+    "children":[
       "flex-layout.col#logo-desktop",
       "flex-layout.col#drawer-desktop",
-      "flex-layout.col#spacer",
-      "search-bar",
-      "locale-switcher",
-      "login",
-      "minicart.v2#desktop"
+      "flex-layout.col#search"
+    ]
+  },
+  "flex-layout.col#header-right":{
+    "title":"col header-right",
+    "children":[
+      "flex-layout.row#header-right-contenedor"
+    ],
+    "props":{
+      "blockClass":"header-right-contenedor"
+    }
+  },
+  "flex-layout.row#header-right-contenedor":{
+    "title":"header-contenedor 2",
+    "children":[
+      "flex-layout.col#logo-telef",
+      "flex-layout.col#venta-linea",
+      "flex-layout.row#menu-top"
     ]
   },
   "flex-layout.col#spacer": {
     "props": {
-      "width": "grow"
+    "paddingLeft": 30,
+     "blockClass":"spacer"
     }
   },
   "flex-layout.col#logo-desktop": {
     "props": {
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "blockClass":"logo-class"
     },
     "children": ["logo"]
   },
@@ -52,18 +85,34 @@
       "title": "Logo",
       "href": "/",
       "url": "assets/img/logo.png",
-      "width": "80"
+      "width": "105"
     }
   },
-  "minicart.v2#desktop":{
-      "props": {
-        "variation": "popup",
-        "itemCountMode": "total",
-        "quantityDisplay": "never"
-      }
-    },
+  "flex-layout.col#search":{
+    "title":"col search",
+    "children":[
+      "search-bar#desktop"
+    ],
+    "props":{
+      "blockClass":"col-search"
+    }
+  },
+  "search-bar#desktop":{
+    "props":{
+      "blockClass":"search-bar-desktop",
+      "maxWidth": "100%"
+    }
+  },
+  "flex-layout.col#cart":{
+    "children":[
+      "minicart.v2#carrito"
+    ],
+    "props":{
+      "verticalAlign":"middle",
+      "blockClass":"minicart-desktop"
+    }
+  },
  
-
 
   //header mobile
   "header-layout.mobile": {
