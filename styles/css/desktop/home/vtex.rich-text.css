@@ -1,0 +1,20 @@
+
+/* title slider products */
+.paragraph--titulo-productos-oferta{
+  margin-top: -27px;
+}
+
+.paragraph--titulo-product-camaras-lentes{
+  margin-top: -27px;
+}
+
+
+
+.paragraph--Texto-visa{
+  margin-block-start: 10px;
+  color: white;
+}
+.container--text-impersibles{
+  transform: translateY(-50px);
+}
+

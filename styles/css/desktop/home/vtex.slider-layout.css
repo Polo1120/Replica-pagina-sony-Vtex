@@ -1,0 +1,147 @@
+
+
+.sliderLayoutContainer--home_slider_list{
+  height: 90%;
+  width: 95%;
+  margin: 0 auto 50px;
+  padding-top: 20px;
+  
+}
+
+/* slider product oferta */
+.sliderLayoutContainer--slider-product-oferta{
+  max-width: 95%;
+  margin: auto 50px;
+}
+
+.paginationDotsContainer--slider-product-oferta{
+  display: none;
+}
+
+/*flechas  slider-ofertas */
+.sliderLeftArrow--slider-product-oferta{
+  cursor: pointer;
+  z-index: 2;
+  width: 30px;
+  height: 52px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 52px;
+  background-color: rgb(0, 0, 0) !important;
+  color: #fff;
+  border-radius: 3px;
+  opacity: 0.3;
+  transition: all 0.25s;
+}
+.sliderLeftArrow--slider-product-oferta:hover{
+  cursor: pointer;
+  z-index: 2;
+  width: 30px;
+  height: 52px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 52px;
+  background-color: rgb(0, 0, 0) !important;
+  color: #fff;
+  border-radius: 3px;
+  opacity: 10;
+  transition: all 0.25s;
+}
+.sliderRightArrow--slider-product-oferta{
+  cursor: pointer;
+  z-index: 2;
+  width: 30px;
+  height: 52px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 52px;
+  background-color: rgb(0, 0, 0) !important;
+  color: #fff;
+  border-radius: 3px;
+  opacity: 0.3;
+  transition: all 0.25s;
+}
+.sliderRightArrow--slider-product-oferta:hover{
+  cursor: pointer;
+  z-index: 2;
+  width: 30px;
+  height: 52px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 52px;
+  background-color: rgb(0, 0, 0) !important;
+  color: #fff;
+  border-radius: 3px;
+  opacity: 10;
+  transition: all 0.25s;
+}
+
+/* slider product camaras y lentes */
+
+.sliderLayoutContainer--slider-product-camaras-lentes{
+  max-width: 95%;
+  margin: auto 50px;
+}
+
+.paginationDotsContainer--slider-product-camaras-lentes{
+  display: none;
+}
+
+
+/*flechas  slider-camaras-y lentes */
+.sliderLeftArrow--slider-product-camaras-lentes{
+  cursor: pointer;
+  z-index: 2;
+  width: 30px;
+  height: 52px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 52px;
+  background-color: rgb(0, 0, 0) !important;
+  color: #fff;
+  border-radius: 3px;
+  opacity: 0.3;
+  transition: all 0.25s;
+}
+.sliderLeftArrow--slider-product-camaras-lentes:hover{
+  cursor: pointer;
+  z-index: 2;
+  width: 30px;
+  height: 52px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 52px;
+  background-color: rgb(0, 0, 0) !important;
+  color: #fff;
+  border-radius: 3px;
+  opacity: 10;
+  transition: all 0.25s;
+}
+.sliderRightArrow--slider-product-camaras-lentes {
+  cursor: pointer;
+  z-index: 2;
+  width: 30px;
+  height: 52px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 52px;
+  background-color: rgb(0, 0, 0) !important;
+  color: #fff;
+  border-radius: 3px;
+  opacity: 0.3;
+  transition: all 0.25s;
+}
+.sliderRightArrow--slider-product-camaras-lentes:hover{
+  cursor: pointer;
+  z-index: 2;
+  width: 30px;
+  height: 52px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 52px;
+  background-color: rgb(0, 0, 0) !important;
+  color: #fff;
+  border-radius: 3px;
+  opacity: 10;
+  transition: all 0.25s;
+}

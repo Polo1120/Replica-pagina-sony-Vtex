@@ -1,0 +1,77 @@
+{
+  "flex-layout.row#product-ofertas": {
+    "title": "Container ofertas ",
+    "children": [
+      "flex-layout.col#list-context",
+      "flex-layout.col#text-ofertas"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "product-ofertas-container"
+    }
+  },
+
+  "flex-layout.col#text-ofertas": {
+    "title":"Col text-oferta",
+    "children": ["flex-layout.row#titulo-oferta"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "flex-layout.row#titulo-oferta": {
+    "title":"Row titulo-oferta",
+    "children": ["rich-text#oferta-title-text"],
+    "props": {
+      "width": "100%",
+      "blockClass": "titulo-productos-oferta"
+    }
+  },
+  "rich-text#oferta-title-text": {
+    "props": {
+      "text": "#### OFERTAS QUE NO TE PUEDES PERDER\n Precios especiales por tiempo limitado.",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "titulo-productos-oferta"
+    }
+  },
+  "flex-layout.col#list-context": {
+    "title":"Col list context",
+    "children": ["list-context.product-list#ofertas-list"],
+    "props": {
+      "width": "100%"
+    }
+  },
+
+  "list-context.product-list#ofertas-list": {
+    "title":"list context ofertas",
+    "blocks": ["product-summary.shelf#product-oferta"],
+    "children": ["slider-layout#product-oferta-slider"],
+    "props": {
+      "blockClass": "ofertas-list"
+    }
+  },
+  "product-summary.shelf#product-oferta": {
+    "title":"product summary ofertas",
+    "children": [
+      "product-summary-add-to-list-button",
+      "product-summary-name",
+      "product-summary-image",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-identifier.summary",
+      "add-to-cart-button"
+    ]
+  },
+  "slider-layout#product-oferta-slider": {
+    "title":"slider product oferta",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "slider-product-oferta"
+    }
+  }
+}
