@@ -1,7 +1,14 @@
 {
-  
+  "flex-layout.col#drawer-container":{
+    "children":[
+      "drawer#mobile"
+    ]
+  },
   "drawer#mobile": {
-    "children": ["vtex.menu@2.x:menu#header__menu"]
+    "children": ["vtex.menu@2.x:menu#header__menu"],
+    "props":{
+      "blockClass":"drawer--mobile"
+    }
   },
   "vtex.menu@2.x:menu#header__menu": {
     "children": ["menu-item#department_one", "menu-item#department_two"],

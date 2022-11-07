@@ -85,7 +85,9 @@
       "title": "Logo",
       "href": "/",
       "url": "assets/img/logo.png",
-      "width": "105"
+      "width": "105",
+      "mobileWidth": 82,
+      "mobileHeight": 16
     }
   },
   "flex-layout.col#search":{
@@ -111,55 +113,7 @@
       "verticalAlign":"middle",
       "blockClass":"minicart-desktop"
     }
-  },
- 
-
-  //header mobile
-  "header-layout.mobile": {
-    "title": "header-layout.mobile",
-    "children": ["sticky-layout#mobile"]
-  },
-  "sticky-layout#mobile": {
-    "children": ["flex-layout.row#mobile"]
-  },
-  "flex-layout.row#mobile": {
-    "children": [
-      "drawer#mobile",
-      "flex-layout.col#logo-mobile",
-      "flex-layout.col#spacer",
-      "search-bar#mobile",
-      "login",
-      "minicart.v2"
-    ],
-    "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
-      "blockClass": "header-mobile",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
-    }
-  },
-  "search-bar#mobile":{
-    "props": {
-     "maxWidth": 105
-    }
-  },
-  "login": {
-    "props": {
-      "emailAndPasswordTitle": "LOG-IN",
-      "accessCodeTitle": "Acess Code LOG-IN",
-      "emailPlaceholder": "e-mail",
-      "passwordPlaceholder": "password",
-      "showPasswordVerificationIntoTooltip": true,
-      "showIconProfile": true
-    }
-  },
-
-  "flex-layout.col#logo-mobile": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": ["logo"]
   }
+ 
+  
 }

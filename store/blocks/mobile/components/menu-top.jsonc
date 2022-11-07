@@ -1,0 +1,33 @@
+{
+  "flex-layout.col#menu-top-mobile":{
+    "children":[
+      "menu#menu-top"
+    ],
+    "props":{
+      "width":"3%"
+    }
+  },
+  "menu#menu-top":{
+    "children":[
+      "menu-item#ayuda-mobile"
+    ]
+  },
+  "menu-item#ayuda-mobile":{
+    "props":{
+      "id": "ayuda-menu",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "0 0 16 16",
+        "noFollow": true,
+        "tagTitle": "ayuda-menu",
+        "text": "Ayuda"
+    }
+  }
+  },
+  "menu-item#more-options-mobile":{
+    "props":{
+
+    }
+  }
+}

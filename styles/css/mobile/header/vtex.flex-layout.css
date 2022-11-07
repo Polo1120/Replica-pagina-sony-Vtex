@@ -1,0 +1,21 @@
+.flexRowContent--header-mobile{
+  background-color: black;
+  height: 48px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flexColChild--container-logo-mobile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid #2f353d ;
+  border-right: 1px solid #2f353d ;
+}
+
+.flexColChild--container-icon-search-mobile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+}

@@ -1,0 +1,70 @@
+{
+  "header-layout.mobile": {
+    "title": "header-layout.mobile",
+    "children": ["sticky-layout#mobile"]
+  },
+  "sticky-layout#mobile": {
+    "children": ["flex-layout.row#mobile"]
+  },
+  "flex-layout.row#mobile": {
+    "children": [
+      "flex-layout.col#drawer-container", 
+      "flex-layout.col#logo-mobile",
+      "flex-layout.col#icon-search-mobile",
+      /* "flex-layout.col#menu-top-mobile", */
+      "minicart.v2"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "search-bar#mobile":{
+    "props": {
+     "maxWidth": 90
+    }
+  },
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true
+    }
+  },
+
+  "flex-layout.col#logo-mobile": {
+    "props": {
+      "blockClass":"container-logo-mobile"
+    },
+    "children": ["logo"]
+  },
+
+  "flex-layout.col#icon-search-mobile":{
+    "children":[
+      "flex-layout.col#container-icon-search-mobile"
+    ]
+  },
+  "flex-layout.col#container-icon-search-mobile":{
+    "children":[
+      "icon#search-mobile"
+    ],
+    "props":{
+      "blockClass":"container-icon-search-mobile"
+    }
+  },
+  "icon#search-mobile":{
+    "props":{
+      "id":"icon-search",
+      "size": 20,
+      "blockClass": "icono-search-mobile",
+      "viewBox": "0 0 612 612"
+    }
+  }
+}
