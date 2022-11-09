@@ -1,9 +1,94 @@
-.styledLinkContainer--menu-ayuda-mobile{
-margin: 0;
-
+.styledLinkContainer--menu-ayuda-mobile {
+  margin: 0;
 }
 
-.styledLinkContainer--menu-more-options-mobile{
-margin: 0;
+.styledLinkContainer--menu-more-options-mobile {
+  margin: 0;
+}
 
+/* menu-container */
+.menuContainerNav--menu-container{
+width: 100%;
+}
+.menuContainer--menu-container{
+  margin-left: -26px;
+}
+
+/* despartament menu */
+
+.styledLinkContent--departament-promociones {
+  line-height: 40px;
+  font-size: 18px;
+  color: rgb(69, 114, 236);
+  padding: 0px 23px 0px 14px;
+  font-weight: 100;
+}
+
+.styledLinkContent--departament-tv-teatros-casa {
+  line-height: 40px;
+  font-size: 16px;
+  color: rgb(69, 114, 236);
+  padding: 0px 23px 0px 14px;
+  font-weight: 100;
+}
+.styledLinkContent--departament-camaras {
+  line-height: 40px;
+  font-size: 16px;
+  color: rgb(69, 114, 236);
+  padding: 0px 23px 0px 14px;
+  font-weight: 100;
+}
+
+.styledLinkContent--departament-video-camaras {
+  line-height: 40px;
+  font-size: 16px;
+  color: rgb(69, 114, 236);
+  padding: 0px 23px 0px 14px;
+  font-weight: 100;
+}
+
+.styledLinkContent--departament-audio {
+  line-height: 40px;
+  font-size: 16px;
+  color: rgb(69, 114, 236);
+  padding: 0px 23px 0px 14px;
+  font-weight: 100;
+}
+
+.styledLinkContent--departament-playstation {
+  line-height: 40px;
+  font-size: 16px;
+  color: rgb(69, 114, 236);
+  padding: 0px 23px 0px 14px;
+  font-weight: 100;
+}
+
+
+.styledLinkContent--despartament-audio-para-auto {
+  line-height: 40px;
+  font-size: 16px;
+  color: rgb(69, 114, 236);
+  padding: 0px 23px 0px 14px;
+  font-weight: 100;
+}
+
+
+/* sub menu acordion  */
+
+.submenuAccordion--sub-category-tv-teatro-casa{
+padding-left: 43px;
+}
+
+
+.styledLinkContent--televisores{
+  line-height: 30px;
+}
+.styledLinkContent--teatro-en-casa{
+  line-height: 30px;
+}
+.styledLinkContent--blue-ray{
+  line-height: 30px;
+}
+.styledLinkContent--ver-todos-tv{
+  line-height: 30px;
 }

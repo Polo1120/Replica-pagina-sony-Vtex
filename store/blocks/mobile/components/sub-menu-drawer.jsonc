@@ -1,11 +1,14 @@
 {
   /*  sub category_teatro en casa y tv  */
   "submenu.accordion#subcategory-tv-teatro-casa": {
-    "title":"sub category tv teatro casa",
+    "title": "sub category tv teatro casa",
+    "props":{
+      "blockClass":"sub-category-tv-teatro-casa"
+    },
     "children": ["menu#menucategory-tv-teatro-casa"]
   },
   "menu#menucategory-tv-teatro-casa": {
-    "title":"menu tv teatro casa",
+    "title": "menu tv teatro casa",
     "children": [
       "menu-item#sub-category_tv",
       "menu-item#sub-category_teatro",
@@ -17,7 +20,7 @@
     }
   },
   "menu-item#sub-category_tv": {
-    "title":"sub category tv",
+    "title": "sub category tv",
     "props": {
       "id": "category_one",
       "type": "custom",
@@ -27,11 +30,12 @@
         "noFollow": true,
         "tagTitle": "televisores",
         "text": "Televisores"
-      }
+      },
+      "blockClass":"televisores"
     }
   },
   "menu-item#sub-category_teatro": {
-    "title":"sub category teatro en casa",
+    "title": "sub category teatro en casa",
     "props": {
       "id": "category_two",
       "type": "custom",
@@ -41,11 +45,12 @@
         "noFollow": true,
         "tagTitle": "teatro-en-casa",
         "text": "Teatro en Casa"
-      }
+      },
+      "blockClass":"teatro-en-casa"
     }
   },
   "menu-item#sub-category_blu-ray": {
-    "title":"sub category blue ray",
+    "title": "sub category blue ray",
     "props": {
       "id": "sub-category_blu-ray",
       "type": "custom",
@@ -55,11 +60,12 @@
         "noFollow": true,
         "tagTitle": "blu-ray",
         "text": "Reproductores de Blu-ray y DVD"
-      }
+      },
+      "blockClass":"blue-ray"
     }
   },
   "menu-item#sub-category_ver-todos-tv": {
-    "title":"sub category ver todos tv",
+    "title": "sub category ver todos tv",
     "props": {
       "id": "sub-category_ver-todos-tv",
       "type": "custom",
@@ -69,16 +75,17 @@
         "noFollow": true,
         "tagTitle": "ver-todos-tv",
         "text": "Ver todos"
-      }
+      },
+      "blockClass":"ver-todos-tv"
     }
   },
   /*  sub category camaras  */
   "submenu.accordion#subcategory-camaras": {
-    "title":"sub category camaras",
+    "title": "sub category camaras",
     "children": ["menu#menucategory-camaras"]
   },
   "menu#menucategory-camaras": {
-    "title":"menu category camaras",
+    "title": "menu category camaras",
     "children": [
       "menu-item#sub-category_camaras-con-lentes-intercambiables",
       "menu-item#sub-category-cybershot",
@@ -92,7 +99,7 @@
     }
   },
   "menu-item#sub-category_camaras-con-lentes-intercambiables": {
-    "title":"sub category camaras con lentes intercambiables",
+    "title": "sub category camaras con lentes intercambiables",
     "props": {
       "id": "category_camaras-con-lentes-intercambiables",
       "type": "custom",
@@ -106,7 +113,7 @@
     }
   },
   "menu-item#sub-category-cybershot": {
-    "title":"sub category cybershot",
+    "title": "sub category cybershot",
     "props": {
       "id": "category_cybershot",
       "type": "custom",
@@ -120,7 +127,7 @@
     }
   },
   "menu-item#sub-category-lentes": {
-    "title":"sub category lentes",
+    "title": "sub category lentes",
     "props": {
       "id": "sub-category_lentes",
       "type": "custom",
@@ -134,7 +141,7 @@
     }
   },
   "menu-item#sub-category-accesorios": {
-    "title":"sub category accesorios",
+    "title": "sub category accesorios",
     "props": {
       "id": "sub-category_accesorios",
       "type": "custom",
@@ -148,7 +155,7 @@
     }
   },
   "menu-item#sub-category-camaras-de-cine": {
-    "title":"sub category camaras de cine ",
+    "title": "sub category camaras de cine ",
     "props": {
       "id": "sub-category_ver-todos-tv",
       "type": "custom",
@@ -162,7 +169,7 @@
     }
   },
   "menu-item#sub-category-ver-todos-camaras": {
-    "title":"sub category ver todos camaras",
+    "title": "sub category ver todos camaras",
     "props": {
       "id": "sub-category_ver-todos-camras",
       "type": "custom",
@@ -171,6 +178,313 @@
         "href": "0 0 16 16",
         "noFollow": true,
         "tagTitle": "ver-todos-camras",
+        "text": "Ver todos"
+      }
+    }
+  },
+  /*  sub category video-camaras  */
+  "submenu.accordion#subcategory-videocamaras": {
+    "title": "sub category camaras",
+    "children": ["menu#menucategory-videocamaras"]
+  },
+  "menu#menucategory-videocamaras": {
+    "title": "menu category camaras",
+    "children": [
+      "menu-item#sub-category_handycam",
+      "menu-item#sub-category-accesorios-videocamaras",
+      "menu-item#sub-category-camaras-cine",
+      "menu-item#sub-category-ver-todos-videocamaras"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#sub-category_handycam": {
+    "title": "sub category Handycam",
+    "props": {
+      "id": "category_handycam",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "0 0 16 16",
+        "noFollow": true,
+        "tagTitle": "handycam",
+        "text": "Handycam"
+      }
+    }
+  },
+  "menu-item#sub-category-accesorios-videocamaras": {
+    "title": "sub category accesorios videocamaras",
+    "props": {
+      "id": "category_accesorios-videocamaras",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "0 0 16 16",
+        "noFollow": true,
+        "tagTitle": "accesorios-videocamaras",
+        "text": "Accesorios"
+      }
+    }
+  },
+  "menu-item#sub-category-camaras-cine": {
+    "title": "sub category camaras de cine videocamaras",
+    "props": {
+      "id": "sub-category_camaras_cine-videocamaras",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "0 0 16 16",
+        "noFollow": true,
+        "tagTitle": "camaras-de-cine-videocamaras",
+        "text": "Camaras de Cine"
+      }
+    }
+  },
+  "menu-item#sub-category-ver-todos-videocamaras": {
+    "title": "sub category ver todos videocamaras",
+    "props": {
+      "id": "sub-category_ver-todos-videocamaras",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "0 0 16 16",
+        "noFollow": true,
+        "tagTitle": "ver-todos-videocamaras",
+        "text": "Ver todos"
+      }
+    }
+  },
+  /*  sub category video-camaras  */
+  "submenu.accordion#subcategory-audio": {
+    "title": "sub category camaras",
+    "children": ["menu#menucategory-audio"]
+  },
+  "menu#menucategory-audio": {
+    "title": "menu category audio",
+    "children": [
+      "menu-item#sub-category_sistema-audio",
+      "menu-item#sub-category-parlantes-inalambricos",
+      "menu-item#sub-category-audifonos",
+      "menu-item#sub-reproductores-musica",
+      "menu-item#sub-category-ver-todos-audio"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#sub-category_sistema-audio": {
+    "title": "sub category sistema de audio",
+    "props": {
+      "id": "category_sistema_audio",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "0 0 16 16",
+        "noFollow": true,
+        "tagTitle": "sistemas-audio",
+        "text": "Sistema de Audio"
+      }
+    }
+  },
+  "menu-item#sub-category-parlantes-inalambricos": {
+    "title": "sub category parlantes inalambricos",
+    "props": {
+      "id": "category_parlantes_inalambricos",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "0 0 16 16",
+        "noFollow": true,
+        "tagTitle": "parlantes-inalambricos",
+        "text": "Parlantes Inalambricos"
+      }
+    }
+  },
+  "menu-item#sub-category-audifonos": {
+    "title": "sub category audifonos",
+    "props": {
+      "id": "sub-category_audifonos",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "0 0 16 16",
+        "noFollow": true,
+        "tagTitle": "audifonos",
+        "text": "Audifonos"
+      }
+    }
+  },
+  "menu-item#sub-reproductores-musica": {
+    "title": "sub category reproductores de musica digital",
+    "props": {
+      "id": "sub-category_reproductores_musica",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "0 0 16 16",
+        "noFollow": true,
+        "tagTitle": "reproductores-musica-digital",
+        "text": "Reproductores de Música Digital"
+      }
+    }
+  },
+  "menu-item#sub-category-ver-todos-audio": {
+    "title": "sub category ver todos audio",
+    "props": {
+      "id": "sub-category_ver-todos-audio",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "0 0 16 16",
+        "noFollow": true,
+        "tagTitle": "ver-todos-audio",
+        "text": "Ver todos"
+      }
+    }
+  },
+  /*  sub category playstation  */
+  "submenu.accordion#subcategory-playstation": {
+    "title": "sub category playstation",
+    "children": ["menu#menucategory-playstation"]
+  },
+  "menu#menucategory-playstation": {
+    "title": "menu category playstation",
+    "children": [
+      "menu-item#sub-category_playstation-5",
+      "menu-item#sub-category-consolas",
+      "menu-item#sub-category-juegos",
+      "menu-item#sub-accesorios-playstation",
+      "menu-item#sub-category-ver-todos-playstation"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#sub-category_playstation-5": {
+    "title": "sub category sistema de playstation 5",
+    "props": {
+      "id": "category_playstation-5",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "0 0 16 16",
+        "noFollow": true,
+        "tagTitle": "playstation-5",
+        "text": "PlayStation 5"
+      }
+    }
+  },
+  "menu-item#sub-category-consolas": {
+    "title": "sub category consolas",
+    "props": {
+      "id": "category_cosolas",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "0 0 16 16",
+        "noFollow": true,
+        "tagTitle": "consolas",
+        "text": "Consolas"
+      }
+    }
+  },
+  "menu-item#sub-category-juegos": {
+    "title": "sub category juegos",
+    "props": {
+      "id": "sub-category_juegos",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "0 0 16 16",
+        "noFollow": true,
+        "tagTitle": "juegos",
+        "text": "Juegos"
+      }
+    }
+  },
+  "menu-item#sub-accesorios-playstation": {
+    "title": "sub category accesorios para playstation",
+    "props": {
+      "id": "sub-category_playstation",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "0 0 16 16",
+        "noFollow": true,
+        "tagTitle": "accesorios-playstation",
+        "text": "Accesorios para PlayStation"
+      }
+    }
+  },
+  "menu-item#sub-category-ver-todos-playstation": {
+    "title": "sub category ver todos playstation",
+    "props": {
+      "id": "sub-category_ver-todos-playstation",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "0 0 16 16",
+        "noFollow": true,
+        "tagTitle": "ver-todos-playstation",
+        "text": "Ver todos"
+      }
+    }
+  },
+  /*  sub category audio para auto  */
+  "submenu.accordion#subcategory-audio-para-auto": {
+    "title": "sub category audio para auto",
+    "children": ["menu#menucategory-audio-para-auto"]
+  },
+  "menu#menucategory-audio-para-auto": {
+    "title": "menu category playstation",
+    "children": [
+      "menu-item#sub-reproductores-para-automovil",
+      "menu-item#sub-category-bocinas-y-amplificadores",
+      "menu-item#sub-category-ver-todos-audio-para-auto"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#sub-reproductores-para-automovil": {
+    "title": "sub category reproductores para automovil",
+    "props": {
+      "id": "category_reproductores_automovil",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "0 0 16 16",
+        "noFollow": true,
+        "tagTitle": "reproductores-para-automovil",
+        "text": "Reproductores para Automóvil"
+      }
+    }
+  },
+  "menu-item#sub-category-bocinas-y-amplificadores": {
+    "title": "sub category bocinas y amplificadores",
+    "props": {
+      "id": "category_bocinas-y-amplificadores",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "0 0 16 16",
+        "noFollow": true,
+        "tagTitle": "bocinas-y-amplificadores",
+        "text": "Bocinas y Amplificadores"
+      }
+    }
+  },
+  "menu-item#sub-category-ver-todos-audio-para-auto": {
+    "title": "sub category ver todos audio-para-auto",
+    "props": {
+      "id": "sub-category_ver-todos-audio-para-auto",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "0 0 16 16",
+        "noFollow": true,
+        "tagTitle": "ver-todos-audio-para-auto",
         "text": "Ver todos"
       }
     }

@@ -1,6 +1,6 @@
 {
   "flex-layout.col#drawer-container": {
-    "title":"container drawer",
+    "title": "container drawer",
     "children": ["drawer#mobile"],
     "props": {
       "blockClass": "col-drawer-container",
@@ -8,14 +8,14 @@
     }
   },
   "drawer#mobile": {
-    "title":"drawer menu mobile",
+    "title": "drawer menu mobile",
     "children": ["vtex.menu@2.x:menu#header__menu"],
     "props": {
       "blockClass": "drawer--mobile"
     }
   },
   "vtex.menu@2.x:menu#header__menu": {
-    "title":"menu drawer header",
+    "title": "menu drawer header",
     "children": [
       "menu-item#department-promociones",
       "menu-item#department-tv-teatro",
@@ -26,25 +26,30 @@
       "menu-item#department-audio-para-auto"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass":"menu-container"
     }
   },
   "menu-item#department-promociones": {
-    "title":"departament promociones",
+    "title": "departament promociones",
     "props": {
       "id": "department-one",
       "type": "custom",
+      "iconProps":{
+        
+      },
       "itemProps": {
         "type": "external",
         "href": "https://store.sony.com.co/promociones%20?order=",
         "noFollow": true,
         "tagTitle": "Promociones",
         "text": "Promociones"
-      }
+      },
+      "blockClass":"departament-promociones"
     }
   },
   "menu-item#department-tv-teatro": {
-    "title":"departament tv y teatro en casa",
+    "title": "departament tv y teatro en casa",
     "props": {
       "id": "department-tow",
       "type": "custom",
@@ -54,13 +59,14 @@
         "noFollow": true,
         "tagTitle": "Tv-teatros-casa",
         "text": "Tv y Teatros en casa"
-      }
+      },
+      "blockClass":"departament-tv-teatros-casa"
     },
     "blocks": ["submenu.accordion#subcategory-tv-teatro-casa"]
   },
 
   "menu-item#department-camaras": {
-    "title":"departament camara",
+    "title": "departament camara",
     "props": {
       "id": "department-camara",
       "type": "custom",
@@ -70,12 +76,13 @@
         "noFollow": true,
         "tagTitle": "Camaras",
         "text": "Camaras"
-      }
+      },
+      "blockClass":"departament-camaras"
     },
     "blocks": ["submenu.accordion#subcategory-camaras"]
   },
   "menu-item#department-video-camaras": {
-    "title":"departament Videocamaras",
+    "title": "departament Videocamaras",
     "props": {
       "id": "department-video-camaras",
       "type": "custom",
@@ -84,12 +91,14 @@
         "href": "https://store.sony.com.co/televisores-y-teatros-en-casa/televisores",
         "noFollow": true,
         "tagTitle": "video-camaras",
-        "text": "Videocamaras"
-      }
-    }
+        "text": "Videocámaras"
+      },
+      "blockClass":"departament-video-camaras"
+    },
+    "blocks": ["submenu.accordion#subcategory-videocamaras"]
   },
   "menu-item#department-audio": {
-    "title":"departament Audio",
+    "title": "departament Audio",
     "props": {
       "id": "department-audio",
       "type": "custom",
@@ -99,11 +108,13 @@
         "noFollow": true,
         "tagTitle": "audio",
         "text": "Audio"
-      }
-    }
+      },
+      "blockClass":"departament-audio"
+    },
+    "blocks": ["submenu.accordion#subcategory-audio"]
   },
   "menu-item#department-playstation": {
-    "title":"departament playstation",
+    "title": "departament playstation",
     "props": {
       "id": "department-playstation",
       "type": "custom",
@@ -113,11 +124,13 @@
         "noFollow": true,
         "tagTitle": "playstation",
         "text": "PlayStation"
-      }
-    }
+      },
+      "blockClass":"departament-playstation"
+    },
+    "blocks": ["submenu.accordion#subcategory-playstation"]
   },
   "menu-item#department-audio-para-auto": {
-    "title":"departament para auto",
+    "title": "departament para auto",
     "props": {
       "id": "department-audio-auto",
       "type": "custom",
@@ -127,7 +140,9 @@
         "noFollow": true,
         "tagTitle": "audio-para-auto",
         "text": "Audio para Auto"
-      }
-    }
+      },
+      "blockClass":"despartament-audio-para-auto"
+    },
+    "blocks": ["submenu.accordion#subcategory-audio-para-auto"]
   }
 }
