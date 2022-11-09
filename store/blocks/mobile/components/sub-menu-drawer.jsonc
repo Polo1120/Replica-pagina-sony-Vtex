@@ -1,0 +1,178 @@
+{
+  /*  sub category_teatro en casa y tv  */
+  "submenu.accordion#subcategory-tv-teatro-casa": {
+    "title":"sub category tv teatro casa",
+    "children": ["menu#menucategory-tv-teatro-casa"]
+  },
+  "menu#menucategory-tv-teatro-casa": {
+    "title":"menu tv teatro casa",
+    "children": [
+      "menu-item#sub-category_tv",
+      "menu-item#sub-category_teatro",
+      "menu-item#sub-category_blu-ray",
+      "menu-item#sub-category_ver-todos-tv"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#sub-category_tv": {
+    "title":"sub category tv",
+    "props": {
+      "id": "category_one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "0 0 16 16",
+        "noFollow": true,
+        "tagTitle": "televisores",
+        "text": "Televisores"
+      }
+    }
+  },
+  "menu-item#sub-category_teatro": {
+    "title":"sub category teatro en casa",
+    "props": {
+      "id": "category_two",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "0 0 16 16",
+        "noFollow": true,
+        "tagTitle": "teatro-en-casa",
+        "text": "Teatro en Casa"
+      }
+    }
+  },
+  "menu-item#sub-category_blu-ray": {
+    "title":"sub category blue ray",
+    "props": {
+      "id": "sub-category_blu-ray",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "0 0 16 16",
+        "noFollow": true,
+        "tagTitle": "blu-ray",
+        "text": "Reproductores de Blu-ray y DVD"
+      }
+    }
+  },
+  "menu-item#sub-category_ver-todos-tv": {
+    "title":"sub category ver todos tv",
+    "props": {
+      "id": "sub-category_ver-todos-tv",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "0 0 16 16",
+        "noFollow": true,
+        "tagTitle": "ver-todos-tv",
+        "text": "Ver todos"
+      }
+    }
+  },
+  /*  sub category camaras  */
+  "submenu.accordion#subcategory-camaras": {
+    "title":"sub category camaras",
+    "children": ["menu#menucategory-camaras"]
+  },
+  "menu#menucategory-camaras": {
+    "title":"menu category camaras",
+    "children": [
+      "menu-item#sub-category_camaras-con-lentes-intercambiables",
+      "menu-item#sub-category-cybershot",
+      "menu-item#sub-category-lentes",
+      "menu-item#sub-category-accesorios",
+      "menu-item#sub-category-camaras-de-cine",
+      "menu-item#sub-category-ver-todos-camaras"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#sub-category_camaras-con-lentes-intercambiables": {
+    "title":"sub category camaras con lentes intercambiables",
+    "props": {
+      "id": "category_camaras-con-lentes-intercambiables",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "0 0 16 16",
+        "noFollow": true,
+        "tagTitle": "camaras-con-lentes-intercambiables",
+        "text": "Camaras con Lentes Intercambiables"
+      }
+    }
+  },
+  "menu-item#sub-category-cybershot": {
+    "title":"sub category cybershot",
+    "props": {
+      "id": "category_cybershot",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "0 0 16 16",
+        "noFollow": true,
+        "tagTitle": "cybershot",
+        "text": "Cyber-Shot"
+      }
+    }
+  },
+  "menu-item#sub-category-lentes": {
+    "title":"sub category lentes",
+    "props": {
+      "id": "sub-category_lentes",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "0 0 16 16",
+        "noFollow": true,
+        "tagTitle": "lentes",
+        "text": "Lentes"
+      }
+    }
+  },
+  "menu-item#sub-category-accesorios": {
+    "title":"sub category accesorios",
+    "props": {
+      "id": "sub-category_accesorios",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "0 0 16 16",
+        "noFollow": true,
+        "tagTitle": "accesorios",
+        "text": "Accesorios"
+      }
+    }
+  },
+  "menu-item#sub-category-camaras-de-cine": {
+    "title":"sub category camaras de cine ",
+    "props": {
+      "id": "sub-category_ver-todos-tv",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "0 0 16 16",
+        "noFollow": true,
+        "tagTitle": "Camaras-de-cine",
+        "text": "Camaras de Cine"
+      }
+    }
+  },
+  "menu-item#sub-category-ver-todos-camaras": {
+    "title":"sub category ver todos camaras",
+    "props": {
+      "id": "sub-category_ver-todos-camras",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "0 0 16 16",
+        "noFollow": true,
+        "tagTitle": "ver-todos-camras",
+        "text": "Ver todos"
+      }
+    }
+  }
+}

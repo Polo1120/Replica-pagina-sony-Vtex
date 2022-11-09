@@ -2,7 +2,7 @@
   background-color: black;
   height: 48px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .flexColChild--container-logo-mobile{
@@ -19,3 +19,4 @@
   justify-content: center;
   width: 40px;
 }
+

@@ -11,7 +11,7 @@
       "flex-layout.col#drawer-container", 
       "flex-layout.col#logo-mobile",
       "flex-layout.col#icon-search-mobile",
-      /* "flex-layout.col#menu-top-mobile", */
+      "flex-layout.col#menu-top-mobile",
       "minicart.v2"
     ],
     "props": {
@@ -28,7 +28,7 @@
      "maxWidth": 90
     }
   },
-  "login": {
+ /*  "login": {
     "props": {
       "emailAndPasswordTitle": "LOG-IN",
       "accessCodeTitle": "Acess Code LOG-IN",
@@ -37,7 +37,7 @@
       "showPasswordVerificationIntoTooltip": true,
       "showIconProfile": true
     }
-  },
+  }, */
 
   "flex-layout.col#logo-mobile": {
     "props": {

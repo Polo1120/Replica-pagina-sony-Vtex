@@ -1,19 +1,18 @@
 {
-  "flex-layout.col#menu-top-mobile":{
-    "children":[
-      "menu#menu-top"
-    ],
-    "props":{
-      "width":"3%"
+  "flex-layout.col#menu-top-mobile": {
+    "children": ["menu#menu-top"],
+    "props": {
+      "width": "3%"
     }
   },
-  "menu#menu-top":{
-    "children":[
-      "menu-item#ayuda-mobile"
-    ]
+  "menu#menu-top": {
+    "children": ["menu-item#ayuda-mobile", "menu-item#more-options-mobile"],
+    "props": {
+      "blockClass": "menu-top-mobile"
+    }
   },
-  "menu-item#ayuda-mobile":{
-    "props":{
+  "menu-item#ayuda-mobile": {
+    "props": {
       "id": "ayuda-menu",
       "type": "custom",
       "itemProps": {
@@ -22,12 +21,115 @@
         "noFollow": true,
         "tagTitle": "ayuda-menu",
         "text": "Ayuda"
+      },
+      "blockClass": "menu-ayuda-mobile"
     }
-  }
   },
-  "menu-item#more-options-mobile":{
-    "props":{
-
+  "menu-item#more-options-mobile": {
+    "props": {
+      "iconProps": {
+        "id": "icon-puntos",
+        "size": 20,
+        "viewBox": "0 0 210 210"
+      },
+      "blockClass": "menu-more-options-mobile"
+    },
+    "blocks": ["submenu#submenu-mobile-more-options-mobile"]
+  },
+  "submenu#submenu-mobile-more-options-mobile": {
+    "children": ["menu#submenu-mobile-more-options"]
+  },
+  "menu#submenu-mobile-more-options": {
+    "title": "Sub menu more options",
+    "children": [
+      "menu-item#submenu-mobile-micuenta",
+      "menu-item#submenu-mobile-ayuda",
+      "menu-item#submenu-mobile-login-sony",
+      "menu-item#submenu-mobile-sitio-sony"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submenu-mobile-more-options-mobile"
+    }
+  },
+  "menu-item#submenu-mobile-micuenta": {
+    "props": {
+      "id": "menu-item-seguimiento-pedido",
+      "type": "custom",
+      "highlight": false,
+      "iconProps": {
+        "id": "icon-user",
+        "size": 15,
+        "viewBox": "0 0 32 32"
+      },
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "mi-cuenta",
+        "text": "Mi Cuenta"
+      },
+      "blockClass": "submenu-mobile-item-micuenta"
+    }
+  },
+  "menu-item#submenu-mobile-ayuda": {
+    "props": {
+      "id": "id-submenu-mobile-ayuda",
+      "type": "custom",
+      "highlight": false,
+      "iconProps": {
+        "id": "icon-ayuda",
+        "size": 15,
+        "viewBox": "0 0 473.733 473.733"
+      },
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "ayuda",
+        "text": "Ayuda"
+      },
+      "blockClass": "submenu-mobile-item-ayuda"
+    }
+  },
+  "menu-item#submenu-mobile-login-sony": {
+    "props": {
+      "id": "id-login-sony",
+      "type": "custom",
+      "highlight": false,
+      "iconProps": {
+        "id": "icon-user",
+        "size": 15,
+        "viewBox": "0 0 32 32"
+      },
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "login-sony",
+        "text": "Login Sony"
+      },
+      "blockClass": "submenu-mobile-item-login-sony"
+    }
+  },
+  "menu-item#submenu-mobile-sitio-sony": {
+    "props": {
+      "id": "id-sitio-sony",
+      "type": "custom",
+      "highlight": false,
+      "iconProps": {
+        "id": "icon-mundo",
+        "size": 15,
+        "viewBox": "0 0 64 64"
+      },
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.sony.com.co/",
+        "noFollow": true,
+        "tagTitle": "sitio-sony",
+        "text": "Sitio Sony"
+      },
+      "blockClass": "submenu-mobile-item-sitio-sony"
     }
   }
 }

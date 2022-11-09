@@ -1,22 +1,36 @@
 {
-  "flex-layout.col#drawer-container":{
-    "children":[
-      "drawer#mobile"
-    ]
+  "flex-layout.col#drawer-container": {
+    "title":"container drawer",
+    "children": ["drawer#mobile"],
+    "props": {
+      "blockClass": "col-drawer-container",
+      "width": "14%"
+    }
   },
   "drawer#mobile": {
+    "title":"drawer menu mobile",
     "children": ["vtex.menu@2.x:menu#header__menu"],
-    "props":{
-      "blockClass":"drawer--mobile"
+    "props": {
+      "blockClass": "drawer--mobile"
     }
   },
   "vtex.menu@2.x:menu#header__menu": {
-    "children": ["menu-item#department_one", "menu-item#department_two"],
+    "title":"menu drawer header",
+    "children": [
+      "menu-item#department-promociones",
+      "menu-item#department-tv-teatro",
+      "menu-item#department-camaras",
+      "menu-item#department-video-camaras",
+      "menu-item#department-audio",
+      "menu-item#department-playstation",
+      "menu-item#department-audio-para-auto"
+    ],
     "props": {
       "orientation": "vertical"
     }
   },
-  "menu-item#department_one": {
+  "menu-item#department-promociones": {
+    "title":"departament promociones",
     "props": {
       "id": "department-one",
       "type": "custom",
@@ -29,7 +43,8 @@
       }
     }
   },
-  "menu-item#department_two": {
+  "menu-item#department-tv-teatro": {
+    "title":"departament tv y teatro en casa",
     "props": {
       "id": "department-tow",
       "type": "custom",
@@ -41,53 +56,77 @@
         "text": "Tv y Teatros en casa"
       }
     },
-    "blocks": ["submenu.accordion#department__one"]
+    "blocks": ["submenu.accordion#subcategory-tv-teatro-casa"]
   },
-  "submenu.accordion#department__one": {
-    "children": ["menu#department__one"]
-  },
-  "menu#department__one": {
-    "children": ["menu-item#sub-category_tv", "menu-item#sub-category_teatro", "menu-item#sub-category_blu-ray"],
+
+  "menu-item#department-camaras": {
+    "title":"departament camara",
     "props": {
-      "orientation": "vertical"
-    }
-  },
-  "menu-item#sub-category_tv": {
-    "props": {
-      "id": "category_one",
+      "id": "department-camara",
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "0 0 16 16",
+        "href": "https://store.sony.com.co/televisores-y-teatros-en-casa/televisores",
         "noFollow": true,
-        "tagTitle": "televisores",
-        "text": "Televisores"
+        "tagTitle": "Camaras",
+        "text": "Camaras"
+      }
+    },
+    "blocks": ["submenu.accordion#subcategory-camaras"]
+  },
+  "menu-item#department-video-camaras": {
+    "title":"departament Videocamaras",
+    "props": {
+      "id": "department-video-camaras",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://store.sony.com.co/televisores-y-teatros-en-casa/televisores",
+        "noFollow": true,
+        "tagTitle": "video-camaras",
+        "text": "Videocamaras"
       }
     }
   },
-  "menu-item#sub-category_teatro": {
+  "menu-item#department-audio": {
+    "title":"departament Audio",
     "props": {
-      "id": "category_two",
+      "id": "department-audio",
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "0 0 16 16",
+        "href": "https://store.sony.com.co/televisores-y-teatros-en-casa/televisores",
         "noFollow": true,
-        "tagTitle": "teatro-en-casa",
-        "text": "Teatro en Casa"
+        "tagTitle": "audio",
+        "text": "Audio"
       }
     }
   },
-  "menu-item#sub-category_blu-ray":{
+  "menu-item#department-playstation": {
+    "title":"departament playstation",
     "props": {
-      "id": "sub-category_blu-ray",
+      "id": "department-playstation",
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "0 0 16 16",
+        "href": "https://store.sony.com.co/televisores-y-teatros-en-casa/televisores",
         "noFollow": true,
-        "tagTitle": "blu-ray",
-        "text": "Reproductores de Blu-ray y DVD"
+        "tagTitle": "playstation",
+        "text": "PlayStation"
+      }
+    }
+  },
+  "menu-item#department-audio-para-auto": {
+    "title":"departament para auto",
+    "props": {
+      "id": "department-audio-auto",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://store.sony.com.co/televisores-y-teatros-en-casa/televisores",
+        "noFollow": true,
+        "tagTitle": "audio-para-auto",
+        "text": "Audio para Auto"
       }
     }
   }
