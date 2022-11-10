@@ -7,10 +7,10 @@
 }
 
 /* menu-container */
-.menuContainerNav--menu-container{
-width: 100%;
+.menuContainerNav--menu-container {
+  width: 100%;
 }
-.menuContainer--menu-container{
+.menuContainer--menu-container {
   margin-left: -26px;
 }
 
@@ -63,7 +63,6 @@ width: 100%;
   font-weight: 100;
 }
 
-
 .styledLinkContent--despartament-audio-para-auto {
   line-height: 40px;
   font-size: 16px;
@@ -72,23 +71,213 @@ width: 100%;
   font-weight: 100;
 }
 
+/* sub menu tv and teatro casa  */
+.menuItem--departament-tv-teatros-casa--isOpen {
+  background-color: rgb(241, 245, 249);
+  box-shadow: rgb(177 177 177) 0px 8px 6px -8px inset,
+    rgb(177 177 177) 0px -8px 6px -8px inset;
+}
+.submenuAccordion--sub-category-tv-teatro-casa {
+  padding-left: 43px;
 
-/* sub menu acordion  */
-
-.submenuAccordion--sub-category-tv-teatro-casa{
-padding-left: 43px;
 }
 
+.styledLinkContent--televisores {
+  line-height: 26px;
+  color:  #29292a;
+  font-size: 15px;
+}
+.styledLinkContent--teatro-en-casa {
+  line-height: 26px;
+  color:  #29292a;;
+}
+.styledLinkContent--blue-ray {
+  line-height: 26px;
+  color:  #29292a;
+  font-size: 15px;
+}
+.styledLinkContent--ver-todos-tv {
+  line-height: 26px;
+  color: rgb(69, 114, 236);
+  font-size: 15px;
+}
 
-.styledLinkContent--televisores{
-  line-height: 30px;
+/* sub category camaras */
+
+.menuItem--departament-camaras--isOpen {
+  background-color: rgb(241, 245, 249);
+  box-shadow: rgb(177 177 177) 0px 8px 6px -8px inset,
+    rgb(177 177 177) 0px -8px 6px -8px inset;
 }
-.styledLinkContent--teatro-en-casa{
-  line-height: 30px;
+.submenuAccordion--sub-category-camaras {
+  padding-left: 43px;
 }
-.styledLinkContent--blue-ray{
-  line-height: 30px;
+
+.styledLinkContent--camaras-lentes {
+  line-height: 26px;
+  color:  #29292a;
 }
-.styledLinkContent--ver-todos-tv{
-  line-height: 30px;
+.styledLinkContent--cybershot {
+  line-height: 26px;
+  color:  #29292a;
+  font-size: 15px;
+}
+.styledLinkContent--lentes {
+  line-height: 26px;
+  color:  #29292a;
+  font-size: 15px;
+}
+.styledLinkContent--accesorios-camaras {
+  line-height: 26px;
+  color:  #29292a;
+  font-size: 15px;
+}
+.styledLinkContent--camaras-de-cine {
+  line-height: 26px;
+  color:  #29292a;
+  font-size: 15px;
+}
+.styledLinkContent--ver-todos-camaras {
+  line-height: 26px;
+  color: rgb(69, 114, 236);
+  font-size: 15px;
+}
+
+/* sub category videocamaras */
+.menuItem--departament-video-camaras--isOpen {
+  background-color: rgb(241, 245, 249);
+  box-shadow: rgb(177 177 177) 0px 8px 6px -8px inset,
+    rgb(177 177 177) 0px -8px 6px -8px inset;
+}
+.submenuAccordion--sub-category-videocamaras {
+  padding-left: 43px;
+}
+
+.styledLinkContent--handycam {
+  line-height: 26px;
+  color:  #29292a;
+  font-size: 15px;
+}
+.styledLinkContent--accesorios-videocamaras {
+  line-height: 26px;
+  color:  #29292a;
+  font-size: 15px;
+}
+.styledLinkContent--camaras-de-cine {
+  line-height: 26px;
+  color:  #29292a;
+  font-size: 15px;
+}
+.styledLinkContent--accesorios-videocamaras {
+  line-height: 26px;
+  color:  #29292a;
+  font-size: 15px;
+}
+.styledLinkContent--camaras-de-cine {
+  line-height: 26px;
+  color:  #29292a;
+  font-size: 15px;
+}
+.styledLinkContent--ver-todos-videocamaras {
+  line-height: 26px;
+  color: rgb(69, 114, 236);
+  font-size: 15px;
+}
+
+/* sub category audio */
+.menuItem--departament-audio--isOpen {
+  background-color: rgb(241, 245, 249);
+  box-shadow: rgb(177 177 177) 0px 8px 6px -8px inset,
+    rgb(177 177 177) 0px -8px 6px -8px inset;
+}
+.submenuAccordion--sub-category-audio {
+  padding-left: 43px;
+}
+
+.styledLinkContent--sistema-audio {
+  line-height: 26px;
+  color:  #29292a;
+  font-size: 15px;
+}
+.styledLinkContent--parlante-inalambrico {
+  line-height: 26px;
+  color:  #29292a;
+  font-size: 15px;
+}
+.styledLinkContent--audifonos {
+  line-height: 26px;
+  color:  #29292a;
+  font-size: 15px;
+}
+.styledLinkContent--reproductores-digital {
+  line-height: 26px;
+  color:  #29292a;
+  font-size: 15px;
+}
+.styledLinkContent--ver-todos-audio {
+  line-height: 26px;
+  color: rgb(69, 114, 236);
+  font-size: 15px;
+}
+
+/* sub category playstation */
+.menuItem--departament-playstation--isOpen {
+  background-color: rgb(241, 245, 249);
+  box-shadow: rgb(177 177 177) 0px 8px 6px -8px inset,
+    rgb(177 177 177) 0px -8px 6px -8px inset;
+}
+.submenuAccordion--sub-category-playstation {
+  padding-left: 43px;
+}
+
+.styledLinkContent--playstation-5 {
+  line-height: 26px;
+  color:  #29292a;
+  font-size: 15px;
+}
+.styledLinkContent--consolas {
+  line-height: 26px;
+  color:  #29292a;
+  font-size: 15px;
+}
+.styledLinkContent--juegos {
+  line-height: 26px;
+  color:  #29292a;
+  font-size: 15px;
+}
+.styledLinkContent--accesorios-playstation {
+  line-height: 26px;
+  color:  #29292a;
+  font-size: 15px;
+}
+.styledLinkContent--ver-todos-playstation {
+  line-height: 26px;
+  color: rgb(69, 114, 236);
+}
+
+/* sub category audio para auto */
+.menuItem--despartament-audio-para-auto--isOpen {
+  background-color: rgb(241, 245, 249);
+  box-shadow: rgb(177 177 177) 0px 8px 6px -8px inset,
+    rgb(177 177 177) 0px -8px 6px -8px inset;
+}
+.submenuAccordion--sub-category-audio-para-auto {
+  padding-left: 43px;
+}
+
+.styledLinkContent--reproductores-automovil {
+  line-height: 26px;
+  color:  #29292a;
+  font-size: 15px;
+}
+.styledLinkContent--bocinas-amplificadores {
+  line-height: 26px;
+  color:  #29292a;
+  font-size: 15px;
+}
+
+.styledLinkContent--ver-todos-audio-para-auto {
+  line-height: 26px;
+  color: rgb(69, 114, 236);
+  font-size: 15px;
 }

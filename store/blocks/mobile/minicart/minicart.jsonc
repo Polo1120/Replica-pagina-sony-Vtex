@@ -1,0 +1,42 @@
+{
+  "minicart.v2#phone":{
+    "props": {
+      "variation": "drawer",
+      "itemCountMode": "total",
+      "blockClass": "minicart-phone"
+    },
+    "children": [
+      "minicart-base-content#phone"
+    ]
+  },
+  "minicart-base-content#phone":{
+    "blocks":["minicart-empty-state"],
+    "children":[
+      "minicart-product-list",
+      "flex-layout.row#minicart_footer"
+    ]
+  },
+  "minicart-empty-state":{
+    "children":[
+      "flex-layout.row#minicart-empty"
+    ]
+  },
+  "flex-layout.row#minicart-empty":{
+    "children":[
+      "rich-text#minicart-empty--text"
+    ]
+  },
+  "flex-layout.row#minicart_footer":{
+    "children":[
+     "minicart-summary",
+     "minicart-checkout-button" 
+    ]
+  },
+  "rich-text#minicart-empty--text":{
+    "props": {
+      "text": "Su carrito está vacío.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

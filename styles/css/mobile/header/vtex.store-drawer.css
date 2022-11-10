@@ -4,7 +4,7 @@
   align-items: center;
 }
 
-/* contenedor drawew */
+/* contenedor drawer */
 .opened--drawer--mobile{
   top:47px
 }
@@ -15,4 +15,9 @@
 
 .closeIconContainer--drawer--mobile{
   display: none;
+}
+
+
+.overlay--drawer--mobile{
+opacity: 0 !important;
 }
