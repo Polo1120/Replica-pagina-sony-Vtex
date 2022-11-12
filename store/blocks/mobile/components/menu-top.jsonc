@@ -1,17 +1,20 @@
 {
   "flex-layout.col#menu-top-mobile": {
+    "title": "col menu ayuda",
     "children": ["menu#menu-top"],
     "props": {
-      "width": "3%"
+      "width": "20%"
     }
   },
   "menu#menu-top": {
-    "children": ["menu-item#ayuda-mobile", "menu-item#more-options-mobile"],
+    "title": "menu ayuda",
+    "children": ["menu-item#ayuda-mobile"],
     "props": {
       "blockClass": "menu-top-mobile"
     }
   },
   "menu-item#ayuda-mobile": {
+    "title": "menu item ayuda",
     "props": {
       "id": "ayuda-menu",
       "type": "custom",
@@ -25,19 +28,35 @@
       "blockClass": "menu-ayuda-mobile"
     }
   },
+  "flex-layout.col#menu-more-options-mobile": {
+    "title": "col menu more options",
+    "children": ["menu#more-options-mobile"]
+  },
+  "menu#more-options-mobile": {
+    "title": "menu options mobile",
+    "children": ["menu-item#more-options-mobile"],
+    "props": {
+      "blockClass": "menu-more-options-mobile"
+    }
+  },
   "menu-item#more-options-mobile": {
+    "title": "category item options mobile ",
     "props": {
       "iconProps": {
         "id": "icon-puntos",
         "size": 20,
-        "viewBox": "0 0 210 210"
+        "viewBox": "0 0 210 210",
+        "onMountBehavior": "open"
       },
       "blockClass": "menu-more-options-mobile"
     },
     "blocks": ["submenu#submenu-mobile-more-options-mobile"]
   },
   "submenu#submenu-mobile-more-options-mobile": {
-    "children": ["menu#submenu-mobile-more-options"]
+    "children": ["menu#submenu-mobile-more-options"],
+    "props": {
+      "blockClass": "submenu-more-options-mobile"
+    }
   },
   "menu#submenu-mobile-more-options": {
     "title": "Sub menu more options",
@@ -53,6 +72,7 @@
     }
   },
   "menu-item#submenu-mobile-micuenta": {
+    "title": "sub menu mobile mi cuenta ",
     "props": {
       "id": "menu-item-seguimiento-pedido",
       "type": "custom",
@@ -73,6 +93,7 @@
     }
   },
   "menu-item#submenu-mobile-ayuda": {
+    "title": "sub menu mobile ayuda",
     "props": {
       "id": "id-submenu-mobile-ayuda",
       "type": "custom",
@@ -93,6 +114,7 @@
     }
   },
   "menu-item#submenu-mobile-login-sony": {
+    "title": "sub menu login sony mobile",
     "props": {
       "id": "id-login-sony",
       "type": "custom",
@@ -113,6 +135,7 @@
     }
   },
   "menu-item#submenu-mobile-sitio-sony": {
+    "title": "sub menu sitio sony mobile",
     "props": {
       "id": "id-sitio-sony",
       "type": "custom",

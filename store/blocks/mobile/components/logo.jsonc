@@ -1,0 +1,10 @@
+{
+  "flex-layout.col#logo-mobile": {
+    "title":"logo mobile",
+    "props": {
+      "blockClass":"container-logo-mobile",
+      "width": "40%"
+    },
+    "children": ["logo"]
+  }
+}

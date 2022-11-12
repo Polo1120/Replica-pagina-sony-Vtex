@@ -3,8 +3,7 @@
     "title": "container drawer",
     "children": ["drawer#mobile"],
     "props": {
-      "blockClass": "col-drawer-container",
-      "width": "14%"
+      "blockClass": "col-drawer-container"
     }
   },
   "drawer#mobile": {
@@ -35,9 +34,6 @@
     "props": {
       "id": "department-one",
       "type": "custom",
-      "iconProps":{
-        
-      },
       "itemProps": {
         "type": "external",
         "href": "https://store.sony.com.co/promociones%20?order=",

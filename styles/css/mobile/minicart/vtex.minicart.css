@@ -1,0 +1,26 @@
+.openIconContainer--minicart-phone {
+  display: flex !important;
+  height: 47px;
+  align-items: center;
+}
+
+/* drawer minicart */
+
+.opened--minicart-phone {
+  top: 48px;
+}
+.closed--minicart-phone {
+  top: 48px;
+}
+
+.overlay--minicart-phone {
+  opacity: 0 !important;
+}
+
+.closeIconContainer--minicart-phone {
+  display: none;
+}
+
+.minicartTitle--minicart-base-content {
+  display: none;
+}

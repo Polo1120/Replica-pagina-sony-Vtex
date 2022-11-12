@@ -202,7 +202,10 @@
         "tagTitle": "login-sony",
         "text": "Login Sony"
       },"blockClass":"submenu-item-login-sony"
-    }
+    },
+    "children":[
+      "login"
+    ]
   },
   "menu-item#submenu-sitio-sony": {
     "props": {

@@ -1,10 +1,16 @@
 {
   "header-layout.mobile": {
     "title": "header layout mobile",
-    "children": ["sticky-layout#mobile"]
+    "children": ["sticky-layout#mobile"],
+    "props":{
+     "blockClass":"header-layout-mobile" 
+    }
   },
   "sticky-layout#mobile": {
     "title":"sticky mobile",
+    "props":{
+      "blockClass":"sticky-mobile"
+    },
     "children": ["flex-layout.row#mobile"]
   },
   "flex-layout.row#mobile": {
@@ -14,24 +20,17 @@
       "flex-layout.col#logo-mobile",
       "flex-layout.col#icon-search-mobile",
       "flex-layout.col#menu-top-mobile",
-      "minicart.v2#phone"
+      "flex-layout.col#menu-more-options-mobile",
+      "flex-layout.col#minicart-col"
     ],
     "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
       "blockClass": "header-mobile",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
   },
-  "search-bar#mobile":{
-    "title":"search-bar",
-    "props": {
-     "maxWidth": 90
-    }
-  },
- /*  "login": {
+  "login": {
     "props": {
       "emailAndPasswordTitle": "LOG-IN",
       "accessCodeTitle": "Acess Code LOG-IN",
@@ -39,39 +38,6 @@
       "passwordPlaceholder": "password",
       "showPasswordVerificationIntoTooltip": true,
       "showIconProfile": true
-    }
-  }, */
-
-  "flex-layout.col#logo-mobile": {
-    "title":"logo mobile",
-    "props": {
-      "blockClass":"container-logo-mobile"
-    },
-    "children": ["logo"]
-  },
-
-  "flex-layout.col#icon-search-mobile":{
-    "title":"col icon search mobile",
-    "children":[
-      "flex-layout.col#container-icon-search-mobile"
-    ]
-  },
-  "flex-layout.col#container-icon-search-mobile":{
-    "title":"container icon search mobile",
-    "children":[
-      "icon#search-mobile"
-    ],
-    "props":{
-      "blockClass":"container-icon-search-mobile"
-    }
-  },
-  "icon#search-mobile":{
-    "title":"icon search",
-    "props":{
-      "id":"icon-search",
-      "size": 20,
-      "blockClass": "icono-search-mobile",
-      "viewBox": "0 0 612 612"
     }
   }
 }

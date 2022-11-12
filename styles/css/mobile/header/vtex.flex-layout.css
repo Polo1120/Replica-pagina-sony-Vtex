@@ -20,3 +20,53 @@
   width: 40px;
 }
 
+.flexRowContent--container-info-cart{
+  display: flex;
+}
+
+.flexRowContent--container-text-quantity-selector{
+  display: flex;
+}
+
+
+
+
+
+
+@media screen and (min-width: 426px) {
+  .flexRowContent--header-mobile{
+    display: flex;
+    justify-content: space-between !important;
+    padding: 0 5rem;
+  }
+
+
+  
+}
+
+@media screen and (max-width: 425px) {
+  .flexRowContent--header-mobile{
+    display: flex;
+    justify-content: space-between !important;
+    
+  }
+
+  .flexColChild--col-drawer-container{
+    padding-left: 10px;
+   }
+
+ 
+  
+}
+
+
+@media screen and (min-width: 320px) {
+  .flexRowContent--header-mobile{
+    display: flex;
+    justify-content: space-between !important;
+    
+  }
+
+
+  
+}

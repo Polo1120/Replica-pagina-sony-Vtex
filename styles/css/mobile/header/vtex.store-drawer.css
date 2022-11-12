@@ -1,15 +1,14 @@
 .openIconContainer--drawer--mobile{
   color: white;
-  display: flex;
-  align-items: center;
+  
 }
 
 /* contenedor drawer */
 .opened--drawer--mobile{
-  top:47px
+  top:48px
 }
 .closed--drawer--mobile{
-  top:47px
+  top:48px
 
 }
 
@@ -21,3 +20,5 @@
 .overlay--drawer--mobile{
 opacity: 0 !important;
 }
+
+
