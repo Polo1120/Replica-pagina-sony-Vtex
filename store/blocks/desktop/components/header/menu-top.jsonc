@@ -31,7 +31,7 @@
       "size": 20,
       "orientation": "right",
       "blockClass": "icono-telef",
-      "viewBox": "0 0 512 512"
+      "viewBox": "0 0 612 612"
     }
   },
   "rich-text#text-contact": {
@@ -202,7 +202,10 @@
         "tagTitle": "login-sony",
         "text": "Login Sony"
       },"blockClass":"submenu-item-login-sony"
-    }
+    },
+    "children":[
+      "login"
+    ]
   },
   "menu-item#submenu-sitio-sony": {
     "props": {

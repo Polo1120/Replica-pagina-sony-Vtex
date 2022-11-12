@@ -1,0 +1,158 @@
+{
+  "flex-layout.col#menu-top-mobile": {
+    "title": "col menu ayuda",
+    "children": ["menu#menu-top"],
+    "props": {
+      "width": "20%"
+    }
+  },
+  "menu#menu-top": {
+    "title": "menu ayuda",
+    "children": ["menu-item#ayuda-mobile"],
+    "props": {
+      "blockClass": "menu-top-mobile"
+    }
+  },
+  "menu-item#ayuda-mobile": {
+    "title": "menu item ayuda",
+    "props": {
+      "id": "ayuda-menu",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "0 0 16 16",
+        "noFollow": true,
+        "tagTitle": "ayuda-menu",
+        "text": "Ayuda"
+      },
+      "blockClass": "menu-ayuda-mobile"
+    }
+  },
+  "flex-layout.col#menu-more-options-mobile": {
+    "title": "col menu more options",
+    "children": ["menu#more-options-mobile"]
+  },
+  "menu#more-options-mobile": {
+    "title": "menu options mobile",
+    "children": ["menu-item#more-options-mobile"],
+    "props": {
+      "blockClass": "menu-more-options-mobile"
+    }
+  },
+  "menu-item#more-options-mobile": {
+    "title": "category item options mobile ",
+    "props": {
+      "iconProps": {
+        "id": "icon-puntos",
+        "size": 20,
+        "viewBox": "0 0 210 210",
+        "onMountBehavior": "open"
+      },
+      "blockClass": "menu-more-options-mobile"
+    },
+    "blocks": ["submenu#submenu-mobile-more-options-mobile"]
+  },
+  "submenu#submenu-mobile-more-options-mobile": {
+    "children": ["menu#submenu-mobile-more-options"],
+    "props": {
+      "blockClass": "submenu-more-options-mobile"
+    }
+  },
+  "menu#submenu-mobile-more-options": {
+    "title": "Sub menu more options",
+    "children": [
+      "menu-item#submenu-mobile-micuenta",
+      "menu-item#submenu-mobile-ayuda",
+      "menu-item#submenu-mobile-login-sony",
+      "menu-item#submenu-mobile-sitio-sony"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submenu-mobile-more-options-mobile"
+    }
+  },
+  "menu-item#submenu-mobile-micuenta": {
+    "title": "sub menu mobile mi cuenta ",
+    "props": {
+      "id": "menu-item-seguimiento-pedido",
+      "type": "custom",
+      "highlight": false,
+      "iconProps": {
+        "id": "icon-user",
+        "size": 15,
+        "viewBox": "0 0 32 32"
+      },
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "mi-cuenta",
+        "text": "Mi Cuenta"
+      },
+      "blockClass": "submenu-mobile-item-micuenta"
+    }
+  },
+  "menu-item#submenu-mobile-ayuda": {
+    "title": "sub menu mobile ayuda",
+    "props": {
+      "id": "id-submenu-mobile-ayuda",
+      "type": "custom",
+      "highlight": false,
+      "iconProps": {
+        "id": "icon-ayuda",
+        "size": 15,
+        "viewBox": "0 0 473.733 473.733"
+      },
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "ayuda",
+        "text": "Ayuda"
+      },
+      "blockClass": "submenu-mobile-item-ayuda"
+    }
+  },
+  "menu-item#submenu-mobile-login-sony": {
+    "title": "sub menu login sony mobile",
+    "props": {
+      "id": "id-login-sony",
+      "type": "custom",
+      "highlight": false,
+      "iconProps": {
+        "id": "icon-user",
+        "size": 15,
+        "viewBox": "0 0 32 32"
+      },
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "login-sony",
+        "text": "Login Sony"
+      },
+      "blockClass": "submenu-mobile-item-login-sony"
+    }
+  },
+  "menu-item#submenu-mobile-sitio-sony": {
+    "title": "sub menu sitio sony mobile",
+    "props": {
+      "id": "id-sitio-sony",
+      "type": "custom",
+      "highlight": false,
+      "iconProps": {
+        "id": "icon-mundo",
+        "size": 15,
+        "viewBox": "0 0 64 64"
+      },
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.sony.com.co/",
+        "noFollow": true,
+        "tagTitle": "sitio-sony",
+        "text": "Sitio Sony"
+      },
+      "blockClass": "submenu-mobile-item-sitio-sony"
+    }
+  }
+}

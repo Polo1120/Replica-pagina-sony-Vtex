@@ -38,7 +38,8 @@
     "title":"Col list context",
     "children": ["list-context.product-list#ofertas-list"],
     "props": {
-      "width": "100%"
+      "width": "100%",
+      "preserveLayoutOnMobile": true
     }
   },
 
@@ -67,7 +68,8 @@
     "title":"slider product oferta",
     "props": {
       "itemsPerPage": {
-        "desktop": 4
+        "desktop": 4,
+        "phone":2
       },
       "infinite": true,
       "fullWidth": false,

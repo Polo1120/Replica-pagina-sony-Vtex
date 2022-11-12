@@ -1,0 +1,43 @@
+{
+  "header-layout.mobile": {
+    "title": "header layout mobile",
+    "children": ["sticky-layout#mobile"],
+    "props":{
+     "blockClass":"header-layout-mobile" 
+    }
+  },
+  "sticky-layout#mobile": {
+    "title":"sticky mobile",
+    "props":{
+      "blockClass":"sticky-mobile"
+    },
+    "children": ["flex-layout.row#mobile"]
+  },
+  "flex-layout.row#mobile": {
+    "title":"container header mobile",
+    "children": [
+      "flex-layout.col#drawer-container", 
+      "flex-layout.col#logo-mobile",
+      "flex-layout.col#icon-search-mobile",
+      "flex-layout.col#menu-top-mobile",
+      "flex-layout.col#menu-more-options-mobile",
+      "flex-layout.col#minicart-col"
+    ],
+    "props": {
+      "blockClass": "header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true
+    }
+  }
+}

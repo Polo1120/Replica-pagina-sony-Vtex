@@ -1,0 +1,27 @@
+.inputContainer {
+  border: 1px solid #bcbccc;
+  width: 35px !important;
+  height: 35px;
+  padding: 0;
+  margin: 0;
+}
+.productName{
+font-size: 13px;
+}
+.quantitySelectorDecrease--quantity-selector {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: #bcbccc;
+  padding-right: 5px;
+  
+}
+
+.quantitySelectorIncrease--quantity-selector {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: #bcbccc;
+  padding-left: 5px;
+  
+}
