@@ -1,0 +1,36 @@
+{
+  "flex-layout.col#icon-search-mobile":{
+    "title":"col icon search mobile",
+    "children":[
+      "flex-layout.col#container-icon-search-mobile"
+    ],
+    "props":{
+      
+    }
+  },
+  "flex-layout.col#container-icon-search-mobile":{
+    "title":"container icon search mobile",
+    "children":[
+      "icon#search-mobile"
+    ],
+    "props":{
+      "blockClass":"container-icon-search-mobile"
+    }
+  },
+  "icon#search-mobile":{
+    "title":"icon search",
+    "props":{
+      "id":"icon-search",
+      "size": 20,
+      "blockClass": "icono-search-mobile",
+      "viewBox": "0 0 612 612"
+    }
+  },
+
+  "search-bar#mobile":{
+    "title":"search-bar",
+    "props": {
+     "maxWidth": 90
+    }
+  }
+}
