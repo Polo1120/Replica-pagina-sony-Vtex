@@ -1,0 +1,77 @@
+{
+  "flex-layout.row#product-ofertas-mobile": {
+    "title": "Container ofertas mobile ",
+    "children": [
+      "flex-layout.col#list-context-mobile",
+      "flex-layout.col#text-ofertas-mobile"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "product-ofertas-container-mobile"
+    }
+  },
+
+  "flex-layout.col#text-ofertas-mobile": {
+    "title":"Col text-oferta mobile",
+    "children": ["flex-layout.row#titulo-oferta-mobile"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "flex-layout.row#titulo-oferta-mobile": {
+    "title":"Row titulo-oferta",
+    "children": ["rich-text#oferta-title-text-mobile"],
+    "props": {
+      "width": "100%",
+      "blockClass": "titulo-productos-oferta-mobile"
+    }
+  },
+  "rich-text#oferta-title-text-mobile": {
+    "props": {
+      "text": "#### OFERTAS QUE NO TE PUEDES PERDER\n Precios especiales por tiempo limitado.",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "titulo-productos-oferta-mobile"
+    }
+  },
+  "flex-layout.col#list-context-mobile": {
+    "title":"Col list context mobile",
+    "children": ["list-context.product-list#ofertas-list-mobile"],
+    "props": {
+      "width": "100%",
+      "preserveLayoutOnMobile": true
+    }
+  },
+
+  "list-context.product-list#ofertas-list-mobile": {
+    "title":"list context ofertas mobile",
+    "blocks": ["product-summary.shelf#product-oferta-mobile"],
+    "children": ["slider-layout#product-oferta-slider-mobile"],
+    "props": {
+      "blockClass": "ofertas-list"
+    }
+  },
+  "product-summary.shelf#product-oferta-mobile": {
+    "title":"product summary ofertas mobile",
+    "children": [
+      "product-summary-add-to-list-button",
+      "product-summary-name",
+      "product-summary-image",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-identifier.summary"
+    ]
+  },
+  "slider-layout#product-oferta-slider-mobile": {
+    "title":"slider product oferta mobile",
+    "props": {
+      "itemsPerPage": {
+        "phone":2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "slider-product-oferta-mobile"
+    }
+  }
+}
