@@ -1,0 +1,79 @@
+{
+  "flex-layout.row#products-interest-mobile": {
+    "title": "Container productos que te interesaron mobile",
+    "children": [
+      "flex-layout.col#list-context-products-interest-mobile",
+      "flex-layout.col#text-products-interest-mobile"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "products-interest-container-mobile"
+    }
+  },
+
+  "flex-layout.col#text-products-interest-mobile": {
+    "title": "Col texto productos que te interesaron mobile",
+    "children": ["flex-layout.row#titulo-products-interest-mobile"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "flex-layout.row#titulo-products-interest-mobile": {
+    "title": "Row titulo productos que te interesaron  mobile",
+    "children": ["rich-text#products-interest-mobile"],
+    "props": {
+      "width": "100%",
+      "blockClass": "titulo-productos-products-interest-mobile"
+    }
+  },
+  "rich-text#products-interest-mobile": {
+    "title":"rich-text productos que te interesaron mobile",
+    "props": {
+      "text": "#### PRODUCTOS QUE TE INTERESARON\n Cómpralos antes de que se agote el stock",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "titulo-products-interest-mobile"
+    }
+  },
+  "flex-layout.col#list-context-products-interest-mobile": {
+    "title": "Col list context productos que te interesaron mobile",
+    "children": [
+      "list-context.product-list#list-context-product-products-interest-mobile"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+
+  "list-context.product-list#list-context-product-products-interest-mobile": {
+    "title": "list context productos que te interesaron mobile",
+    "blocks": ["product-summary.shelf#product-products-interest-mobile"],
+    "children": ["slider-layout#product-products-interest-slider-mobile"],
+    "props": {
+      "blockClass": "product-interest-list-context-mobile"
+    }
+  },
+  "product-summary.shelf#product-products-interest-mobile": {
+    "title": "product summary productos que te interesaron mobile",
+    "children": [
+      "product-summary-add-to-list-button",
+      "product-summary-name",
+      "product-summary-image",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-identifier.summary"
+    ]
+  },
+  "slider-layout#product-products-interest-slider-mobile": {
+    "title": "slider product productos que te interesaron mobile",
+    "props": {
+      "itemsPerPage": {
+        "mobile": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "slider-products-interest-mobile"
+    }
+  }
+}

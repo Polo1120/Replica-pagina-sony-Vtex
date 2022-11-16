@@ -1,11 +1,17 @@
 
-
-
-
 .sliderLayoutContainer--slider2-mobile{
   height: 90%;
   width: 95%;
   margin: 0 auto 50px;
   padding-top: 20px;
   
+}
+
+
+.sliderLeftArrow--home_slider-mobile{
+  display: none;
+}
+
+.sliderRightArrow--home_slider-mobile{
+  display: none;
 }

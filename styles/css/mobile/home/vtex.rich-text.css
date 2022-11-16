@@ -1,21 +1,39 @@
 /* texto slider */
-.paragraph--title-camara-usa{
+.paragraph--title-camara-usa {
   font-size: 23px;
 }
-.paragraph--subtitle-audifonos{
+.paragraph--subtitle-audifonos {
   font-size: 13px;
 }
-.paragraph--subtitle-parlante{
+.paragraph--subtitle-parlante {
   font-size: 13px;
 }
 
-
-.container--description-camara-usa{
+.container--description-camara-usa {
   margin-top: -34px;
 }
 
-
-
-.container--title-audifonos{
+.container--title-audifonos {
   margin: -35px auto 0px;
+}
+
+/* slider product ofertas */
+
+.paragraph--titulo-productos-oferta-mobile {
+  margin-top: -27px;
+}
+/* slider product camaras y lentes */
+
+.paragraph--titulo-product-camaras-lentes-mobile {
+  margin-top: -27px;
+}
+
+/* slider product playstation games */
+.paragraph--titulo-product-games-accesorios-mobile {
+  margin-top: -27px;
+
+}
+/* slider product interest */
+.paragraph--titulo-products-interest-mobile {
+  margin-top: -27px;
 }
