@@ -1,0 +1,163 @@
+{
+  "flex-layout.row#favoritos-container": {
+    "title": "container favorito store sony",
+    "children": ["flex-layout.col#favoritos-sony-container--col"],
+    "props": {
+      "blockClass": "container-favoritos-sony"
+    }
+  },
+  "flex-layout.col#favoritos-sony-text": {
+    "title": "Col text favorito store sony",
+    "children": ["rich-text#text-favoritos-sony"]
+  },
+  "rich-text#text-favoritos-sony": {
+    "props": {
+      "text": "#### FAVORITOS SONY STORE",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
+  "flex-layout.col#favoritos-sony-container--col": {
+    "title": "Col container favorito store sony",
+    "children": [
+      "flex-layout.col#favoritos-sony-text",
+      "flex-layout.col#favoritos-content"
+    ]
+  },
+  "flex-layout.col#favoritos-content": {
+    "title": "content col favorito store sony",
+    "children": ["flex-layout.row#favoritos-store-sony"]
+  },
+  "flex-layout.row#favoritos-store-sony": {
+    "title": "row container favoritos store sony",
+    "children": [
+      "flex-layout.col#favoritos-cine-casa",
+      "flex-layout.col#favoritos-captura-el-momento",
+      "flex-layout.col#favoritos-audio-premiun",
+      "flex-layout.col#favoritos-playstation"
+    ],
+    "props": {
+      "blockClass": "container-col-favoritos"
+    }
+  },
+  "flex-layout.col#favoritos-cine-casa": {
+    "title": "Col favorito cine en casa",
+    "children": [
+      "flex-layout.col#content-cine-casa-img",
+      "flex-layout.col#content-cine-casa-text",
+      "flex-layout.col#content-cine-casa-text-link"
+    ],
+    "props": {
+      "blockClass": "col-favoritos-cine-casa",
+      "width": "25%"
+    }
+  },
+  "flex-layout.col#content-cine-casa-img": {
+    "children": ["image#tv-favorito"]
+  },
+  "image#tv-favorito": {
+    "props": {
+      "src": "assets/img/tv-favorito.jpg"
+    }
+  },
+  "flex-layout.col#content-cine-casa-text": {
+    "children": ["rich-text#cine-en-casa"]
+  },
+  "rich-text#cine-en-casa": {
+    "props": {
+      "text": "Cine en Casa"
+    }
+  },
+  "flex-layout.col#content-cine-casa-text-link": {
+    "title":"Col content link cine en casa",
+    "children": [
+      "rich-text#cine-en-casa-link",
+      "rich-text#telvisores-smart-con-google-tv",
+      "rich-text#barras-de-sonido-y-teatros",
+      "rich-text#reproductores-blu-ray"
+    ]
+  },
+  "rich-text#cine-en-casa-link": {
+    "props": {
+      "text": "[Televisores Full Array LED](https://store.sony.com.co/xbr-55x905h/p?cpint=HOME_FAVLINK-1-1_FullArray)",
+      "blockClass": "favoritos-sony-container"
+    }
+  },
+  "rich-text#telvisores-smart-con-google-tv": {
+    "props": {
+      "text": "[Telvisores Smart con Google TV](https://store.sony.com.co/xbr-55x905h/p?cpint=HOME_FAVLINK-1-1_FullArray)",
+      "blockClass": "favoritos-sony-container"
+    }
+  },
+  "rich-text#barras-de-sonido-y-teatros": {
+    "props": {
+      "text": "[Barras de Sonido y Teatros](https://store.sony.com.co/xbr-55x)",
+      "blockClass": "favoritos-sony-container"
+    }
+  },
+  "rich-text#reproductores-blu-ray": {
+    "props": {
+      "text": "[Reproductores Blu-ray](https://store.sony.com.co/xbr-55x)",
+      "blockClass": "favoritos-sony-container"
+    }
+  },
+  "flex-layout.col#favoritos-captura-el-momento": {
+    "children": [
+      "flex-layout.col#content-captura-el-momento-img",
+      "flex-layout.col#content-captura-el-momento-text",
+      "flex-layout.col#content-captura-el-movento-text-link"
+    ],
+    "props": {
+      "width": "25%"
+    }
+  },
+  "flex-layout.col#content-captura-el-momento-img": {
+    "children": ["image#captura-el-momento-favorito"]
+  },
+
+  "flex-layout.col#content-captura-el-momento-text": {
+    "children":[
+      "rich-text#captura-el-momento-title"
+    ]
+  },
+  "rich-text#captura-el-momento-title":{
+    "props": {
+      "text": ""
+    }
+  },
+  "flex-layout.col#content-captura-el-movento-text-link": {
+    "children":[
+      
+    ]
+    
+  },
+  "image#captura-el-momento-favorito": {
+    "props": {
+      "src": "assets/img/captura-el-momento.jpg"
+    }
+  },
+  "flex-layout.col#favoritos-audio-premiun": {
+    "children": ["image#audio-premiun-favorito"],
+    "props": {
+      "width": "25%"
+    }
+  },
+  "image#audio-premiun-favorito": {
+    "props": {
+      "src": "assets/img/parlantes-favorito.jpg",
+      "maxHeight": "100%",
+      "maxWidth": "120%"
+    }
+  },
+  "flex-layout.col#favoritos-playstation": {
+    "children": ["image#playstation-favorito"],
+    "props": {
+      "width": "25%"
+    }
+  },
+  "image#playstation-favorito": {
+    "props": {
+      "src": "assets/img/playstation-favorito.jpg"
+    }
+  }
+}

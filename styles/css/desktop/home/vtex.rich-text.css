@@ -24,3 +24,130 @@
   transform: translateY(-50px);
 }
 
+
+/* text slider home 1 */
+.container--content-info-text1{
+  padding-left: 20%;
+}
+
+.headingLevel1--content-info-text1{
+  margin: 0%;
+  color: white;
+}
+
+.paragraph--content-info-text1{
+  color: white;
+  margin: 0;
+}
+
+
+/* text slider home 2 */
+
+
+.container--content-info-text2{
+  padding-left: 20%;
+}
+
+.headingLevel1--content-info-text2{
+  margin: 0%;
+}
+
+.paragraph--content-info-text2{
+  margin: 0;
+}
+
+/* text slider home 3 */
+.container--content-info-text3{
+  padding-left: 20%;
+}
+
+.headingLevel1--content-info-text3{
+  margin: 0%;
+}
+
+.paragraph--content-info-text3{
+  margin: 0;
+}
+
+/* link-slider-home top */
+.link--content-info-text3{
+  
+  background-color: #f25529;
+    color: #fff;
+    cursor: pointer;
+    height: 44px;
+    padding: 0 20px;
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: max-content;
+    transition: all .2s;
+}
+
+.link--content-info-text1{
+  
+  background-color: #f25529;
+    color: #fff;
+    cursor: pointer;
+    height: 44px;
+    padding: 0 20px;
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: max-content;
+    transition: all .2s;
+}
+.link--content-info-text2{
+  
+  background-color: #f25529;
+    color: #fff;
+    cursor: pointer;
+    height: 44px;
+    padding: 0 20px;
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: max-content;
+    transition: all .2s;
+}
+
+
+
+/* text impersibles del mes parlantes */
+
+.heading--text-parlantes-inalambricos{
+margin: 4px;
+}
+
+.paragraph--text-parlantes-inalambricos{
+  margin: 7px;
+}
+
+
+
+/* text container favoritos store sony */
+.paragraph--favoritos-sony-container{
+  font-size: 18px;
+  margin: 2px;
+  color: #2f353d;
+  line-height: 1!important;
+  margin-bottom: 5px;
+}
+
+.link--favoritos-sony-container{
+  color: #83838f;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.link--favoritos-sony-container:hover{
+  color: rgb(10, 10, 10);
+}

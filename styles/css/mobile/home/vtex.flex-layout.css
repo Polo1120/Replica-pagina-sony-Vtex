@@ -58,17 +58,3 @@
   padding: 45px 0;
 }
 
-.flexRow--slider-vista1 {
-  width: 100%;
-  height: 405px;
-  background-size: cover;
-  background-position: 50%;
-  background-image: url("https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/56d16dd5-381b-4eb5-bdee-e4e352f84932___f0fbca22e741a514b7f7f72d574527c8.jpg");
-}
-
-.flexRow--content-slider {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  padding-right: 50%;
-}
