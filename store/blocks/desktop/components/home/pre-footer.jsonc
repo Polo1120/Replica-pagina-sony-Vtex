@@ -12,7 +12,8 @@
     "children": [
       "flex-layout.row#title-registrate",
       "flex-layout.row#formulario",
-      "flex-layout.row#benedicios"
+      "flex-layout.row#benedicios",
+      "flex-layout.row#informacion"
     ]
   },
   "flex-layout.row#title-registrate": {
@@ -87,81 +88,201 @@
   "flex-layout.row#benedicios": {
     "title": "Row container beneficios",
     "children": ["slider-layout#benedicios"],
-    "props":{
-      "blockClass":"row-slider-benedicios"
+    "props": {
+      "blockClass": "row-slider-benedicios"
     }
   },
   "slider-layout#benedicios": {
-    "title": "Slider benedicios",
+    "title": "Slider benedicios pre-footer",
     "props": {
       "itemsPerPage": {
         "desktop": 6
       },
-      "fullWidth": true,
-      "blockClass":"slider-beneficios"
+      "fullWidth": false,
+      "blockClass": "slider-beneficios"
     },
     "children": [
-      "rich-text#compra-facil",
-      "rich-text#medios-de-pago",
-      "rich-text#evios-gratis",
-      "rich-text#tu-product-rapido",
-      "rich-text#garantia",
-      "rich-text#compra-segura"
+      "flex-layout.col#compra-facil",
+      "flex-layout.col#mdios-pago",
+      "flex-layout.col#envios-gratis",
+      "flex-layout.col#product-rapido",
+      "flex-layout.col#garantia",
+      "flex-layout.col#compra-segura"
     ]
   },
-  "rich-text#garantia": {
-    "title": "garantia",
+  "flex-layout.col#compra-facil": {
+    "title": "Col compra facil",
+    "children": [
+      "rich-text#compra-facil",
+      "rich-text#compra-facil-description"
+    ],
     "props": {
-      "text": "![garantia](assets/img/garantia-icon.png)\n Garantia\n Todas tus compras cuentan\n con el respaldo directo de\n Sony.",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "blockClass": "item-benedicios"
-    }
-  },
-  "rich-text#compra-segura": {
-    "title": "compra segura",
-    "props": {
-      "text": "![compra-segura](assets/img/compra-segura.png)\n Compra segura 100%\n certificada",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "blockClass": "item-benedicios"
-      
+      "width": "90%"
     }
   },
   "rich-text#compra-facil": {
     "title": "compra facil",
     "props": {
-      "text": "![compra-facil](assets/img/como-comprar.png)\n Compra facil\nElige tu producto, selecciona\n el medio de pago, la dirección de\n entrega y listo. ",
+      "text": "![compra-facil](assets/img/como-comprar.png)\n[Compra facil](www.sony.com)",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "item-benedicios"
+    }
+  },
+  "rich-text#compra-facil-description": {
+    "title": "compra facil description",
+    "props": {
+      "text": "Elige tu producto, selecciona el\n medio de pago, la dirección de\nentrega y listo. ",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "description-item-benedicios"
+    }
+  },
+  "flex-layout.col#mdios-pago": {
+    "title": "",
+    "children": ["rich-text#medios-de-pago", "rich-text#image-medio-pago"],
+    "props": {
+      "width": "90%",
+      "blockClass": "col-benedicios"
     }
   },
   "rich-text#medios-de-pago": {
     "title": "medio de pago",
     "props": {
-      "text": "![medios-pago](assets/img/medios-pago.png)\n Medios de pago\n ![payments2](assets/img/payments22.png)",
+      "text": "![medios-pago](assets/img/medios-pago.png)\n[Medios de pago](www.medios.com)",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "item-benedicios"
+    }
+  },
+  "rich-text#image-medio-pago": {
+    "title": "image medio de pago",
+    "props": {
+      "text": "![payments2](assets/img/payments22.png)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "img-item-benedicios"
+    }
+  },
+  "flex-layout.col#envios-gratis": {
+    "title": " Col envios gratis",
+    "children": [
+      "rich-text#evios-gratis",
+      "rich-text#evios-gratis-description"
+    ],
+    "props": {
+      "width": "90%"
     }
   },
   "rich-text#evios-gratis": {
     "title": "envios gratis",
     "props": {
-      "text": "![envios-gratis](assets/img/envios-pais.png)\n Envios GRATIS*\n *En compras superiores a\n $99.000. [Conocer mas](www.envios-gratis.com)",
+      "text": "![envios-gratis](assets/img/envios-pais.png)\n[Envios GRATIS*](www.envios-gratis.com)",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "item-benedicios"
     }
   },
+  "rich-text#evios-gratis-description": {
+    "title": "envios gratis description",
+    "props": {
+      "text": "*En compras superiores a\n $99.000. [Conocer mas](www.envios-gratis.com)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "description-item-benedicios"
+    }
+  },
+  "flex-layout.col#product-rapido": {
+    "title": "Col producto rapido",
+    "children": [
+      "rich-text#tu-product-rapido",
+      "rich-text#tu-product-rapido-description"
+    ],
+    "props": {
+      "width": "90%"
+    }
+  },
   "rich-text#tu-product-rapido": {
     "title": "tu producto rapido",
     "props": {
-      "text": "![product-rapido](assets/img/icn-test.png)\n producto rapido\nEl tiempo de entrega\ndependerá de la ciudad en la\nque te encuentres. [Conoce\nmas](www.envios-gratis.com)",
+      "text": "![product-rapido](assets/img/icn-test.png)\n[Producto rapido](www.producto.com)",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "item-benedicios"
+    }
+  },
+  "rich-text#tu-product-rapido-description": {
+    "title": "tu pedido rapido description",
+    "props": {
+      "text": "El tiempo de entrega\ndependerá de la ciudad en la\nque te encuentres.[Conoce\nmas](www.envios-gratis.com)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "description-item-benedicios"
+    }
+  },
+  "flex-layout.col#garantia": {
+    "title": "Col Garantia",
+    "children": ["rich-text#garantia", "rich-text#garantia-description"],
+    "props": {
+      "width": "90%",
+      "colGap": 20
+    }
+  },
+  "rich-text#garantia": {
+    "title": "garantia",
+    "props": {
+      "text": "![garantia](assets/img/garantia-icon.png)\n[Garantia directa](www.envios-gratis.com)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "item-benedicios"
+    }
+  },
+  "rich-text#garantia-description": {
+    "title": "garantia description",
+    "props": {
+      "text": "Todas tus compras cuentan\ncon el respaldo directo de\n Sony.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "description-item-benedicios"
+    }
+  },
+  "flex-layout.col#compra-segura": {
+    "title": "Col compra segura",
+    "children": ["rich-text#compra-segura"]
+  },
+  "rich-text#compra-segura": {
+    "title": "compra segura",
+    "props": {
+      "text": "![compra-segura](assets/img/compra-segura.png)\n[Compra segura 100%\n certificada](www.compra-segura.com)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "item-benedicios"
+    }
+  },
+ /*  necesitas informacion */
+  "flex-layout.row#informacion":{
+    "children":[
+      "rich-text#necesitas-informacion",
+      "rich-text#necesitas-informacion2"
+    ],
+    "props":{
+      "blockClass":"container-informacion"
+    }
+  },
+  "rich-text#necesitas-informacion":{
+    "props": {
+      "text": "¿Necesitas información de tu compra?",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "necesitas-info"
+    }
+  },
+  "rich-text#necesitas-informacion2":{
+    "props": {
+      "text": "Escríbenos a compras.online@am.sony.com\n para solucionar tus dudas en el proceso de compra, envío, entrega o estado de tu pedido.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "necesitas-info2"
     }
   }
 }

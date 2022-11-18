@@ -183,3 +183,57 @@ margin: 4px;
   width: 65px;
   height: 65px;
 }
+
+
+.link--item-benedicios{
+  color: #f75229;
+  font-size: 18px;
+  margin: 0;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none; 
+}
+
+/* description-item-benedicios */
+.container--description-item-benedicios{
+margin-top: -4px;
+}
+
+
+.paragraph--description-item-benedicios{
+  color: #83838f;
+    font-size: 12px;
+    margin: 0;
+    text-align: center;
+}
+
+.image--img-item-benedicios{
+  width: auto;
+  height: 87px;
+  margin-top: -31px;
+}
+
+/* necesitas-info */
+
+.paragraph--necesitas-info{
+  font-size: 35px;
+ 
+}
+
+.container--necesitas-info{
+  height: 50px;
+}
+.container--necesitas-info2{
+margin-top: -10px;
+}
+.paragraph--necesitas-info2{
+  margin-top: 20px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 300;
+ 
+}
+
+.link--necesitas-info2{
+text-decoration: none;
+}

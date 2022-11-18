@@ -112,6 +112,8 @@
     max-width: 1192px;
     display: flex;
     justify-content: center;
+    
+    
 }
 
 @media screen and (min-width: 1280px){
@@ -135,8 +137,22 @@
 
 
 .flexRowContent--row-slider-benedicios{
-  width: 80%;
+  width: 90%;
   margin-top: 3.5em !important;
   margin: 0 auto;
 }
 
+
+
+/* necesitas information */
+
+.flexRowContent--container-informacion{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 26px;
+}
+
+.flexRowContent--container-informacion :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: 54% !important;
+}
