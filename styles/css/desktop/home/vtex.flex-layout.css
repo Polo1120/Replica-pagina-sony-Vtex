@@ -124,3 +124,19 @@
 .flexRowContent--container-favoritos-sony{
   margin-top: 2rem;
 }
+
+
+
+@media screen and (min-width: 1000px) {
+  .stretchChildrenWidth{
+    
+  }
+}
+
+
+.flexRowContent--row-slider-benedicios{
+  width: 80%;
+  margin-top: 3.5em !important;
+  margin: 0 auto;
+}
+

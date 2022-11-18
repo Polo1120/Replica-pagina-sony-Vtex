@@ -11,6 +11,7 @@
     "children": ["rich-text#text-favoritos-sony"]
   },
   "rich-text#text-favoritos-sony": {
+    "title": "Favoritos Sony Store",
     "props": {
       "text": "#### FAVORITOS SONY STORE",
       "textPosition": "CENTER",
@@ -33,7 +34,7 @@
     "children": [
       "flex-layout.col#favoritos-cine-casa",
       "flex-layout.col#favoritos-captura-el-momento",
-      "flex-layout.col#favoritos-audio-premiun",
+      "flex-layout.col#favoritos-audio-premium",
       "flex-layout.col#favoritos-playstation"
     ],
     "props": {
@@ -44,7 +45,7 @@
     "title": "Col favorito cine en casa",
     "children": [
       "flex-layout.col#content-cine-casa-img",
-      "flex-layout.col#content-cine-casa-text",
+      "flex-layout.col#content-cine-casa-title",
       "flex-layout.col#content-cine-casa-text-link"
     ],
     "props": {
@@ -56,52 +57,65 @@
     "children": ["image#tv-favorito"]
   },
   "image#tv-favorito": {
+    "title":"imagen cine en casa",
     "props": {
-      "src": "assets/img/tv-favorito.jpg"
+      "src": "assets/img/tv-favorito2.jpg",
+      "link": {
+        "url": "https://store.sony.com.co/zv-e10l/p?cpint=HOME-SPAN1-CO-VLOGGERS-SEP-2022",
+        "newTab":true,
+        "attributesNoFollow": true
+      }
     }
   },
-  "flex-layout.col#content-cine-casa-text": {
+  "flex-layout.col#content-cine-casa-title": {
+    "title":"col content cine en casa title",
     "children": ["rich-text#cine-en-casa"]
   },
   "rich-text#cine-en-casa": {
+    "title": "Cine en casa Title",
     "props": {
       "text": "Cine en Casa"
     }
   },
   "flex-layout.col#content-cine-casa-text-link": {
-    "title":"Col content link cine en casa",
+    "title": "Col content link cine en casa",
     "children": [
-      "rich-text#cine-en-casa-link",
+      "rich-text#televisores-full-array-led",
       "rich-text#telvisores-smart-con-google-tv",
       "rich-text#barras-de-sonido-y-teatros",
       "rich-text#reproductores-blu-ray"
     ]
   },
-  "rich-text#cine-en-casa-link": {
+  "rich-text#televisores-full-array-led": {
+    "title": "Televisores Full Array LED Link",
     "props": {
       "text": "[Televisores Full Array LED](https://store.sony.com.co/xbr-55x905h/p?cpint=HOME_FAVLINK-1-1_FullArray)",
       "blockClass": "favoritos-sony-container"
     }
   },
   "rich-text#telvisores-smart-con-google-tv": {
+    "title": "Telvisores Smart con Google TV Link",
     "props": {
       "text": "[Telvisores Smart con Google TV](https://store.sony.com.co/xbr-55x905h/p?cpint=HOME_FAVLINK-1-1_FullArray)",
       "blockClass": "favoritos-sony-container"
     }
   },
   "rich-text#barras-de-sonido-y-teatros": {
+    "title": "Barras de Sonido y Teatros Link",
     "props": {
       "text": "[Barras de Sonido y Teatros](https://store.sony.com.co/xbr-55x)",
       "blockClass": "favoritos-sony-container"
     }
   },
   "rich-text#reproductores-blu-ray": {
+    "title": "Reproductores Blu-ray Link",
     "props": {
       "text": "[Reproductores Blu-ray](https://store.sony.com.co/xbr-55x)",
       "blockClass": "favoritos-sony-container"
     }
   },
   "flex-layout.col#favoritos-captura-el-momento": {
+    "title": "Col favoritos captura el momentento",
     "children": [
       "flex-layout.col#content-captura-el-momento-img",
       "flex-layout.col#content-captura-el-momento-text",
@@ -112,52 +126,213 @@
     }
   },
   "flex-layout.col#content-captura-el-momento-img": {
+    "title": "Col conatiner imagen captura el momentento",
     "children": ["image#captura-el-momento-favorito"]
   },
-
-  "flex-layout.col#content-captura-el-momento-text": {
-    "children":[
-      "rich-text#captura-el-momento-title"
-    ]
-  },
-  "rich-text#captura-el-momento-title":{
+  "image#captura-el-momento-favorito": {
+    "title":"imagen captura el momentento",
     "props": {
-      "text": ""
+      "src": "assets/img/captura-el-momento.jpg",
+      "link": {
+        "url": "https://store.sony.com.co/zv-e10l/p?cpint=HOME-SPAN1-CO-VLOGGERS-SEP-2022",
+        "newTab":true,
+        "attributesNoFollow": true
+      }
+    }
+  },
+  "flex-layout.col#content-captura-el-momento-text": {
+    "title": "Col conatiner text captura el momentento",
+    "children": ["rich-text#captura-el-momento-title"]
+  },
+  "rich-text#captura-el-momento-title": {
+    "props": {
+      "text": "Captura el Momento"
     }
   },
   "flex-layout.col#content-captura-el-movento-text-link": {
-    "children":[
-      
+    "title": "Col conatiner link captura el momentento",
+    "children": [
+      "rich-text#camaras-profesionales-alpha",
+      "rich-text#lentes-g-master",
+      "rich-text#camaras-vlogger",
+      "rich-text#camaras-cinema-line"
     ]
-    
   },
-  "image#captura-el-momento-favorito": {
+  "rich-text#camaras-profesionales-alpha": {
+    "title": "Cámaras profesionales Alpha Link",
     "props": {
-      "src": "assets/img/captura-el-momento.jpg"
+      "text": "[Cámaras profesionales Alpha](https://www.)",
+      "blockClass": "favoritos-sony-container"
     }
   },
-  "flex-layout.col#favoritos-audio-premiun": {
-    "children": ["image#audio-premiun-favorito"],
+  "rich-text#lentes-g-master": {
+    "title": "Lentes G-Master Link",
+    "props": {
+      "text": "[Lentes G-Master](https://www.lentes)",
+      "blockClass": "favoritos-sony-container"
+    }
+  },
+  "rich-text#camaras-vlogger": {
+    "title": "Cámaras Vlogger Link",
+    "props": {
+      "text": "[Cámaras Vlogger](https://www.vlogger)",
+      "blockClass": "favoritos-sony-container"
+    }
+  },
+  "rich-text#camaras-cinema-line": {
+    "title": "Camaras Cinema Line Link",
+    "props": {
+      "text": "[Cámaras Cinema Line](https://www.cine)",
+      "blockClass": "favoritos-sony-container"
+    }
+  },
+  "flex-layout.col#favoritos-audio-premium": {
+    "title": "Col conatiner audio premium",
+    "children": [
+      "flex-layout.col#content-audio-premium",
+      "flex-layout.col#content-audio-premium-title",
+      "flex-layout.col#content-audio-premium-text-link"
+    ],
     "props": {
       "width": "25%"
     }
   },
-  "image#audio-premiun-favorito": {
+  "flex-layout.col#content-audio-premium": {
+    "title": "Col content audio premium",
+    "children": ["image#audio-premium-favorito"]
+  },
+  "image#audio-premium-favorito": {
+    "title": "img audio premium",
     "props": {
-      "src": "assets/img/parlantes-favorito.jpg",
-      "maxHeight": "100%",
-      "maxWidth": "120%"
+      "src": "assets/img/parlantes-favorito2.jpg",
+      "link": {
+        "url": "https://store.sony.com.co/zv-e10l/p?cpint=HOME-SPAN1-CO-VLOGGERS-SEP-2022",
+        "newTab":true,
+        "attributesNoFollow": true
+      }
     }
   },
+  "flex-layout.col#content-audio-premium-title": {
+    "title": "Col content title audio premium",
+    "children": ["rich-text#audio-premium"]
+  },
+  "rich-text#audio-premium": {
+    "title": "Audio Premium Title",
+    "props": {
+      "text": "Audio Premium"
+    }
+  },
+
+  "flex-layout.col#content-audio-premium-text-link": {
+    "title": "Col conatiner link audio premium",
+    "children": [
+      "rich-text#sistemas-de-audio-serie-v",
+      "rich-text#sistemas-de-audio-hi-res",
+      "rich-text#parlantes-bluetooth",
+      "rich-text#360-reality-audio"
+    ]
+  },
+
+  "rich-text#sistemas-de-audio-serie-v": {
+    "title": "Sistemas de audio Serie V Link",
+    "props": {
+      "text": "[Sistemas de audio Serie V](https:www.sony.com)",
+      "blockClass": "favoritos-sony-container"
+    }
+  },
+  "rich-text#sistemas-de-audio-hi-res": {
+    "title": "Sistemas de Audio Hi-res Link",
+    "props": {
+      "text": "[Sistemas de Audio Hi-res](https:www.sony.com)",
+      "blockClass": "favoritos-sony-container"
+    }
+  },
+  "rich-text#parlantes-bluetooth": {
+    "title": "Parlantes Bluetooth Link",
+    "props": {
+      "text": "[Parlantes Bluetooth](https:www.sony.com)",
+      "blockClass": "favoritos-sony-container"
+    }
+  },
+  "rich-text#360-reality-audio": {
+    "title": "360 Reality Audio Link",
+    "props": {
+      "text": "[360 Reality Audio](https:www.sony.com)",
+      "blockClass": "favoritos-sony-container"
+    }
+  },
+
   "flex-layout.col#favoritos-playstation": {
-    "children": ["image#playstation-favorito"],
+    "title": "Col container favorito sony playstation",
+    "children": [
+      "flex-layout.col#content-playstation",
+      "flex-layout.col#content-playstation-title",
+      "flex-layout.col#content-playstation-text-link"
+    ],
     "props": {
       "width": "25%"
     }
+  },
+  "flex-layout.col#content-playstation": {
+    "title": "Col container favorito sony playstation",
+    "children": ["image#playstation-favorito"]
   },
   "image#playstation-favorito": {
+    "title": "image playstation favorito sony",
     "props": {
-      "src": "assets/img/playstation-favorito.jpg"
+      "src": "assets/img/playstation-favorito2.jpg",
+      "link": {
+        "url": "https://store.sony.com.co/zv-e10l/p?cpint=HOME-SPAN1-CO-VLOGGERS-SEP-2022",
+        "newTab":true,
+        "attributesNoFollow": true
+      }
+    }
+  },
+  "flex-layout.col#content-playstation-title": {
+    "title": "Col conatiner playstation title",
+    "children": ["rich-text#playstation"]
+  },
+  "rich-text#playstation": {
+    "title": "Playstation Title",
+    "props": {
+      "text": "Playstation"
+    }
+  },
+  "flex-layout.col#content-playstation-text-link": {
+    "title": "Col conatiner playstation link",
+    "children": [
+      "rich-text#playstation-5",
+      "rich-text#juegos-playstation",
+      "rich-text#accesorios-playstation",
+      "rich-text#controles-dualsense"
+    ]
+  },
+  "rich-text#playstation-5": {
+    "title": "Playstation 5 Link",
+    "props": {
+      "text": "[Playstation 5](https:www.sony.com)",
+      "blockClass": "favoritos-sony-container"
+    }
+  },
+  "rich-text#juegos-playstation": {
+    "title": "Juegos Playstation Link",
+    "props": {
+      "text": "[Juegos Playstation](https:www.sony.com)",
+      "blockClass": "favoritos-sony-container"
+    }
+  },
+  "rich-text#accesorios-playstation": {
+    "title": "Accesorios Playstation Link",
+    "props": {
+      "text": "[Accesorios Playstation](https:www.sony.com)",
+      "blockClass": "favoritos-sony-container"
+    }
+  },
+  "rich-text#controles-dualsense": {
+    "title": "Controles Dualsense Link",
+    "props": {
+      "text": "[Controles Dualsense](https:www.sony.com)",
+      "blockClass": "favoritos-sony-container"
     }
   }
 }

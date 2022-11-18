@@ -139,6 +139,15 @@ margin: 4px;
   line-height: 1!important;
   margin-bottom: 5px;
 }
+.paragraph--favoritos-sony-container::before{
+  content: "";
+  float: left;
+  width: 4px;
+  height: 4px;
+  background: #f75229;
+  margin: 8px 8px 8px 0;
+  border-radius: 4px;
+}
 
 .link--favoritos-sony-container{
   color: #83838f;
@@ -150,4 +159,27 @@ margin: 4px;
 
 .link--favoritos-sony-container:hover{
   color: rgb(10, 10, 10);
+}
+
+/* title registrate */
+
+.wrapper--title-registrate{
+  vertical-align: middle;
+  font-size: 37px;
+  color: #2f353d;
+}
+
+.paragraph--title-registrate{
+  display: flex;
+  align-items: center;
+}
+
+.image--title-registrate{
+  margin-right: 19px;
+}
+/* item beneficios pre footer */
+
+.image--item-benedicios{
+  width: 65px;
+  height: 65px;
 }
