@@ -1,0 +1,27 @@
+.newsletterForm--newsletter-form{
+  display: flex;
+  justify-content: center;
+}
+
+
+.newsletterForm--newsletter-form :global(.vtex-input-prefix__group){
+  border-radius: 0;
+  height: 36px;
+  border: 1px solid #e7e7e7;
+}
+
+.newsletterForm--newsletter-form :global(.vtex-button){
+  background: #f25529;
+  border: none;
+  border-radius: 0;
+  font-size: 13px;
+  text-transform: capitalize;
+  transition: all .25s;
+  min-height: 36px;
+}
+
+
+.formSubmitContainer--submit-button{
+  display: flex;
+  align-items: flex-end;
+}

@@ -1,0 +1,76 @@
+{
+  "flex-layout.row#camaras-y-lentes-mobile": {
+    "title": "Container camaras y lentes mobile",
+    "children": [
+      "flex-layout.col#list-context-camaras-y-lentes-mobile",
+      "flex-layout.col#text-camaras-y-lentes-mobile"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "product-camaras-container-mobile"
+    }
+  },
+
+  "flex-layout.col#text-camaras-y-lentes-mobile": {
+    "title":"Col text-camaras-y-lentes",
+    "children": ["flex-layout.row#titulo-camaras-y-lentes-mobile"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "flex-layout.row#titulo-camaras-y-lentes-mobile": {
+    "title":"Row titulo-camaras-y-lentes mobile",
+    "children": ["rich-text#camaras-y-lentes-text-mobile"],
+    "props": {
+      "width": "100%",
+      "blockClass": "titulo-productos-camaras-y-lentes-mobile"
+    }
+  },
+  "rich-text#camaras-y-lentes-text-mobile": {
+    "props": {
+      "text": "#### CÁMARAS Y LENTES\n El poder de las imágenes puede ser tuyo",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "titulo-product-camaras-lentes-mobile"
+    }
+  },
+  "flex-layout.col#list-context-camaras-y-lentes-mobile": {
+    "title":"Col list context camaras y lentes mobile",
+    "children": ["list-context.product-list#camaras-y-lentes-list-context-product-mobile"],
+    "props": {
+      "width": "100%"
+    }
+  },
+
+  "list-context.product-list#camaras-y-lentes-list-context-product-mobile": {
+    "title":"list context camaras y lentes mobile",
+    "blocks": ["product-summary.shelf#product-camaras-y-lentes-mobile"],
+    "children": ["slider-layout#product-camaras-y-lentes-slider-mobile"],
+    "props": {
+      "blockClass": "camaras-list-context-mobile"
+    }
+  },
+  "product-summary.shelf#product-camaras-y-lentes-mobile": {
+    "title":"product summary camaras mobile",
+    "children": [
+      "product-summary-add-to-list-button",
+      "product-summary-name",
+      "product-summary-image",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-identifier.summary"
+    ]
+  },
+  "slider-layout#product-camaras-y-lentes-slider-mobile": {
+    "title":"slider product camaras mobile",
+    "props": {
+      "itemsPerPage": {
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass":"slider-product-camaras-lentes-mobile"
+    }
+  }
+}

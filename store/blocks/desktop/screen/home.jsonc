@@ -5,15 +5,15 @@
       "slider-layout#home_slider--children",
       "flex-layout.row#home_slider--children-visa",
       "list-context.image-list#home_slider--list",
-      /* "rich-text#home-impersibles-mes", */
-      "flex-layout.row#home_cards-grandes",
+      "flex-layout.row#imperdibles-del-mes",
       "flex-layout.row#product-ofertas",
       "flex-layout.row#camaras-y-lentes",
       "flex-layout.row#games-accesorios",
       "flex-layout.row#products-interest",
       "flex-layout.row#products-mas-vendido",
+      "flex-layout.row#favoritos-container",
+      "flex-layout.row#pre-footer",
       "modal-trigger#home_modal"
-      /* "modal-trigger#home_modal--event" */
 
     ]
   }

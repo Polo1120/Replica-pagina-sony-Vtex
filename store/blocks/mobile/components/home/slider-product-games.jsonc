@@ -1,0 +1,78 @@
+{
+  "flex-layout.row#games-accesorios-mobile": {
+    "title": "Container Juegos y accesorios mobile",
+    "children": [
+      "flex-layout.col#list-context-games-accesorios-mobile",
+      "flex-layout.col#text-games-accesorios-mobile"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "product-games-container-mobile"
+    }
+  },
+
+  "flex-layout.col#text-games-accesorios-mobile": {
+    "title": "Col texto Juegos y accesorios",
+    "children": ["flex-layout.row#titulo-games-accesorios-mobile"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "flex-layout.row#titulo-games-accesorios-mobile": {
+    "title": "Row titulo Juegos y accesorios mobile",
+    "children": ["rich-text#games-accesorios-text-mobile"],
+    "props": {
+      "width": "100%",
+      "blockClass": "titulo-productos-games-accesorios-mobile"
+    }
+  },
+  "rich-text#games-accesorios-text-mobile": {
+    "props": {
+      "text": "#### PLAYSTATION, JUEGOS Y ACCESORIOS\n El Mejor lugar para jugar",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "titulo-product-games-accesorios-mobile"
+    }
+  },
+  "flex-layout.col#list-context-games-accesorios-mobile": {
+    "title": "Col list context Juegos y accesorios mobile",
+    "children": [
+      "list-context.product-list#list-context-product-games-accesorios-mobile"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+
+  "list-context.product-list#list-context-product-games-accesorios-mobile": {
+    "title": "list context Juegos y accesorios mobile",
+    "blocks": ["product-summary.shelf#product-games-acceserios-mobile"],
+    "children": ["slider-layout#product-games-accesorios-slider-mobile"],
+    "props": {
+      "blockClass": "games-list-context-mobile"
+    }
+  },
+  "product-summary.shelf#product-games-acceserios-mobile": {
+    "title": "product summary Juegos y accesorios mobile",
+    "children": [
+      "product-summary-add-to-list-button",
+      "product-summary-name",
+      "product-summary-image",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-identifier.summary"
+    ]
+  },
+  "slider-layout#product-games-accesorios-slider-mobile": {
+    "title": "slider product Juegos y accesorios mobile",
+    "props": {
+      "itemsPerPage": {
+        "mobile": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "slider-product-games-accesorios-mobile"
+    }
+  }
+}

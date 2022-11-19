@@ -1,8 +1,6 @@
-
-
 .sliderLayoutContainer--home_slider_list{
-  height: 90%;
-  width: 95%;
+  height: 80%;
+  width: 90%;
   margin: 0 auto 50px;
   padding-top: 20px;
   
@@ -125,4 +123,30 @@
 }
 
 
+
+/* impresiables del mes */
+
+.sliderTrack--slider-container-imperdiables-del-mes{
+  transform: translate3d(0%, 0px, 0px) !important;
+  width: 100% !important;
+}
+
+.slide--slider-container-imperdiables-del-mes--hidden{
+display: none;
+}
+
+.slide--slider-container-imperdiables-del-mes{
+  width: 46% !important;
+}
+
+/* media quary impersibles del mes  */
+@media screen and (min-width: 768px) {
+  .sliderTrack--slider-container-imperdiables-del-mes{
+    justify-content: space-between;
+  }
+}
+
+
+
+/* slider- beneficios pre footer */
 

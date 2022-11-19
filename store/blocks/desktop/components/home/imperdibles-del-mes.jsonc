@@ -1,0 +1,88 @@
+{
+  "flex-layout.row#imperdibles-del-mes": {
+    "title": "Container imperdiables del mes",
+    "children": ["flex-layout.col#col-imperdiables-del-mes"],
+    "props": {
+      "blockClass": "container-imperdiables-del-mes"
+    }
+  },
+  "flex-layout.col#col-imperdiables-del-mes": {
+    "title": "Col container imperdiables del mes",
+    "children": [
+      "flex-layout.col#text-imperdiables-del-mes",
+      "flex-layout.col#content-imperdibles-del-mes"
+    ]
+  },
+  "flex-layout.col#text-imperdiables-del-mes": {
+    "title": "Col text imperdiables del mes ",
+    "children": ["rich-text#text-imperdiables-del-mes"]
+  },
+  "rich-text#text-imperdiables-del-mes": {
+    "props": {
+      "text": "## Imperdibles del Mes",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
+  "flex-layout.col#content-imperdibles-del-mes": {
+    "title": "Col content lanzamientos",
+    "children": ["flex-layout.row#container-slider-imperdiables-del-mes"]
+  },
+  "flex-layout.row#container-slider-imperdiables-del-mes": {
+    "title": "Container slider imperdiables del mes",
+    "children": ["slider-layout#imperdiables-del-mes"],
+    "props": {
+      "blockClass": "container-slider-nuevos-lanzamientos"
+    }
+  },
+  /* slider-imperdiables-del-mes */
+  "slider-layout#imperdiables-del-mes": {
+    "title": "Slider imperdiables del mes",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "fullWidth": true,
+      "blockClass": "slider-container-imperdiables-del-mes"
+    },
+    "children": ["flex-layout.col#col-sider", "flex-layout.col#col-slider2"]
+  },
+  "flex-layout.col#col-sider": {
+    "title": "Col slider camara ",
+    "children": ["image#home_image-camara-sony", "rich-text#text-camara-vlog"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "flex-layout.col#col-slider2": {
+    "title": "Col slider parlantes ",
+    "children": [
+      "image#home_image-barra-sonido",
+      "rich-text#parlantes-inalambricos"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+  /*  titulos */
+  "rich-text#text-camara-vlog": {
+    "title": "Text camara vlog ",
+    "props": {
+      "text": "La cámara vlog ZV-E10L está diseñada para capturar vídeos de ti y tu mundo sin ninguna dificultad. En Preventa",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "text-camara-vlog"
+    }
+  },
+  "rich-text#parlantes-inalambricos": {
+    "title": "Text parlantes inalambricos ",
+    "props": {
+      "text": "#### Nuevos parlantes inalámbricos Serie X \n Disfruta de un sonido amplio con una larga duración de batería ",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "text-parlantes-inalambricos"
+    }
+  }
+}

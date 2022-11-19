@@ -4,7 +4,6 @@
     "title": "Image Home",
     "props": {
       "src": "assets/img/camara-sony.jpg",
-      "maxHeight": 600,
       "title": "Camara_sony",
       "blockClass": "home_camara__sony",
       "link": {
@@ -17,8 +16,7 @@
   "image#home_image-barra-sonido": {
     "title": "Image Home",
     "props": {
-      "src": "assets/img/mueble.jpg",
-      "maxHeight": 600,
+      "src": "assets/img/parlantes-inalambricos-card.png",
       "title": "Barra-sonido",
       "blockClass": "home-barra-de-sonido",
       "link": {

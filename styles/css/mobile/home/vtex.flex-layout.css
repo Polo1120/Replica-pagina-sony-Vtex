@@ -1,0 +1,60 @@
+/* container slider product oferta */
+.flexRowContent--product-ofertas-container-mobile {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.flexRow--product-ofertas-container-mobile {
+  border-top: 1px solid #e3e4e6;
+  margin: 45px 0 0;
+  padding: 45px 0;
+}
+
+/* container slider product camaras y lentes */
+.flexRowContent--product-camaras-container-mobile {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.flexRow--product-camaras-container-mobile {
+  border-top: 1px solid #e3e4e6;
+  margin: 45px 0 0;
+  padding: 45px 0;
+}
+
+/* container slider product games */
+.flexRowContent--product-games-container-mobile {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.flexRow--product-games-container-mobile {
+  border-top: 1px solid #e3e4e6;
+  margin: 45px 0 0;
+  padding: 45px 0;
+}
+
+/* container slider product interes */
+.flexRowContent--products-interest-container-mobile {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.flexRow--products-interest-container-mobile {
+  border-top: 1px solid #e3e4e6;
+  margin: 45px 0 0;
+  padding: 45px 0;
+}
+
+/* container slider product mas vendido */
+.flexRowContent--products-mas-vendido-mobile-container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.flexRow--products-mas-vendido-mobile-container {
+  border-top: 1px solid #e3e4e6;
+  margin: 45px 0 0;
+  padding: 45px 0;
+}
+
