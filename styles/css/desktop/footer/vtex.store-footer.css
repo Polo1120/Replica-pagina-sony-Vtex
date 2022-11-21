@@ -1,0 +1,22 @@
+.footerLayout--footer-desktop {
+  background-color: #1f2024;
+}
+
+@media (min-width: 768px) {
+  .footerLayout--footer-desktop {
+    padding: 40px 0 28px;
+  }
+}
+
+.socialNetworksContainer {
+  width: 46%;
+  
+}
+
+.socialNetworkWrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 13px;
+  margin-left: 20px;
+}

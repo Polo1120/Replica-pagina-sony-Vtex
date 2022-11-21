@@ -17,3 +17,34 @@
   border: 1px solid #dfdede;
   height: 46px;
 }
+
+.searchBarInnerContainer--search-footer {
+  padding-left: 25px;
+}
+
+
+.searchBarInnerContainer--search-footer :global(.vtex-input-prefix__group){
+  border: 2px solid #3c3c42;
+    border-radius: 0;
+    padding: 6px;
+    max-height: 44px;
+    width: 243px;
+}
+
+.searchBarInnerContainer--search-footer :global(.vtex-styleguide-9-x-input){
+  background-color: #1F2024;
+  color: white;
+}
+
+.searchBarInnerContainer--search-footer :global(.vtex-input__suffix){
+  background-color: #5887F5;
+  width: 70px;
+  border-radius: 0;
+
+}
+
+.searchBarIcon--search-footer{
+  padding: 0;
+  color: white;
+  padding-left: 18px
+}
