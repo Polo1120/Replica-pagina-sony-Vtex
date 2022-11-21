@@ -1,0 +1,58 @@
+{
+  "flex-layout.row#footer-desktop-3": {
+    "title": "footer desktop 3",
+    "children": [
+      "flex-layout.col#footer-copyright"
+    ],
+    "props":{
+      "blockClass":"footer-desktop-3"
+    }
+  },
+  "flex-layout.col#footer-copyright":{
+    "title":"Col footer copyright",
+    "children":[
+      "flex-layout.row#container-logo",
+      "rich-text#2021",
+      "rich-text#politicas",
+      "rich-text#sony"
+    ]
+  },
+  "rich-text#2021": {
+    "title":"2021 sony latin",
+    "props": {
+      "text": "© 2021 SONY LATIN AMERICA, INC. TODOS LOS DERECHOS RESERVADOS.",
+      "blockClass": "copyright"
+    }
+  },
+  "rich-text#politicas": {
+    "title":"politicas de privacidad",
+    "props": {
+      "text": "[POLÍTICA DE PRIVACIDAD EN LÍNEA DE SONY LATIN AMERICA, INC](/) [© 2021 SONY LATIN AMERICA, INC. TODOS LOS DERECHOS RESERVADOS.](/)",
+      "blockClass": "copyright"
+    }
+  },
+  "rich-text#sony": {
+    "title":"Sony INTERAMERICAN",
+    "props": {
+      "text": "SONY INTERAMERICAN S.A SUCURSAL COLOMBIA | NIT 800185150-2 KM 1.5 Vía Funza Siberia, Parque Industrial San Diego Bodega 6C | E-mail Compras.OnLine@am.sony.com | TELEFONO DE LINEA DE\nATENCION: Bogotá (786 8928), Nacional (01 800 5189714) - lunes a viernes 9 AM a 6 PM.",
+      "blockClass": "copyright"
+    }
+  },
+  "flex-layout.row#container-logo":{
+    "title":"row container logo",
+    "children":[
+      "image#vtex"
+    ],
+    "props":{
+      "blockClass":"container-image"
+    }
+  },
+  "image#vtex": {
+    "title":"image-vtex",
+    "props": {
+      "width": 50,
+      "src": "https://pasonyb2c.vtexassets.com/arquivos/logo_vtex.svg",
+      "blockClass":"img-vtex"
+    }
+  }
+}

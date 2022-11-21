@@ -1,0 +1,29 @@
+@media screen and (min-width: 768px) {
+  .styledLinkContent--title-menu-footer {
+    font-size: 15px;
+    margin-bottom: 16px;
+    color: #83838f;
+    cursor: default;
+  }
+  
+}
+
+@media screen and (min-width: 768px) {
+  .styledLinkContent--sub-title-menu-footer{
+    font-size: 13px;
+    line-height: 23px;
+    color: #e4e7eb;
+    white-space: normal;
+    transition: all .25s;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .styledLinkContent--sub-title-menu-footer:hover{
+    font-size: 13px;
+    line-height: 23px;
+    color: #eeeeee56;
+    white-space: normal;
+    transition: all .25s;
+  }
+}
