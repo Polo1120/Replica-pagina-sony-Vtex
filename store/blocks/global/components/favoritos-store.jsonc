@@ -3,7 +3,8 @@
     "title": "container favorito store sony",
     "children": ["flex-layout.col#favoritos-sony-container--col"],
     "props": {
-      "blockClass": "container-favoritos-sony"
+      "blockClass": "container-favoritos-sony",
+      "preserveLayoutOnMobile": true
     }
   },
   "flex-layout.col#favoritos-sony-text": {
@@ -38,7 +39,8 @@
       "flex-layout.col#favoritos-playstation"
     ],
     "props": {
-      "blockClass": "container-col-favoritos"
+      "blockClass": "container-col-favoritos",
+      "preserveLayoutOnMobile": true
     }
   },
   "flex-layout.col#favoritos-cine-casa": {
@@ -84,7 +86,10 @@
       "rich-text#telvisores-smart-con-google-tv",
       "rich-text#barras-de-sonido-y-teatros",
       "rich-text#reproductores-blu-ray"
-    ]
+    ],
+    "props":{
+      "blockClass":"link-conatiner"
+    }
   },
   "rich-text#televisores-full-array-led": {
     "title": "Televisores Full Array LED Link",
@@ -156,7 +161,10 @@
       "rich-text#lentes-g-master",
       "rich-text#camaras-vlogger",
       "rich-text#camaras-cinema-line"
-    ]
+    ],
+    "props":{
+      "blockClass":"link-conatiner"
+    }
   },
   "rich-text#camaras-profesionales-alpha": {
     "title": "Cámaras profesionales Alpha Link",
@@ -230,7 +238,10 @@
       "rich-text#sistemas-de-audio-hi-res",
       "rich-text#parlantes-bluetooth",
       "rich-text#360-reality-audio"
-    ]
+    ],
+    "props":{
+      "blockClass":"link-conatiner"
+    }
   },
 
   "rich-text#sistemas-de-audio-serie-v": {
@@ -305,7 +316,10 @@
       "rich-text#juegos-playstation",
       "rich-text#accesorios-playstation",
       "rich-text#controles-dualsense"
-    ]
+    ],
+    "props":{
+      "blockClass":"link-conatiner"
+    }
   },
   "rich-text#playstation-5": {
     "title": "Playstation 5 Link",

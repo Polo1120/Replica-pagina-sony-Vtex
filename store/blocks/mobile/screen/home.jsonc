@@ -2,14 +2,16 @@
   "responsive-layout.mobile": {
     "title": "responsive mobile",
     "children": [
-      "flex-layout.row#home-slider",
+      "slider-layout#home_slider--children-mobile",
       "list-context.image-list#slider--list.mobile",
-      "flex-layout.row#list-card",
+      "flex-layout.row#imperdibles-del-mes",
       "flex-layout.row#product-ofertas-mobile",
       "flex-layout.row#camaras-y-lentes-mobile",
       "flex-layout.row#games-accesorios-mobile",
       "flex-layout.row#products-interest-mobile",
-      "flex-layout.row#products-mas-vendido-mobile"
+      "flex-layout.row#products-mas-vendido-mobile",
+      "flex-layout.row#favoritos-container",
+      "flex-layout.row#pre-footer"
     ]
   }
 }

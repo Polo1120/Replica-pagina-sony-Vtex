@@ -237,3 +237,10 @@ margin-top: -10px;
 .link--necesitas-info2{
 text-decoration: none;
 }
+
+/* global */
+@media screen and (max-width: 768px) {
+  .container--necesitas-info2{
+    margin-top: 10px;
+    }
+}

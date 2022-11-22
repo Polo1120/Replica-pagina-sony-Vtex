@@ -25,14 +25,16 @@
     "title": "container slider vista 1",
     "children": ["flex-layout.row#content-info1"],
     "props": {
-      "blockClass": "slider-vista1"
+      "blockClass": "slider-vista1",
+      "preserveLayoutOnMobile": true
     }
   },
   "flex-layout.row#content-info1": {
     "title": "content info1",
     "children": ["rich-text#content-info1"],
     "props": {
-      "blockClass": "content-slider"
+      "blockClass": "content-slider",
+      "preserveLayoutOnMobile": true
     }
   },
   "rich-text#content-info1": {
@@ -46,14 +48,16 @@
     "title": "container slider vista 2",
     "children": ["flex-layout.row#content-info2"],
     "props": {
-      "blockClass": "slider-vista2"
+      "blockClass": "slider-vista2",
+      "preserveLayoutOnMobile": true
     }
   },
   "flex-layout.row#content-info2": {
     "title": "content info 2",
     "children": ["rich-text#content-info2"],
     "props": {
-      "blockClass": "content-slider"
+      "blockClass": "content-slider",
+      "preserveLayoutOnMobile": true
     }
   },
 
@@ -69,14 +73,16 @@
     "children": ["flex-layout.row#content-info"],
     "props": {
       "blockClass": "slider-vista3",
-      "fullWidth": true
+      "fullWidth": true,
+      "preserveLayoutOnMobile": true
     }
   },
   "flex-layout.row#content-info": {
     "title": "content info 3",
     "children": ["rich-text#content-info"],
     "props": {
-      "blockClass": "content-slider"
+      "blockClass": "content-slider",
+      "preserveLayoutOnMobile": true
     }
   },
 

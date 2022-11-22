@@ -72,31 +72,53 @@
   padding: 45px 0;
 }
 
+/* slider home top */
+@media screen and (min-width: 1000px){
+  .flexRow--slider-vista1 {
+    width: 100%;
+    height: 405px;
+    background-size: cover;
+    background-position: 50%;
+  }
+}
 
-.flexRow--slider-vista1 {
-  width: 100%;
-  height: 405px;
-  background-size: cover;
-  background-position: 50%;
+.flexRow--slider-vista1{
   background-image: url("https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/7ffdd9a7-19c8-450c-871d-7db77a446218___b920ff4529c5473fb45d80d616504a60.jpg");
 }
 
+
+@media screen and (min-width: 1000px){
+  .flexRow--slider-vista2 {
+    width: 100%;
+    height: 405px;
+    background-size: cover;
+    background-position: 50%;
+  }
+}
+
 .flexRow--slider-vista2 {
-  width: 100%;
-  height: 405px;
-  background-size: cover;
-  background-position: 50%;
   background-image: url("https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/800dae03-f65e-48b5-9e4f-5e96c084fb25___d87c9cfd55b5e0160c1e38911f188d03.jpg");
 }
 
-.flexRow--slider-vista3 {
-  width: 100%;
-  height: 405px;
-  background-size: cover;
-  background-position: 50%;
+@media screen and (min-width: 1000px){
+  .flexRow--slider-vista3 {
+    width: 100%;
+    height: 405px;
+    background-size: cover;
+    background-position: 50%;
+  }
+}
+.flexRow--slider-vista3{
   background-image: url("https://cosonyb2c.vtexassets.com/assets/vtex.file-manager-graphql/images/56d16dd5-381b-4eb5-bdee-e4e352f84932___f0fbca22e741a514b7f7f72d574527c8.jpg");
 }
 
+
+.flexCol--content-text-slider-mobile{
+  padding-top: 10rem;
+}
+
+
+/* text-slider home top */
 .flexRow--content-slider {
   position: absolute;
   top: 50%;
@@ -116,6 +138,8 @@
     
 }
 
+
+/* favorito sony store  */
 @media screen and (min-width: 1280px){
   .flexRowContent--container-favoritos-sony{
     max-width: 1190px;
@@ -123,17 +147,28 @@
   }
 }
 
+@media screen and (max-width: 1000px){
+  .flexRowContent--container-col-favoritos{
+    flex-wrap: wrap;
+  }
+
+  .flexRowContent--container-col-favoritos :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: 143px!important;
+    margin: 20px auto 0;
+  }
+
+  .flexCol--link-conatiner{
+    display: none;
+  }
+
+ 
+}
+
+
 .flexRowContent--container-favoritos-sony{
   margin-top: 2rem;
 }
 
-
-
-@media screen and (min-width: 1000px) {
-  .stretchChildrenWidth{
-    
-  }
-}
 
 
 .flexRowContent--row-slider-benedicios{
@@ -155,4 +190,11 @@
 
 .flexRowContent--container-informacion :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
   width: 54% !important;
+}
+
+/* global */
+@media screen and (max-width:767px) {
+   .flexRowContent--container-informacion :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: 100% !important;
+  }
 }
