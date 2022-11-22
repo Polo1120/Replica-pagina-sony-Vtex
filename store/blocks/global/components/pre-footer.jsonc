@@ -1,7 +1,10 @@
 {
   "flex-layout.row#pre-footer": {
     "title": "Container pre footer",
-    "children": ["flex-layout.col#container-pre-footer"]
+    "children": ["flex-layout.col#container-pre-footer"],
+    "props":{
+      "preserveLayoutOnMobile": true
+    }
   },
   "flex-layout.col#container-pre-footer": {
     "title": "Col container pre footer",
@@ -18,7 +21,10 @@
   },
   "flex-layout.row#title-registrate": {
     "title": "row title registrate",
-    "children": ["rich-text#registrate"]
+    "children": ["rich-text#registrate"],
+    "props":{
+      "preserveLayoutOnMobile": true
+    }
   },
   "rich-text#registrate": {
     "title": "Regístrate y entérate de últimas novedades y especiales",
@@ -89,17 +95,20 @@
     "title": "Row container beneficios",
     "children": ["slider-layout#benedicios"],
     "props": {
-      "blockClass": "row-slider-benedicios"
+      "blockClass": "row-slider-benedicios",
+      "preserveLayoutOnMobile": true
     }
   },
   "slider-layout#benedicios": {
     "title": "Slider benedicios pre-footer",
     "props": {
       "itemsPerPage": {
-        "desktop": 6
+        "desktop": 6,
+        "mobile":2
       },
       "fullWidth": false,
-      "blockClass": "slider-beneficios"
+      "blockClass": "slider-beneficios",
+      "showNavigationArrows":"never"
     },
     "children": [
       "flex-layout.col#compra-facil",
@@ -266,7 +275,8 @@
       "rich-text#necesitas-informacion2"
     ],
     "props":{
-      "blockClass":"container-informacion"
+      "blockClass":"container-informacion",
+      "preserveLayoutOnMobile": true
     }
   },
   "rich-text#necesitas-informacion":{

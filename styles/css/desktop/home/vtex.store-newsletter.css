@@ -25,3 +25,35 @@
   display: flex;
   align-items: flex-end;
 }
+
+/* global */
+@media screen and (max-width:640px) {
+  .newsletterForm--newsletter-form{
+    flex-wrap: wrap;
+  }
+
+  .formSubmitContainer--submit-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+  }
+
+  .nameInputContainer--imput-nombre{
+    width: 100%;
+  }
+  .nameInputContainer--input-lastname{
+    width: 100%;
+  }
+  .emailInputContainer--input-email{
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 767px){
+  .newsletterForm--newsletter-form{
+    padding: 20px 12px;
+  }
+  
+}

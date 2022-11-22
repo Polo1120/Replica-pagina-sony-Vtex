@@ -3,7 +3,8 @@
     "title": "Container imperdiables del mes",
     "children": ["flex-layout.col#col-imperdiables-del-mes"],
     "props": {
-      "blockClass": "container-imperdiables-del-mes"
+      "blockClass": "container-imperdiables-del-mes",
+      "preserveLayoutOnMobile": true
     }
   },
   "flex-layout.col#col-imperdiables-del-mes": {
@@ -32,7 +33,8 @@
     "title": "Container slider imperdiables del mes",
     "children": ["slider-layout#imperdiables-del-mes"],
     "props": {
-      "blockClass": "container-slider-nuevos-lanzamientos"
+      "blockClass": "container-slider-nuevos-lanzamientos",
+      "preserveLayoutOnMobile": true
     }
   },
   /* slider-imperdiables-del-mes */
@@ -41,11 +43,12 @@
     "props": {
       "itemsPerPage": {
         "desktop": 2,
-        "tablet": 1,
+        "tablet": 2,
         "mobile": 1
       },
       "fullWidth": true,
-      "blockClass": "slider-container-imperdiables-del-mes"
+      "blockClass": "slider-container-imperdiables-del-mes",
+      "showNavigationArrows":"never"
     },
     "children": ["flex-layout.col#col-sider", "flex-layout.col#col-slider2"]
   },

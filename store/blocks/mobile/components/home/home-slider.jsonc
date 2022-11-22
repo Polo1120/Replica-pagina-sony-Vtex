@@ -1,0 +1,112 @@
+{
+  "slider-layout#home_slider--children-mobile": {
+    "title": "slider principal home mobile",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "home_slider.mobile"
+    },
+    "children": [
+      "flex-layout.row#vista1-mobile"
+    ]
+  },
+
+  "flex-layout.row#vista1-mobile": {
+    "title": "container slider vista 1",
+    "children": ["flex-layout.col#content-info1-mobile"],
+    "props": {
+      "blockClass": "slider-vista1-mobile",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#content-info1-mobile": {
+    "title": "content info1",
+    "children": [
+      "rich-text#content-desde-21-24",
+      "rich-text#content-info1-mobile",
+      "rich-text#content-link-ofertas-mobile"
+    ],
+    "props": {
+      "blockClass": "content-text-slider-mobile",
+      "preserveLayoutOnMobile": true
+    }
+  },
+
+  "rich-text#content-desde-21-24":{
+    "props": {
+      "text": "Del 1 al 24 de Nov/22",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "desde-text"
+    }
+  },
+  "rich-text#content-info1-mobile": {
+    "props": {
+      "text": "# BLACKDAYS \n¡Llegaron los Black Days!\n No lo dejes pasar",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "content-info-text1-mobile"
+    }
+  },
+  "rich-text#content-link-ofertas-mobile":{
+    "props": {
+      "text": "[Ver Ofertas](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "link-ofertas-mobile"
+    }
+  },
+
+  "flex-layout.row#vista2-mobile": {
+    "title": "container slider vista 2",
+    "children": ["flex-layout.row#content-info2-mobile"],
+    "props": {
+      "blockClass": "slider-vista2-mobile",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.row#content-info2-mobile": {
+    "title": "content info 2",
+    "children": ["rich-text#content-info2-mobile"],
+    "props": {
+      "blockClass": "content-slider-mobile",
+      "preserveLayoutOnMobile": true
+    }
+  },
+
+  "rich-text#content-info2-mobile": {
+    "props": {
+      "text": "Nueva Cámara Cinema Line FX30\n # Un salto al mundo cinematográfico\n Verdadero aspecto cinematográfico con funciones\n sofisticadas de AF y estabilización. \n [Descúbrela](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+      "blockClass": "content-info-text2-mobile"
+    }
+  },
+
+  "flex-layout.row#vista3-mobile": {
+    "title": "container slider vista 3",
+    "children": ["flex-layout.row#content-info-mobile"],
+    "props": {
+      "blockClass": "slider-vista3-mobile",
+      "fullWidth": true,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.row#content-info-mobile": {
+    "title": "content info 3",
+    "children": ["rich-text#content-info-mobile"],
+    "props": {
+      "blockClass": "content-slider-mobile",
+      "preserveLayoutOnMobile": true
+    }
+  },
+
+  "rich-text#content-info-mobile": {
+    "props": {
+      "text": "# Registra tu producto \n recibe una garantía extendida de 1 año\n\n\n [Regístrate ahora](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+      "blockClass": "content-info-mobile"
+    }
+  }
+}
