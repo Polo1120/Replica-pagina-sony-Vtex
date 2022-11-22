@@ -1,0 +1,77 @@
+{
+  "flex-layout.row#footer-desktop-2": {
+    "title": "footer desktop 2",
+    "children": [
+      "flex-layout.col#footer-desktop-2",
+      "flex-layout.row#social-networks"
+    ],
+    "props": {
+      "blockClass": "footer-desktop-2"
+    }
+  },
+  "flex-layout.col#footer-desktop-2": {
+    "title": "Col footer 2",
+    "children": ["rich-text#colombia"]
+  },
+  "rich-text#colombia": {
+    "title": "icon colombia",
+    "props": {
+      "text": "![icon-col](assets/img/icon-colombia.png)[Colombia](www.sony.com)",
+      "blockClass": "couter-selector"
+    }
+  },
+  "flex-layout.row#social-networks": {
+    "title": "container social networks",
+    "children": [
+      "flex-layout.row#social-networks2",
+      "flex-layout.row#redes-social"
+    ],
+    "props": {
+      "blockClass": "row-social-networks"
+    }
+  },
+  "flex-layout.row#social-networks2": {
+    "title": "container para profesionales and contacto",
+    "children": ["rich-text#para-profesionales", "rich-text#contacto"],
+    "props": {
+      "blockClass": "social-text-link"
+    }
+  },
+  "rich-text#para-profesionales": {
+    "title": "para profesionales",
+    "props": {
+      "text": "[Para profesionales](/)",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "link-profesional"
+    }
+  },
+  "rich-text#contacto": {
+    "title": "contacto",
+    "props": {
+      "text": "[Contacto](/)",
+      "textPosition": "LEFT",
+      "textAlignment": "LEFT",
+      "blockClass": "link-contacto"
+    }
+  },
+  "flex-layout.row#redes-social": {
+    "title": "row rede social",
+    "children": ["social-networks"]
+  },
+  "social-networks": {
+    "title": "social networks",
+    "props": {
+      "socialNetworks": [
+        {
+          "url": "https://www.facebook.com/sonyamericalatina",
+          "name": "Facebook"
+        },
+        { "url": "https://twitter.com/sonylatin", "name": "Twitter" },
+        { "url": "https://www.youtube.com/sonylatin", "name": "youtube" },
+        { "url": "https://www.instagram.com/sonylatin/", "name": "instagram" }
+      ],
+      "blockclass": "social-networks"
+    }
+  }
+}

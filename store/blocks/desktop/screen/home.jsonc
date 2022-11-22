@@ -12,8 +12,7 @@
       "flex-layout.row#products-interest",
       "flex-layout.row#products-mas-vendido",
       "flex-layout.row#favoritos-container",
-      "flex-layout.row#pre-footer",
-      "modal-trigger#home_modal"
+      "flex-layout.row#pre-footer"
 
     ]
   }
