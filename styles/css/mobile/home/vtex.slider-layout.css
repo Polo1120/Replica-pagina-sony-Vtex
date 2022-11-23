@@ -15,3 +15,10 @@
 .sliderRightArrow--home_slider-mobile{
   display: none;
 }
+
+/* global */
+@media screen and (max-width:767px){
+  .sliderTrackContainer--slider-beneficios{
+    min-width: 321px;
+}
+}

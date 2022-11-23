@@ -37,3 +37,56 @@
 .paragraph--titulo-products-interest-mobile {
   margin-top: -27px;
 }
+
+
+
+/* tetx slider top home  */
+
+.paragraph--desde-text{
+  margin: 0;
+  color: black;
+}
+
+.paragraph--content-info-text1-mobile{
+  margin: 0;
+  color: black;
+  font-size: .9rem;
+}
+
+.headingLevel1--content-info-text1-mobile{
+  margin: 0;
+  font-size: 23px;
+  color: black;
+}
+
+
+.link--link-ofertas-mobile{
+  background-color: #f25529;
+    color: #fff;
+    height: 44px;
+    padding: 0 20px;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: max-content;
+    transition: all .2s;
+}
+
+.paragraph--link-ofertas-mobile{
+ margin: 0;
+ padding-top: 5px; 
+}
+
+
+/* registrate e informacion */
+
+
+@media screen and (max-width: 640px) {
+  .paragraph--title-registrate{
+    font-size: 19px
+  }
+}
+
+
+
