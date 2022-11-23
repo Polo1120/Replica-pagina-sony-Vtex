@@ -1,0 +1,13 @@
+{
+  "footer-layout.mobile": { 
+    "title":"footer layout  mobile",
+    "children": [
+      "flex-layout.row#footer-mobile-one",
+      "flex-layout.row#footer-desktop-2",
+      "flex-layout.row#footer-mobile-3"
+    ],
+    "props":{
+      "blockClass":"footer-layout-mobile"
+    }
+  }
+}

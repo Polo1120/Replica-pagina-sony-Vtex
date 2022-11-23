@@ -1,0 +1,41 @@
+@media screen and (max-width: 767px){
+  .container--couter-selector{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+/* footer 3 */
+
+.paragraph--sonylatin{
+  font-size: 11px;
+  margin: 0;
+  color: #83838f;
+}
+
+.container--politicas{
+  font-size: 0rem;
+}
+.paragraph--politicas{
+  margin: 0;
+  color: #83838f;
+}
+
+.link--politicas{
+  font-size: 11px;
+  text-decoration: unset;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+}
+.link--sony-interamerican{
+  text-decoration: unset;
+  color: #83838f;
+}
+
+.paragraph--sony-interamerican{
+  font-size: 11px;
+  margin: 0;
+  color: #83838f;
+}

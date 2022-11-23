@@ -12,9 +12,5 @@
     "props":{
       "blockClass":"footer-desktop"
     }
-  },
-  "footer-layout.mobile": { 
-    "children": [
-    ]
   }
 }
