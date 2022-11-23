@@ -1,0 +1,17 @@
+@media screen and (max-width:767px){
+  .flexRowContent--social-text-link{
+    display: flex;
+  }
+}
+
+
+@media screen and (max-width:425px) {
+  .flexRowContent--social-text-link{
+    margin-left: 8px;
+  }
+}
+
+
+.flexRowContent--footer-mobile-3{
+  padding: 20px;
+}

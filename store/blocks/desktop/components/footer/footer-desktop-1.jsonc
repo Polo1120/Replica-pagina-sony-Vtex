@@ -56,7 +56,7 @@
       "blockClass": "sub-title-menu-footer"
     }
   },
-  /*   menu buscar un distribuidor */
+  /*   menu compra online */
   "menu#compra-online": {
     "title":"menu compra online",
     "children": [

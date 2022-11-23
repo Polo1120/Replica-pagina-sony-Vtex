@@ -1,0 +1,47 @@
+{
+  "flex-layout.row#footer-mobile-3":{
+    "title":"footer mobile 3",
+    "children":[
+      "flex-layout.col#col-footer-mobile-3"
+    ],
+    "props":{
+      "preserveLayoutOnMobile": true,
+      "blockClass":"footer-mobile-3"
+    }
+  },
+  "flex-layout.col#col-footer-mobile-3":{
+    "title":"col footer mobile 3 ",
+    "children":[
+      "rich-text#sonylatin",
+      "rich-text#politicas-mobile",
+      "rich-text#sony-interamerican"
+    ]
+  },
+  "rich-text#sonylatin":{
+    "title":"sony latin..",
+    "props": {
+      "text": "© 2021 SONY LATIN AMERICA, INC. TODOS LOS DERECHOS RESERVADOS.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "sonylatin"
+    }
+  },
+  "rich-text#politicas-mobile":{
+    "title":"politica de privacidad...",
+    "props": {
+      "text": "[POLÍTICA DE PRIVACIDAD EN LÍNEA DE SONY LATIN AMERICA, INC](/)\n[© 2021 SONY LATIN AMERICA, INC. TODOS LOS DERECHOS RESERVADOS.](/)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "politicas"
+    }
+  },
+  "rich-text#sony-interamerican":{
+    "title":"sony interamerican...",
+    "props": {
+      "text": "SONY INTERAMERICAN S.A SUCURSAL COLOMBIA | NIT 800185150-2 KM 1.5 Vía Funza Siberia, Parque Industrial San Diego Bodega 6C | E-mail Compras.OnLine@am.sony.com | TELEFONO DE LINEA DE\nATENCION: Bogotá (786 8928), Nacional (01 800 5189714) - lunes a viernes 9 AM a 6 PM.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "sony-interamerican"
+    }
+  }
+}
