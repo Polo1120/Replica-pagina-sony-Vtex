@@ -1,0 +1,24 @@
+.menuItem--sub-menu-footer-mobile {
+  border-bottom: 1px solid #3c3c42;
+}
+
+.styledLinkContainer--sub-menu-footer-mobile {
+  margin: 0;
+  padding: 17px 1.5rem;
+}
+
+.styledLinkContent--sub-menu-footer-mobile{
+  color: #83838f;
+}
+
+/* sub menu title */
+
+.styledLinkContent--title-sub-menu-footer-mobile {
+  color: #e4e7eb;
+  font-size: 12px;
+  line-height: 23px;
+}
+
+.styledLinkContainer--title-sub-menu-footer-mobile{
+  margin-left: 0.7rem;
+}
