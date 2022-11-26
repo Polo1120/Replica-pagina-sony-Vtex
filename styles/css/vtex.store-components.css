@@ -48,3 +48,11 @@
   color: white;
   padding-left: 18px
 }
+
+
+/* produc price */
+
+.price_sellingPrice--product-price{
+  padding-top: 12px;
+  font-size: 30px;
+}

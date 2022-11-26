@@ -1,0 +1,25 @@
+.flexRowContent--product-info{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.flexCol--product-info--data--col{
+  height: 68%;
+}
+
+/* precio product y add cart */
+.flexRow--product-add-price{
+  padding-top: 10px;
+  width: 45% !important;
+  margin-left: 14rem;
+
+}
+
+.flexRow--product-add-price :global(.vtex-button){
+  width: 150px;
+    height: 54px;
+}
+
+.flexRow--product-add-price :global(.vtex-button__label){
+  padding: 0;
+}

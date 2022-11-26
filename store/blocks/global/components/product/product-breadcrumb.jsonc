@@ -1,0 +1,23 @@
+{
+  "flex-layout.row#product_breadcrumb": {
+    "title": "Miga de pan de producto",
+    "children": [
+      "flex-layout.col#product_breadcrumb",
+      "flex-layout.row#product_add-price"
+    ]
+  },
+  "flex-layout.col#product_breadcrumb": {
+    "children": ["breadcrumb"]
+  },
+  "flex-layout.row#product_add-price": {
+    "children": ["product-price#product-price", "add-to-cart-button"],
+    "props":{
+      "blockClass":"product-add-price"
+    }
+  },
+  "product-price#product-price":{
+    "props":{
+      "blockClass":"product-price"
+    }
+  }
+}
