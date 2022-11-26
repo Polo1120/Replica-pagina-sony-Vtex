@@ -1,0 +1,11 @@
+.filtersWrapper--navigator-v3{
+  display: flex;
+}
+
+.filter__container--title{
+  display: none;
+}
+
+.filter__container--selectedFilters{
+  padding-right: 30px;
+}

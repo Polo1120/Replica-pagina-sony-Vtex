@@ -1,0 +1,148 @@
+{
+  "store.search#department": {
+    "blocks": ["search-result-layout#department"]
+  },
+  "search-result-layout#department": {
+    "blocks": [
+      "search-result-layout.desktop#department",
+      "search-result-layout.mobile#departement",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#department": {
+    "children": [
+      "flex-layout.row#department_breadcrumb",
+      "flex-layout.row#filter",
+      "flex-layout.row#product_result",
+      "flex-layout.row#pre-footer"
+  ]
+  },
+  "flex-layout.row#department_breadcrumb": {
+    "children": ["flex-layout.col#departement_breadcrumb"]
+  },
+  "flex-layout.col#departement_breadcrumb": {
+    "children": ["breadcrumb.search"]
+  },
+  "search-result-layout.mobile#departement": {
+    "children": [
+      "flex-layout.row#department_breadcrumb",
+      "flex-layout.row#departement_result"
+    ]
+  },
+  "flex-layout.row#departement_result": {
+    "title": "Departement Result",
+    "children": [ /* "search-content#phone" */]
+  },
+  "gallery-layout-switcher": {
+    "children": [
+      "gallery-layout-option#grid_one-colums",
+      "gallery-layout-option#grid_two-colums"
+    ]
+  },
+  "gallery-layout-option#grid_one-colums": {
+    "props": {
+      "name": "grid_one-colum",
+      "blockClass": "grid_selector--one-colums"
+    }
+  },
+  "gallery-layout-option#grid_two-colums": {
+    "props": {
+      "name": "grid-two-colum",
+      "blockClass": "grid_selector--two-colums"
+    }
+  },
+  "flex-layout.row#filter":{
+    "children":[
+      "flex-layout.col#filter-result",
+      "flex-layout.row#orderByField"
+    ]
+  },
+  "flex-layout.row#product_result": {
+    "children": ["flex-layout.col#content"]
+  },
+  "flex-layout.col#filter": {
+    "children": ["flex-layout.col#title"],
+    "props": {
+      "blockClass":"col-filter",
+      "width":"10%"
+    }
+  },
+  "flex-layout.col#title": {
+    "children": ["search-title.v2"],
+    "props":{
+      "blockClass":"col-title-search"
+    }
+  },
+  "flex-layout.col#filter-result": {
+    "children": ["filter-navigator.v3"],
+    "props":{
+      "blockClass":"col-filter-result"
+    }
+  },
+
+  "filter-navigator.v3":{
+    "props":{
+      "blockClass":"navigator-v3",
+      "openFiltersMode":"one"
+    }
+  },
+  "flex-layout.col#content": {
+    "children": [
+      "flex-layout.row#result-search",
+      "flex-layout.row#result-product"
+    ]
+  },
+  "flex-layout.row#result-search": {
+    "children": ["flex-layout.col#gallery"]
+  },
+  "flex-layout.col#gallery": {
+    "children": ["gallery-layout-switcher"],
+    "props":{
+      "blockClass":"col-gallery"
+    }
+  },
+  "flex-layout.row#orderByField": {
+    "children": ["order-by.v2"],
+    "props":{
+      "blockClass":"row-order-by"
+    }
+  },
+
+  "flex-layout.row#result-product": {
+    "children": ["search-content"],
+    "props":{
+      "blockClass":"row-result-product"
+    }
+  },
+  "search-content": {
+    "blocks": ["gallery#product-gallery", "not-found"]
+  },
+  "gallery#product-gallery": {
+    "props": {
+      "layouts": [
+        {
+          "name": "general-grid",
+          "component": "GeneralGrid",
+          "itemsPerRow": {
+            "(min-width:1300px)": 4,
+            "desktop": 3,
+            "tablet": 3,
+            "phone": 2
+          }
+        }
+      ],
+      "GeneralGrid": "product-summary.shelf#product-shelf"
+    }
+  },
+  "product-summary.shelf#product-shelf": {
+    "children": [
+      "add-to-list-btn",
+      "product-summary-image",
+      "product-summary-space",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-price",
+      "add-to-cart-button"
+    ]
+  }
+}
