@@ -2,6 +2,7 @@
   "responsive-layout.desktop": {
     "title": "Componente desktop",
     "children": [
+      "whatsapp-button",
       "slider-layout#home_slider--children",
       "flex-layout.row#home_slider--children-visa",
       "list-context.image-list#home_slider--list",
