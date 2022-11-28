@@ -94,8 +94,8 @@
       "type": "custom",
       "highlight": false,
       "itemProps": {
-        "type": "external",
-        "href": "https://store.sony.com.co/centro-de-ayuda",
+        "type": "internal",
+        "href": "/about",
         "noFollow": true,
         "tagTitle": "Ayuda",
         "text": "AYUDA"

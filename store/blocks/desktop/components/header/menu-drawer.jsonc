@@ -41,8 +41,8 @@
         "size": 40
       },
       "itemProps": {
-        "type": "external",
-        "href": "https://store.sony.com.co/promociones%20?order=",
+        "type": "internal",
+        "href": "/Electrodomesticos",
         "noFollow": true,
         "tagTitle": "Promociones",
         "text": "Promociones"
@@ -60,8 +60,8 @@
         "size": 40
       },
       "itemProps": {
-        "type": "external",
-        "href": "https://store.sony.com.co/televisores-y-teatros-en-casa",
+        "type": "internal",
+        "href": "/madera",
         "noFollow": true,
         "tagTitle": "Tv-y-Teatro-en-casa ",
         "text": "Tv y Teatro en casa"
