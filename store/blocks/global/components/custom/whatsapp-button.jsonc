@@ -1,0 +1,11 @@
+{
+  "whatsapp-button":{
+    "props":{
+      "logo":"assets/img/icons8-whatsapp-48.png",
+      "phone":"3003407437",
+      "message":"Hola Solicito Ayuda En Mi Pedido",
+      "width":50,
+      "height":50
+    }
+  }
+}

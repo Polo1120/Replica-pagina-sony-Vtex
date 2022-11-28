@@ -2,6 +2,7 @@
   "responsive-layout.mobile": {
     "title": "responsive mobile",
     "children": [
+      "whatsapp-button",
       "slider-layout#home_slider--children-mobile",
       "list-context.image-list#slider--list.mobile",
       "flex-layout.row#imperdibles-del-mes",
