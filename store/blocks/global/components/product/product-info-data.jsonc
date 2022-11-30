@@ -1,4 +1,11 @@
 {
+  "flex-layout.row#container-product-info":{
+    "title":"container product info",
+    "children":[ "flex-layout.row#product_info" ],
+    "props":{
+      "blockClass": "container-product-info"
+    }
+  },
   "flex-layout.row#product_info": {
     "title": "informacion general PDP",
     "children": [

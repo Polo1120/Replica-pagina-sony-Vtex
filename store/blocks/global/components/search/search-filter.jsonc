@@ -1,0 +1,47 @@
+{
+  "flex-layout.row#filter": {
+    "title": "row filter",
+    "children": [
+      "flex-layout.col#filter-result",
+      "flex-layout.row#orderByField"
+    ]
+  },
+  "flex-layout.col#filter": {
+    "title": "col filter",
+    "children": ["flex-layout.col#title"],
+    "props": {
+      "blockClass": "col-filter",
+      "width": "10%"
+    }
+  },
+  "flex-layout.col#title": {
+    "title": "col title filter",
+    "children": ["search-title.v2"],
+    "props": {
+      "blockClass": "col-title-search"
+    }
+  },
+  "flex-layout.col#filter-result": {
+    "title": "col filter result",
+    "children": ["filter-navigator.v3"],
+    "props": {
+      "blockClass": "col-filter-result"
+    }
+  },
+
+  "filter-navigator.v3": {
+    "title": "filter navigator v3",
+    "props": {
+      "blockClass": "navigator-v3",
+      "openFiltersMode": "one"
+    }
+  },
+  "flex-layout.row#orderByField": {
+    "title": "row order by field ",
+    "children": ["order-by.v2"],
+    "props": {
+      "blockClass": "row-order-by"
+    }
+  }
+
+}

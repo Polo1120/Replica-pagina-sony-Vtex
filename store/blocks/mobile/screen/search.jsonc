@@ -1,60 +1,12 @@
 { 
-  "store.search#mobile": {
-  "blocks": ["search-result-layout"],
-  "props": {
-    "context": {
-      "skusFilter": "ALL",
-      "simulationBehavior": "skip",
-      "orderByField": "OrderByTopSaledDESC",
-      "hidenUnavailableItem": true
-    }
-  }
-},
-  "store.search#departamet-mobile": {
-    "blocks": ["search-result-layout"],
-    "props": {
-      "context": {
-        "skusFilter": "ALL",
-        "simulationBehavior": "skip"
-      }
-    }
-  },
-  "store.search#category-mobile": {
-    "blocks": ["search-result-layout"],
-    "props": {
-      "context": {
-        "skusFilter": "ALL",
-        "simulationBehavior": "skip"
-      }
-    }
-  },
-  "store.search#subcategory-mobile": {
-    "blocks": ["search-result-layout"],
-    "props": {
-      "context": {
-        "skusFilter": "ALL",
-        "simulationBehavior": "skip"
-      }
-    }
-  },
-  "store.search#brand-mobile": {
-    "blocks": ["search-result-layout"],
-    "props": {
-      "context": {
-        "orderByField": "OrderByReleaseDateDESC",
-        "hideUnavailableItems": true,
-        "maxItemsPerPage": 10,
-        "skusFilter": "ALL",
-        "simulationBehavior": "skip"
-      }
-    }
-  },
-  "search-result-layout.mobile": {
+ "search-result-layout.mobile": {
     "children": [
-      "flex-layout.row#department_breadcrumb",
-      "flex-layout.row#filter",
-      "flex-layout.row#product_result",
-      "flex-layout.row#pre-footer"
+    
     ]
+  },
+  "rich-text#hola":{
+    "props": {
+      "text": "hola mundo"
+    }
   }
 }

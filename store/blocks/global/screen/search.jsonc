@@ -40,7 +40,7 @@
       }
     }
   },
-  "search-result-layout": {
+  "search-result-layout#departament--des": {
     "blocks": [
       "search-result-layout.desktop",
       "search-result-layout.mobile",

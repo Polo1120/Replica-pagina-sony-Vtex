@@ -1,0 +1,65 @@
+{
+  "flex-layout.row#product_result": {
+    "title": "row product result",
+    "children": ["flex-layout.col#content"]
+  },
+  "flex-layout.col#content": {
+    "title": "col content result",
+    "children": [
+      "flex-layout.row#result-search",
+      "flex-layout.row#result-product"
+    ]
+  },
+  "flex-layout.row#result-search": {
+    "title": "row result search",
+    "children": ["flex-layout.col#gallery"]
+  },
+  "flex-layout.col#gallery": {
+    "title": "col gallery",
+    "children": ["gallery-layout-switcher"],
+    "props": {
+      "blockClass": "col-gallery"
+    }
+  },
+  "flex-layout.row#result-product": {
+    "title": "row result product",
+    "children": ["search-content"],
+    "props": {
+      "blockClass": "row-result-product"
+    }
+  },
+  "search-content": {
+    "title": "search content gallery",
+    "blocks": ["gallery#product-gallery", "not-found"]
+  },
+  "gallery#product-gallery": {
+    "title": "product gallery",
+    "props": {
+      "layouts": [
+        {
+          "name": "general-grid",
+          "component": "GeneralGrid",
+          "itemsPerRow": {
+            "(min-width:1300px)": 4,
+            "desktop": 3,
+            "tablet": 3,
+            "phone": 2
+          }
+        }
+      ],
+      "GeneralGrid": "product-summary.shelf#product-shelf"
+    }
+  },
+  "product-summary.shelf#product-shelf": {
+    "title": "product summary shelf",
+    "children": [
+      "add-to-list-btn",
+      "product-summary-image",
+      "product-summary-space",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-price",
+      "add-to-cart-button"
+    ]
+  }
+}

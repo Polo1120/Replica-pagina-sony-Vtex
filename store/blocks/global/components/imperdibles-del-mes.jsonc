@@ -1,6 +1,6 @@
 {
   "flex-layout.row#imperdibles-del-mes": {
-    "title": "Container imperdiables del mes",
+    "title": "Imperdiables del mes",
     "children": ["flex-layout.col#col-imperdiables-del-mes"],
     "props": {
       "blockClass": "container-imperdiables-del-mes",
@@ -19,6 +19,7 @@
     "children": ["rich-text#text-imperdiables-del-mes"]
   },
   "rich-text#text-imperdiables-del-mes": {
+    "title":"Imperdiables del mes--title",
     "props": {
       "text": "## Imperdibles del Mes",
       "textPosition": "CENTER",

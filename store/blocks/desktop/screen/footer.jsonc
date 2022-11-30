@@ -2,15 +2,15 @@
   "footer": {
     "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
   },
-  "footer-layout.desktop": { 
+  "footer-layout.desktop": {
     "title": "container footer desktop",
     "children": [
       "flex-layout.row#footer-desktop-1",
       "flex-layout.row#footer-desktop-2",
       "flex-layout.row#footer-desktop-3"
     ],
-    "props":{
-      "blockClass":"footer-desktop"
+    "props": {
+      "blockClass": "footer-desktop"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "flex-layout.row#favoritos-container": {
-    "title": "container favorito store sony",
+    "title": "Favorito Store Sony",
     "children": ["flex-layout.col#favoritos-sony-container--col"],
     "props": {
       "blockClass": "container-favoritos-sony",
@@ -12,7 +12,7 @@
     "children": ["rich-text#text-favoritos-sony"]
   },
   "rich-text#text-favoritos-sony": {
-    "title": "Favoritos Sony Store",
+    "title": "Title Favoritos Sony Store",
     "props": {
       "text": "#### FAVORITOS SONY STORE",
       "textPosition": "CENTER",
@@ -27,11 +27,11 @@
     ]
   },
   "flex-layout.col#favoritos-content": {
-    "title": "content col favorito store sony",
+    "title": "Col favorito store sony",
     "children": ["flex-layout.row#favoritos-store-sony"]
   },
   "flex-layout.row#favoritos-store-sony": {
-    "title": "row container favoritos store sony",
+    "title": "Row container favoritos store sony",
     "children": [
       "flex-layout.col#favoritos-cine-casa",
       "flex-layout.col#favoritos-captura-el-momento",
@@ -56,6 +56,7 @@
     }
   },
   "flex-layout.col#content-cine-casa-img": {
+    "title":"Col content image cine en casa",
     "children": ["image#tv-favorito"]
   },
   "image#tv-favorito": {
@@ -70,17 +71,17 @@
     }
   },
   "flex-layout.col#content-cine-casa-title": {
-    "title":"col content cine en casa title",
+    "title":"Col conatiner cine en casa--title",
     "children": ["rich-text#cine-en-casa"]
   },
   "rich-text#cine-en-casa": {
-    "title": "Cine en casa Title",
+    "title": "Cine en casa--title",
     "props": {
       "text": "Cine en Casa"
     }
   },
   "flex-layout.col#content-cine-casa-text-link": {
-    "title": "Col content link cine en casa",
+    "title": "Col container link cine en casa",
     "children": [
       "rich-text#televisores-full-array-led",
       "rich-text#telvisores-smart-con-google-tv",
@@ -92,28 +93,28 @@
     }
   },
   "rich-text#televisores-full-array-led": {
-    "title": "Televisores Full Array LED Link",
+    "title": "Televisores Full Array LED--link",
     "props": {
       "text": "[Televisores Full Array LED](https://store.sony.com.co/xbr-55x905h/p?cpint=HOME_FAVLINK-1-1_FullArray)",
       "blockClass": "favoritos-sony-container"
     }
   },
   "rich-text#telvisores-smart-con-google-tv": {
-    "title": "Telvisores Smart con Google TV Link",
+    "title": "Telvisores Smart con Google TV--link",
     "props": {
       "text": "[Telvisores Smart con Google TV](https://store.sony.com.co/xbr-55x905h/p?cpint=HOME_FAVLINK-1-1_FullArray)",
       "blockClass": "favoritos-sony-container"
     }
   },
   "rich-text#barras-de-sonido-y-teatros": {
-    "title": "Barras de Sonido y Teatros Link",
+    "title": "barras de Sonido y Teatros--link",
     "props": {
       "text": "[Barras de Sonido y Teatros](https://store.sony.com.co/xbr-55x)",
       "blockClass": "favoritos-sony-container"
     }
   },
   "rich-text#reproductores-blu-ray": {
-    "title": "Reproductores Blu-ray Link",
+    "title": "Reproductores Blu-ray--link",
     "props": {
       "text": "[Reproductores Blu-ray](https://store.sony.com.co/xbr-55x)",
       "blockClass": "favoritos-sony-container"
@@ -131,7 +132,7 @@
     }
   },
   "flex-layout.col#content-captura-el-momento-img": {
-    "title": "Col conatiner imagen captura el momentento",
+    "title": "Col container imagen captura el momentento",
     "children": ["image#captura-el-momento-favorito"]
   },
   "image#captura-el-momento-favorito": {
@@ -146,16 +147,17 @@
     }
   },
   "flex-layout.col#content-captura-el-momento-text": {
-    "title": "Col conatiner text captura el momentento",
+    "title": "Col container text captura el momentento",
     "children": ["rich-text#captura-el-momento-title"]
   },
   "rich-text#captura-el-momento-title": {
+    "title":"captura el momentento--title",
     "props": {
       "text": "Captura el Momento"
     }
   },
   "flex-layout.col#content-captura-el-movento-text-link": {
-    "title": "Col conatiner link captura el momentento",
+    "title": "Col container link captura el momentento",
     "children": [
       "rich-text#camaras-profesionales-alpha",
       "rich-text#lentes-g-master",
@@ -167,28 +169,28 @@
     }
   },
   "rich-text#camaras-profesionales-alpha": {
-    "title": "Cámaras profesionales Alpha Link",
+    "title": "Cámaras profesionales Alpha-link",
     "props": {
       "text": "[Cámaras profesionales Alpha](https://www.)",
       "blockClass": "favoritos-sony-container"
     }
   },
   "rich-text#lentes-g-master": {
-    "title": "Lentes G-Master Link",
+    "title": "Lentes G-Master-link",
     "props": {
       "text": "[Lentes G-Master](https://www.lentes)",
       "blockClass": "favoritos-sony-container"
     }
   },
   "rich-text#camaras-vlogger": {
-    "title": "Cámaras Vlogger Link",
+    "title": "Cámaras Vlogger--link",
     "props": {
       "text": "[Cámaras Vlogger](https://www.vlogger)",
       "blockClass": "favoritos-sony-container"
     }
   },
   "rich-text#camaras-cinema-line": {
-    "title": "Camaras Cinema Line Link",
+    "title": "Camaras Cinema Line--link",
     "props": {
       "text": "[Cámaras Cinema Line](https://www.cine)",
       "blockClass": "favoritos-sony-container"
@@ -206,11 +208,11 @@
     }
   },
   "flex-layout.col#content-audio-premium": {
-    "title": "Col content audio premium",
+    "title": "Col container imagen audio premium",
     "children": ["image#audio-premium-favorito"]
   },
   "image#audio-premium-favorito": {
-    "title": "img audio premium",
+    "title": "imagen audio premium",
     "props": {
       "src": "assets/img/parlantes-favorito2.jpg",
       "link": {
@@ -221,11 +223,11 @@
     }
   },
   "flex-layout.col#content-audio-premium-title": {
-    "title": "Col content title audio premium",
+    "title": "Col container title audio premium",
     "children": ["rich-text#audio-premium"]
   },
   "rich-text#audio-premium": {
-    "title": "Audio Premium Title",
+    "title": "Audio Premium--title",
     "props": {
       "text": "Audio Premium"
     }
@@ -245,28 +247,28 @@
   },
 
   "rich-text#sistemas-de-audio-serie-v": {
-    "title": "Sistemas de audio Serie V Link",
+    "title": "Sistemas de audio Serie V--link",
     "props": {
       "text": "[Sistemas de audio Serie V](https:www.sony.com)",
       "blockClass": "favoritos-sony-container"
     }
   },
   "rich-text#sistemas-de-audio-hi-res": {
-    "title": "Sistemas de Audio Hi-res Link",
+    "title": "Sistemas de Audio Hi-res--link",
     "props": {
       "text": "[Sistemas de Audio Hi-res](https:www.sony.com)",
       "blockClass": "favoritos-sony-container"
     }
   },
   "rich-text#parlantes-bluetooth": {
-    "title": "Parlantes Bluetooth Link",
+    "title": "Parlantes Bluetooth--link",
     "props": {
       "text": "[Parlantes Bluetooth](https:www.sony.com)",
       "blockClass": "favoritos-sony-container"
     }
   },
   "rich-text#360-reality-audio": {
-    "title": "360 Reality Audio Link",
+    "title": "360 Reality Audio--link",
     "props": {
       "text": "[360 Reality Audio](https:www.sony.com)",
       "blockClass": "favoritos-sony-container"
@@ -289,7 +291,7 @@
     "children": ["image#playstation-favorito"]
   },
   "image#playstation-favorito": {
-    "title": "image playstation favorito sony",
+    "title": "imagen playstation favorito sony",
     "props": {
       "src": "assets/img/playstation-favorito2.jpg",
       "link": {
@@ -300,17 +302,17 @@
     }
   },
   "flex-layout.col#content-playstation-title": {
-    "title": "Col conatiner playstation title",
+    "title": "Col conatiner playstation--title",
     "children": ["rich-text#playstation"]
   },
   "rich-text#playstation": {
-    "title": "Playstation Title",
+    "title": "Playstation--title",
     "props": {
       "text": "Playstation"
     }
   },
   "flex-layout.col#content-playstation-text-link": {
-    "title": "Col conatiner playstation link",
+    "title": "Col conatiner playstation--link",
     "children": [
       "rich-text#playstation-5",
       "rich-text#juegos-playstation",
@@ -322,28 +324,28 @@
     }
   },
   "rich-text#playstation-5": {
-    "title": "Playstation 5 Link",
+    "title": "Playstation 5--link",
     "props": {
       "text": "[Playstation 5](https:www.sony.com)",
       "blockClass": "favoritos-sony-container"
     }
   },
   "rich-text#juegos-playstation": {
-    "title": "Juegos Playstation Link",
+    "title": "Juegos Playstation--link",
     "props": {
       "text": "[Juegos Playstation](https:www.sony.com)",
       "blockClass": "favoritos-sony-container"
     }
   },
   "rich-text#accesorios-playstation": {
-    "title": "Accesorios Playstation Link",
+    "title": "Accesorios Playstation--link",
     "props": {
       "text": "[Accesorios Playstation](https:www.sony.com)",
       "blockClass": "favoritos-sony-container"
     }
   },
   "rich-text#controles-dualsense": {
-    "title": "Controles Dualsense Link",
+    "title": "Controles Dualsense--link",
     "props": {
       "text": "[Controles Dualsense](https:www.sony.com)",
       "blockClass": "favoritos-sony-container"

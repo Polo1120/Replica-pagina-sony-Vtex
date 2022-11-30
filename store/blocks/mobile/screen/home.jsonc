@@ -1,6 +1,6 @@
 {
   "responsive-layout.mobile": {
-    "title": "responsive mobile",
+    "title": "Componente mobile",
     "children": [
       "whatsapp-button",
       "slider-layout#home_slider--children-mobile",

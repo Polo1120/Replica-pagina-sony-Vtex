@@ -1,0 +1,12 @@
+{
+  "search-result-layout.mobile#departement": {
+    "title":"search layout mobile departement",
+    "children": [
+      "flex-layout.row#department_breadcrumb",
+      "flex-layout.row#department_breadcrumb",
+      "flex-layout.row#filter",
+      "flex-layout.row#product_result",
+      "flex-layout.row#pre-footer"
+    ]
+  }
+}

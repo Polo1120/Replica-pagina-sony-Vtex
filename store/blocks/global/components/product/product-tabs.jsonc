@@ -1,0 +1,74 @@
+{
+  "flex-layout.row#product_tabs": {
+    "title": "informacion adicional",
+    "children": ["tab-layout#product_tabs"]
+  },
+  "tab-layout#product_tabs": {
+    "title":"product tabs",
+    "children": [
+      "tab-list#product_tabs--list",
+      "tab-content#product_tabs--content"
+    ]
+  },
+  "tab-list#product_tabs--list": {
+    "title":"product tabs list",
+    "children": [
+      "tab-list.item#tabs_list--reviews-and-rating",
+      "tab-list.item#tabs_list--product-specification",
+      "tab-list.item#tabs_list--quaestions"
+    ]
+  },
+  "tab-list.item#tabs_list--reviews-and-rating": {
+    "title":"tabs list reviews and rating",
+    "props": {
+      "tabId": "reviews-and-reviews",
+      "label": "Revisiones y Calificaciones",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#tabs_list--product-specification": {
+    "title":"tabs list product specification",
+    "props": {
+      "tabId": "product-specification",
+      "label": "Espeficaciones de producto",
+      "defaultActiveTab": false
+    }
+  },
+  "tab-list.item#tabs_list--quaestions": {
+    "title":"tabs list quaestions",
+    "props": {
+      "tabId": "list--quaestions",
+      "label": "Preguntas y repuestas",
+      "defaultActiveTab": false
+    }
+  },
+  "tab-content#product_tabs--content": {
+    "title":"product tabs content",
+    "children": [
+      "tab-content.item#tabs_content--reviews-and-rating",
+      "tab-content.item#tabs_content--product-specification",
+      "tab-content.item#tabs_content--quaestions"
+    ]
+  },
+  "tab-content.item#tabs_content--reviews-and-rating": {
+    "title":"product content reviews and rating",
+    "props": {
+      "tabId": "reviews-and-reviews"
+    },
+    "children": ["product-reviews"]
+  },
+  "tab-content.item#tabs_content--product-specification": {
+    "title":"tabs content product specification",
+    "props": {
+      "tabId": "product-specification"
+    },
+    "children": ["product-specifications"]
+  },
+  "tab-content.item#tabs_content--quaestions": {
+    "title":"tanbs content quaestions",
+    "props": {
+      "tabId": "list--quaestions"
+    },
+    "children": ["product-questions-and-answers"]
+  }
+}
