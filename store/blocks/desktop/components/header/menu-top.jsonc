@@ -1,94 +1,90 @@
 {
   "flex-layout.row#menu-top": {
     "title": "Menu top",
-    "children": ["flex-layout.col#menu"],
+    "children": ["flex-layout.col#venta-linea","flex-layout.col#col-ayuda"],
     "props": {
-      "blockClass": "menu-top2"
-    }
-  },
-  "flex-layout.col#logo-telef": {
-    "title": "logo telef",
-    "children": ["icon#telefono"],
-    "props": {
-      "verticalAlign": "middle",
-      "blockClass": "logo-telef"
+      "blockClass": "menu-top",
+      "width": "40%"
     }
   },
   "flex-layout.col#venta-linea": {
-    "children": [
-      "rich-text#text-contact",
-      "rich-text#numero-contact",
-      "rich-text#horario-contact"
-    ],
+    "title":"Col call center",
+    "children": ["flex-layout.row#call-center"],
     "props": {
       "blockClass": "col-venta-telef",
-      "width": "25%"
+      "marginLeft":7
     }
   },
-  "icon#telefono": {
+  "flex-layout.row#call-center": {
+    "title":"Row call center",
+    "children": [
+      "flex-layout.col#call-center-logo",
+      "flex-layout.col#call-center"
+    ]
+  },
+
+  "flex-layout.col#call-center-logo": {
+    "title":"Col call center--logo",
+    "children":[
+      "rich-text#logo-tel"
+    ],
+    "props":{
+      "width": "15%"
+    }
+  },
+  "flex-layout.col#call-center": {
+    "title":"Col call center--link",
+    "children":[
+      "rich-text#text-contact"
+    ],
+    "props":{
+      "width": "85%"
+    }
+  },
+  "rich-text#logo-tel": {
+    "title":"logo tel call center",
     "props": {
-      "id": "icon-phone",
-      "size": 20,
-      "orientation": "right",
-      "blockClass": "icono-telef",
-      "viewBox": "0 0 612 612"
+      "text": "",
+      "blockClass": "logo-tel"
     }
   },
   "rich-text#text-contact": {
+    "title":"call center--link",
     "props": {
-      "text": "VENTA TELEFÓNICA",
-      "textPosition": "LEFT",
-      "blockClass": "text-contact"
+      "text": "[VENTA TELEFÓNICA](/)[601 786 8928](/)[LUNES A VIERNES 9 AM A 6 PM](/)",
+      "blockClass": "link-call-center"
     }
   },
-  "rich-text#numero-contact": {
-    "props": {
-      "text": "601 786 8928",
-      "textPosition": "LEFT",
-      "blockClass": "numero-contact"
-    }
-  },
-
-  "rich-text#horario-contact": {
-    "props": {
-      "text": "LUNES A VIERNES 9 AM A 6 PM",
-      "textPosition": "LEFT",
-      "blockClass": "horario-contact"
-    }
-  },
-
   "flex-layout.col#menu": {
-    "title":"col menu top",
-    "children": [
-      "flex-layout.row#col-ayuda"
-      /*  "flex-layout.col#col-seguimiento",
-      "flex-layout.col#col-more",
-      "flex-layout.col#col-sitio-web" */
-    ],
+    "title": "col menu top",
+    "children": [],
     "props": {
       "blockClass": "menu-col"
     }
   },
   /* menu */
-  "flex-layout.row#col-ayuda": {
-    "children": ["vtex.menu@2.x:menu#menu-superior"],
+  "flex-layout.col#col-ayuda": {
+    "title":"col container menu",
+    "children": ["vtex.menu@2.x:menu#menu-superior", "flex-layout.col#container_cart--col"],
     "props": {
-      "blockClass": "col-menu"
+      "blockClass": "col-menu-top",
+      "width": "55%",
+      "verticalAlign":"button"
     }
   },
   "vtex.menu@2.x:menu#menu-superior": {
     "title": "Menu superior",
     "children": [
       "menu-item#ayuda",
-      "menu-item#seguimiento-pedido",
       "menu-item#more-options",
       "menu-item#sitio-sony"
     ],
-    "props":{
-      "blockClass":"menu-superior"
+    "props": {
+      "blockClass": "menu-superior"
     }
   },
   "menu-item#ayuda": {
+    "title":"menu item ayuda",
     "props": {
       "id": "menu-item-ayuda",
       "type": "custom",
@@ -100,8 +96,7 @@
         "tagTitle": "Ayuda",
         "text": "AYUDA"
       },
-      "blockClass": "menu-item-menu",
-      "width": "37%"
+      "blockClass": "menu-item-ayuda-desktop"
     }
   },
   "menu-item#seguimiento-pedido": {
@@ -116,11 +111,11 @@
         "tagTitle": "seguimiento-de-pedido",
         "text": "SEGUIMIENTO DE PEDIDO"
       },
-      "blockClass": "menu-item-seguimiento-pedido",
-      "width": "25%"
+      "blockClass": "menu-item-seguimiento-pedido"
     }
   },
   "menu-item#more-options": {
+    "title":"men item more-options",
     "props": {
       "iconProps": {
         "id": "icon-puntos",
@@ -135,7 +130,7 @@
     "children": ["menu#submenu-more-options"]
   },
   "menu#submenu-more-options": {
-    "title":"Sub menu more options",
+    "title": "Sub menu more options",
     "children": [
       "menu-item#submenu-micuenta",
       "menu-item#submenu-ayuda",
@@ -144,18 +139,19 @@
     ],
     "props": {
       "orientation": "vertical",
-      "blockClass":"submenu-more-options"
+      "blockClass": "submenu-more-options"
     }
   },
   "menu-item#submenu-micuenta": {
+    "title":"sub menu item micuenta",
     "props": {
       "id": "menu-item-seguimiento-pedido",
       "type": "custom",
       "highlight": false,
-      "iconProps":{
-        "id":"icon-user",
-        "size":15,
-        "viewBox":"0 0 32 32"
+      "iconProps": {
+        "id": "icon-user",
+        "size": 15,
+        "viewBox": "0 0 32 32"
       },
       "itemProps": {
         "type": "internal",
@@ -163,18 +159,20 @@
         "noFollow": true,
         "tagTitle": "mi-cuenta",
         "text": "Mi Cuenta"
-      },"blockClass":"submenu-item-micuenta"
+      },
+      "blockClass": "submenu-item-micuenta"
     }
   },
   "menu-item#submenu-ayuda": {
+    "title":"sub menu item ayuda",
     "props": {
       "id": "id-submenu-ayuda",
       "type": "custom",
       "highlight": false,
-      "iconProps":{
-        "id":"icon-ayuda",
-        "size":15,
-        "viewBox":"0 0 473.733 473.733"
+      "iconProps": {
+        "id": "icon-ayuda",
+        "size": 15,
+        "viewBox": "0 0 473.733 473.733"
       },
       "itemProps": {
         "type": "internal",
@@ -182,18 +180,20 @@
         "noFollow": true,
         "tagTitle": "ayuda",
         "text": "Ayuda"
-      },"blockClass":"submenu-item-ayuda"
+      },
+      "blockClass": "submenu-item-ayuda"
     }
   },
   "menu-item#submenu-login-sony": {
+    "title":"sub menu item login sony",
     "props": {
       "id": "id-login-sony",
       "type": "custom",
       "highlight": false,
-      "iconProps":{
-        "id":"icon-user",
-        "size":15,
-        "viewBox":"0 0 32 32"
+      "iconProps": {
+        "id": "icon-user",
+        "size": 15,
+        "viewBox": "0 0 32 32"
       },
       "itemProps": {
         "type": "internal",
@@ -201,21 +201,21 @@
         "noFollow": true,
         "tagTitle": "login-sony",
         "text": "Login Sony"
-      },"blockClass":"submenu-item-login-sony"
+      },
+      "blockClass": "submenu-item-login-sony"
     },
-    "children":[
-      "login"
-    ]
+    "children": ["login"]
   },
   "menu-item#submenu-sitio-sony": {
+    "title":"sub menu item sitio sony",
     "props": {
       "id": "id-sitio-sony",
       "type": "custom",
       "highlight": false,
-      "iconProps":{
-        "id":"icon-mundo",
-        "size":15,
-        "viewBox":"0 0 64 64"
+      "iconProps": {
+        "id": "icon-mundo",
+        "size": 15,
+        "viewBox": "0 0 64 64"
       },
       "itemProps": {
         "type": "internal",
@@ -223,11 +223,12 @@
         "noFollow": true,
         "tagTitle": "sitio-sony",
         "text": "Sitio Sony"
-      },"blockClass":"submenu-item-sitio-sony"
+      },
+      "blockClass": "submenu-item-sitio-sony"
     }
   },
-
   "menu-item#sitio-sony": {
+    "title":"menu item sitio-sony",
     "props": {
       "id": "id-item-sitio-sony",
       "type": "custom",
@@ -239,7 +240,7 @@
         "tagTitle": "item-sitio-sony",
         "text": "Sitio Sony"
       },
-      "blockClass":"sitio-sony-menu"
+      "blockClass": "sitio-sony-menu"
     }
   }
 }

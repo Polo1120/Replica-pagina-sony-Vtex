@@ -1,11 +1,17 @@
 // This is the default blocks implementation for the minicart-layout
 {
+  "flex-layout.col#container_cart--col": {
+    "children": ["minicart.v2#carrito"],
+    "props":{
+      "width": "10%"
+    }
+  },
   "minicart.v2#carrito": {
     "props": {
       "MinicartIcon": "icon-cart#minicart-icon",
       "variation": "popup",
-      "openOnHover":true,
-      "maxDrawerWidth":100
+      "openOnHover": true,
+      "maxDrawerWidth": 100
     },
     "children": ["minicart-base-content"]
   },
