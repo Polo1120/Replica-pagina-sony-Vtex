@@ -1,0 +1,44 @@
+{
+  "flex-layout.col#logo-sony": {
+    "title":"Col container logo sony and drawer menu",
+    "props": {
+      "blockClass":"logo-class-sony",
+      "width": "30%"
+    },
+    "children": ["flex-layout.row#row-sony"]
+  },
+
+  "flex-layout.row#row-sony":{
+    "title":"Row sony logo and drawer menu",
+    "children":[
+      "flex-layout.col#col-logo-sony",
+      "flex-layout.col#drawer-desktop"
+    ],
+    "props":{
+      "blockClass":"container-logo-and-drawer"
+    }
+  },
+  "flex-layout.col#col-logo-sony":{
+    "title":"Col logo sony",
+    "children":[
+      "logo"
+    ],
+    "props":{
+      "width":"90%",
+      "blockClass":"col-logo-sony"
+    }
+  },
+  "logo": {
+    "title":"logo sony",
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/img/logo.png",
+      "width": 128,
+      "height":22,
+      "mobileWidth": 83,
+      "mobileHeight": 15,
+      "blockClass":"logo-sony"
+    }
+  }
+}

@@ -1,18 +1,36 @@
-.paragraph--text-contact {
-  font-size: 9px;
-  color: white;
-  margin: 0px;
+.paragraph--link-call-center {
+  margin: 0;
+  line-height: 15px;
+  text-transform: uppercase;
 }
 
-.paragraph--numero-contact {
-  font-size: 16px;
+.link--link-call-center {
+  font-size: 12px;
   color: white;
-  margin: 0px;
-  
+  text-decoration: none;
+}
+
+.paragraph--number-call-center {
+  margin: 0;
+}
+
+.link--number-call-center {
+  font-size: 22px;
+  color: white;
+  text-decoration: none;
 }
 
 .paragraph--horario-contact {
   font-size: 9px;
   color: white;
   margin: 0px;
+}
+
+.container--logo-tel {
+  float: left;
+  margin-top: 17px;
+  background: url(https://cosonyb2c.vtexassets.com/arquivos/icn.png) 0 0;
+  background-position: -325px -450px;
+  width: 25px;
+  height: 25px;
 }

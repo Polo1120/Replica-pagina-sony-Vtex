@@ -1,17 +1,16 @@
-/* .openIconContainer--drawer-menu{
-  color: white;
-} */
-
 .opened--drawer-menu{
+  top: 80px;
   height: fit-content;
-  transform: translate3d(0%, 62px, 0px) !important;
+  
 }
 
-
 .closed--drawer-menu{
- display: none;
+  top: 80px;
+  height: fit-content;
+}
 
-  
+.overlay--drawer-menu{
+  opacity: 0 !important;
 }
 
 .closeIconContainer--drawer-menu{

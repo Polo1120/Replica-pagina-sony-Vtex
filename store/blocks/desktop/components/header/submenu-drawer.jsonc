@@ -1,20 +1,21 @@
 {
   "vtex.menu@2.x:submenu#tv-teatro-casa": {
-    "title": "submenu catogory",
+    "title": "submenu tv and teatro casa",
     "children": ["vtex.menu@2.x:menu#submenutelevisores"],
     "props": {
       "blockClass": "sub-menu--tv"
     }
   },
   "vtex.menu@2.x:menu#submenutelevisores": {
+    "title":"menu tv and teatro casa",
     "children": [
       "menu-item#televisores",
       "menu-item#teatro-en-casa",
       "menu-item#reproductores-blue-ray"
     ]
   },
-  
   "menu-item#televisores": {
+    "title":"tv--item",
     "children":[
       "image#submenu-tv-img"
     ],
@@ -31,11 +32,13 @@
     }
   },
   "image#submenu-tv-img":{
+    "title":"tv-img",
     "props":{
       "src":"assets/img/tv-televisores.png"
     }
   },
   "menu-item#teatro-en-casa": {
+    "title":"teatro casa-img",
     "children":[
       "image#submenu-teatro-casa-img"
     ],
@@ -52,11 +55,13 @@
     }
   },
   "image#submenu-teatro-casa-img":{
+    "title":"teatro casa--img",
     "props":{
       "src": "assets/img/teatro-en-casa.png"
     }
   },
   "menu-item#reproductores-blue-ray": {
+    "title":"blue ray--item",
     "children":[
       "image#submenu-reproductores-blue-ray-img"
     ],
@@ -73,6 +78,7 @@
     }
   },
   "image#submenu-reproductores-blue-ray-img":{
+    "title":"reproductor bliue ray--img ",
     "props":{
       "src":"assets/img/reproductores-Blu-ray.png"
     }
@@ -87,6 +93,7 @@
     }
   },
   "vtex.menu@2.x:menu#submenucamaras": {
+    "title":"menu category",
     "children": [
       "menu-item#camaras-con-lentes-intercambiable",
       "menu-item#syber-shot",
@@ -96,6 +103,7 @@
     ]
   },
   "menu-item#camaras-con-lentes-intercambiable": {
+    "title":"camaras con lentes intercambiable--item",
     "children":[
       "image#camara-con-lentes-intercambiable-img"
     ],
@@ -112,11 +120,13 @@
     }
   },
   "image#camara-con-lentes-intercambiable-img":{
+    "title":"camaras con lentes-img",
     "props":{
       "src":"assets/img/photo-camaras-lentes-intercambiables.png"
     }
   },
   "menu-item#syber-shot": {
+    "title":"syber shot-item",
     "children":[
       "image#cyber-shot-img"
     ],
@@ -133,11 +143,13 @@
     }
   },
   "image#cyber-shot-img":{
+    "title":"cyber shot-img",
     "props":{
       "src":"assets/img/photo-cybershot.png"
     }
   },
   "menu-item#lentes": {
+    "title":"lentes camaras--item",
     "children":[
       "image#lentes-img"
     ],
@@ -154,11 +166,13 @@
     }
   },
   "image#lentes-img":{
+    "title":"lentes camaras-img",
     "props":{
       "src":"assets/img/photo-lentes.png"
     }
   },
   "menu-item#accesorios": {
+    "title":"accesorios camaras-item",
     "children":[
       "image#accesorios-img"
     ],
@@ -175,11 +189,13 @@
     }
   },
   "image#accesorios-img":{
+    "title":"accesorios camaras-item",
     "props":{
       "src":"assets/img/photo-accesorios.png"
     }
   },
   "menu-item#camara-cine": {
+    "title":"camara cine-item",
     "children":[
       "image#camara-cine-img"
     ],
@@ -196,20 +212,21 @@
     }
   },
   "image#camara-cine-img":{
+    "title":"camara cine--img",
     "props":{
       "src":"assets/img/camaras-cine.png"
     }
   },
   /*  submenu Video-Camaras */
   "vtex.menu@2.x:submenu#video-camaras": {
-    "title": "submenu catogory video camara",
+    "title": "submenu video camara",
     "children": ["vtex.menu@2.x:menu#submenuvideo-camaras"],
     "props": {
       "blockClass": "sub-menu--video-camaras"
     }
   },
   "vtex.menu@2.x:menu#submenuvideo-camaras": {
-    
+    "title":"menu video video camara",
     "children": [
       "menu-item#handycam",
       "menu-item#accesorios--video-camaras",
@@ -217,6 +234,7 @@
     ]
   },
   "menu-item#handycam": {
+    "title":"handycam--item",
     "children":[
       "image#handy-cam-img"
     ],
@@ -233,11 +251,13 @@
     }
   },
   "image#handy-cam-img":{
+    "title":"handycam--img",
     "props":{
       "src":"assets/img/video-handycam.png"
     }
   },
   "menu-item#accesorios--video-camaras": {
+    "title":"accesorios video camaras--item",
     "children":[
       "image#video-camara-accesorios-img"
     ],
@@ -254,11 +274,13 @@
     }
   },
   "image#video-camara-accesorios-img":{
+    "title":"accesorios video camaras--img",
     "props":{
       "src":"assets/img/video-accesorios.png"
     }
   },
   "menu-item#camaras-del-cine": {
+    "title":"camaras de cine--item",
     "children":[
       "image#video-camara--camara-cine-img"
     ],
@@ -275,19 +297,21 @@
     }
   },
   "image#video-camara--camara-cine-img":{
+    "title":"camaras de cine--img",
     "props":{
       "src":"assets/img/camaras-cine.png"
     }
   },
   /* submenu Audio */
   "vtex.menu@2.x:submenu#audio": {
-    "title": "submenu catogory audio",
+    "title": "submenu audio",
     "children": ["vtex.menu@2.x:menu#submenuaudio"],
     "props": {
       "blockClass": "sub-menu--audio"
     }
   },
   "vtex.menu@2.x:menu#submenuaudio": {
+    "title":"menu audio ",
     "children": [
       "menu-item#sistema-audio",
       "menu-item#parlantes-inalambricos",
@@ -296,6 +320,7 @@
     ]
   },
   "menu-item#sistema-audio": {
+    "title":"sistema de audio--item",
     "children":[
       "image#sistema-de-audio-img"
     ],
@@ -312,11 +337,13 @@
     }
   },
   "image#sistema-de-audio-img":{
+    "title":"sistema de audio--img",
     "props":{
       "src":"assets/img/sistema-de-audio.png"
     }
   },
   "menu-item#parlantes-inalambricos": {
+    "title":"parlantes inalambricos--item",
     "children":[
       "image#parlante-inalambricos-img"
     ],
@@ -333,11 +360,13 @@
     }
   },
   "image#parlante-inalambricos-img":{
+    "title":"parlantes inalámbricos--img",
     "props":{
       "src":"assets/img/parlantes-inalambricos.png"
     }
   },
   "menu-item#audifonos": {
+    "title":"audifonos--item",
     "children":[
       "image#audifonos-img"
     ],
@@ -354,11 +383,13 @@
     }
   },
   "image#audifonos-img":{
+    "title":"audifonos--img",
     "props":{
       "src":"assets/img/audifonos-categoria.png"
     }
   },
   "menu-item#reproductores-walkman": {
+    "title":"reproductores walkman--item",
     "children":[
       "image#reproductor-walkman-img"
     ],
@@ -375,6 +406,7 @@
     }
   },
   "image#reproductor-walkman-img":{
+    "title":"reproductor walkman--img",
     "props":{
       "src":"assets/img/reproductor-walkman.png"
     }
@@ -382,13 +414,14 @@
 
   /* submenu PlayStation */
   "vtex.menu@2.x:submenu#playstation": {
-    "title": "submenu catogory playstation",
+    "title": "submenu playstation",
     "children": ["vtex.menu@2.x:menu#submenuplaystation"],
     "props": {
       "blockClass": "sub-menu--playstation"
     }
   },
   "vtex.menu@2.x:menu#submenuplaystation": {
+    "title":"menu playstation",
     "children": [
       "menu-item#playstation-5",
       "menu-item#consolas",
@@ -397,6 +430,7 @@
     ]
   },
   "menu-item#playstation-5": {
+    "title":"playstation 5--item",
     "children":[
       "image#playstation-5-img"
     ],
@@ -413,11 +447,13 @@
     }
   },
   "image#playstation-5-img":{
+    "title":"playstation 5--item",
     "props":{
       "src":"assets/img/menu-ps5-v1.png"
     }
   },
   "menu-item#consolas": {
+    "title":"consolas--item",
     "children":[
       "image#consolas-img"
     ],
@@ -434,11 +470,13 @@
     }
   },
   "image#consolas-img":{
+    "title":"consolas--img",
     "props":{
       "src":"assets/img/playstation-consolas.png"
     }
   },
   "menu-item#games": {
+    "title":"juegos-item",
     "children":[
       "image#games-img"
     ],
@@ -455,11 +493,13 @@
     }
   },
   "image#games-img":{
+    "title":"juegos--img",
     "props":{
       "src":"assets/img/playstation-juegos.png"
     }
   },
   "menu-item#accesorios-playstation": {
+    "title":"accesorios playstation--item",
     "children":[
       "image#accesorios-playstation-img" 
     ],
@@ -476,25 +516,28 @@
     }
   },
   "image#accesorios-playstation-img":{
+    "title":"accesorios playstation--img",
     "props":{
       "src":"assets/img/playstation-accesorios.png"
     }
   },
   /* audio para Auto */
   "vtex.menu@2.x:submenu#audio-para-auto": {
-    "title": "submenu catogory playstation",
+    "title": "submenu playstation",
     "children": ["vtex.menu@2.x:menu#submenuaudio-para-auto"],
     "props": {
       "blockClass": "sub-menu--audio-para-auto"
     }
   },
   "vtex.menu@2.x:menu#submenuaudio-para-auto": {
+    "title":"menu audio para auto",
     "children": [
       "menu-item#reproductores-para-automovil",
       "menu-item#bocinas-y-amplificadores"
     ]
   },
   "menu-item#reproductores-para-automovil": {
+    "title":"reproductores para automovil--img",
     "children":[
       "image#reproductores-para-autos-img"
     ],
@@ -511,11 +554,13 @@
     }
   },
   "image#reproductores-para-autos-img":{
+    "title":"reproductores para autos--img",
     "props":{
       "src":"assets/img/reproductores-automovil.png"
     }
   },
   "menu-item#bocinas-y-amplificadores": {
+    "title":"bocinas y amplificadores--item",
     "children":[
       "image#bocinas-amplicadoras-img"
     ],
@@ -532,6 +577,7 @@
     }
   },
   "image#bocinas-amplicadoras-img":{
+    "title":"bocinas amplicadoras--img",
     "props":{
       "src":"assets/img/audio-auto-bocinas-amplificadores.png"
     }

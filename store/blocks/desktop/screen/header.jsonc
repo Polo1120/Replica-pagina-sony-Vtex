@@ -9,5 +9,4 @@
     "title": "Header desktop",
     "children": ["sticky-layout#desktop"]
   }
-  
 }

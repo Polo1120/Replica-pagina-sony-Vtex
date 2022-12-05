@@ -1,0 +1,18 @@
+{
+  "sticky-layout#desktop": {
+    "title":"sticky header",
+    "children": ["flex-layout.row#desktop"]
+  },
+  "flex-layout.row#desktop": {
+    "title":"Row header desktop",
+    "props": {
+      "fullWidth": true,
+      "blockClass": "header-container"
+    },
+    "children": [
+      "flex-layout.col#logo-sony",
+      "flex-layout.col#search",
+      "flex-layout.row#menu-top"
+    ]
+  }
+}

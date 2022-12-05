@@ -1,9 +1,11 @@
 {
   "flex-layout.col#drawer-desktop": {
+    "title":"Col drawer menu",
     "children": ["drawer#desktop"],
     "props": {
       "verticalAlign": "middle",
-      "blockClass": "container-drawer-col"
+      "blockClass": "container-drawer-col",
+      "width":"10%"
     }
   },
   "drawer#desktop": {
@@ -17,7 +19,7 @@
   },
 
   "vtex.menu@2.x:menu#header__menu-desktop": {
-    "title": "Menu desktop",
+    "title": "Menu drawer desktop",
     "children": [
       "menu-item#despartament--promo",
       "menu-item#despartament--tv",
@@ -33,6 +35,7 @@
     }
   },
   "menu-item#despartament--promo": {
+    "title":"Promociones--item",
     "props": {
       "id": "dpromo",
       "type": "custom",
@@ -51,6 +54,7 @@
     }
   },
   "menu-item#despartament--tv": {
+    "title":"televisores--item",
     "props": {
       "id": "dtv",
       "type": "custom",
@@ -71,6 +75,7 @@
     "blocks": ["vtex.menu@2.x:submenu#tv-teatro-casa"]
   },
   "menu-item#despartament--camaras": {
+    "title":"camaras-item",
     "props": {
       "id": "dcamaras",
       "type": "custom",
@@ -91,6 +96,7 @@
     "blocks": ["vtex.menu@2.x:submenu#camaras"]
   },
   "menu-item#despartament--video-camaras": {
+    "title":"video camaras-item",
     "props": {
       "id": "dvideo-camaras",
       "type": "custom",
@@ -111,6 +117,7 @@
     "blocks": ["vtex.menu@2.x:submenu#video-camaras"]
   },
   "menu-item#despartament--audio": {
+    "title":"audo--item",
     "props": {
       "id": "daudio",
       "type": "custom",
@@ -131,6 +138,7 @@
     "blocks": ["vtex.menu@2.x:submenu#audio"]
   },
   "menu-item#despartament--playstation": {
+    "title":"playstation-item",
     "props": {
       "id": "dplaystation",
       "type": "custom",
@@ -151,6 +159,7 @@
     "blocks": ["vtex.menu@2.x:submenu#playstation"]
   },
   "menu-item#despartament--audio-auto": {
+    "title":"audio para autos-item",
     "props": {
       "id": "daudio-auto",
       "type": "custom",

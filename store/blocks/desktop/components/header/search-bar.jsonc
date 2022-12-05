@@ -1,0 +1,30 @@
+{
+  "flex-layout.col#search":{
+    "title":"Col container search",
+    "children":[
+      "search-bar#desktop"
+    ],
+    "props":{
+      "blockClass":"col-search",
+      "width": "26%"
+    }
+  },
+  "search-bar#desktop":{
+    "title":"Search bar",
+    "props":{
+      "blockClass":"search-bar-desktop",
+      "maxWidth": "100%"
+    }
+  },
+  
+  "flex-layout.col#cart":{
+    "title":"Col container minicart",
+    "children":[
+      "minicart.v2#carrito"
+    ],
+    "props":{
+      "verticalAlign":"middle",
+      "blockClass":"minicart-desktop"
+    }
+  }
+}

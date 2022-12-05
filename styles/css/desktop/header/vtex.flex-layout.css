@@ -1,21 +1,9 @@
-
-
 .flexCol--container-drawer-col {
   color: white;
-  margin-left: -43px
 }
 
-.flexColChild--col-search{
-  width: 300px;
-}
-
-.flexCol--minicart-desktop{
+.flexCol--minicart-desktop {
   margin-left: -20px;
-} 
-
-
-.flexCol--logo-telef{
-  margin: 7px 11px 0px 195px
 }
 
 .flexCol--menu-col {
@@ -24,21 +12,67 @@
   justify-content: flex-start;
 }
 
-
-
-
 /* header */
-.flexRowContent--flex-header{
-  justify-content: space-between;
+.flexRowContent--header-container {
+  background: #000;
+  height: 80px;
+  width: 100%;
+}
+
+.flexColChild--col-logo-sony :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 30% !important;
+}
+
+/* logo */
+
+.flexColChild--col-logo-sony {
+  display: flex;
+  justify-content: flex-end;
   align-items: center;
 }
 
-.flexCol--header-right-contenedor{
-  margin-left: -105px
+.flexCol--col-search {
+  padding: 4px 0px 0px 13px;
 }
 
-.flexCol--header-contenedor{
-  margin: 0px -15px 0px 180px
+.flexRow--container-call-center{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.flexRowContent--menu-top{
+  height: 100%;
+}
+
+@media screen and (min-width: 1191px) {
+  .flexCol--col-menu-top {
+    padding-top: 10px;
+    flex-direction: row;
+    align-items: center;
+    gap: 19px;
+    justify-content: start;
+  }
 }
 
 
+@media screen and (min-width: 768px ) and (max-width: 1190px) {
+  .flexCol--col-menu-top {
+    padding-top: 10px;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    justify-content: start;
+  }
+}
+.flexRowContent--container-logo-and-drawer {
+  padding: 17px 5.5rem 0px 0px;
+}
+
+
+/* minicart */
+
+.flexCol--col-minicart{
+  padding-bottom: 12px;
+
+}
