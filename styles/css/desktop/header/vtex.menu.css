@@ -6,6 +6,13 @@
   align-items: center;
 }
 
+.menuItem--catogory-promo:hover{
+  height: 5px;
+  background: rgb(69, 114, 237 );
+  bottom: 20px;
+  transition: all 0.50s ease 0s, bottom 0.20s ease 0s !important;
+}
+
 .styledLinkContent--catogory-tv {
   display: flex;
   flex-direction: column;
@@ -200,13 +207,14 @@
 }
 
 .styledLinkContainer--menu-item-ayuda-desktop{
-  font-size: 11px;
-  margin: 0 0 0 10px;
+  margin: 0 0 0 18px;
 }
-.styledLink--menu-item-ayuda-desktop{
-  color: white;
-  
+
+.styledLinkContent--menu-item-ayuda-desktop{
+color: white;
+font-size: 15px;
 }
+
 
 .styledLinkContent--menu-item-seguimiento-pedido {
   font-size: 11px;
@@ -224,14 +232,20 @@
 }
 
 .menuContainer--menu-superior{
-display: flex;
-align-items: baseline;
+
 }
 
 
 .menuItem--sitio-sony-menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #2C303B;
-  height: 40px;
+  height: 43px;
+  transition: all .25s;
+  margin-left: 10px;
+  width: 133px;
+  
 }
 
 .styledLinkContent--sitio-sony-menu{
@@ -239,12 +253,21 @@ align-items: baseline;
   
 }
 .menuItem--sitio-sony-menu:hover{
-background-color: #4572ED;
+  background-color: #4572ED;
+  transition: all .25s;
 }
 
 
 /* submenu more options */
+.submenuWrapper--submenu-more-options{
+  top: 6px;
+  left: -333px;
+  margin: 0 !important;
+}
 
+.menuContainerNav--submenu-more-options{
+  width: 366px;
+}
 .submenuWrapper--isOpen{
   margin-left: -108px
 }

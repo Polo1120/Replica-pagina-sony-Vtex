@@ -1,57 +1,77 @@
 {
   "flex-layout.row#menu-top": {
     "title": "Menu top",
-    "children": ["flex-layout.col#venta-linea","flex-layout.col#col-ayuda"],
+    "children": ["flex-layout.col#venta-linea", "flex-layout.col#col-ayuda"],
     "props": {
       "blockClass": "menu-top",
       "width": "40%"
     }
   },
   "flex-layout.col#venta-linea": {
-    "title":"Col call center",
+    "title": "Col call center",
     "children": ["flex-layout.row#call-center"],
     "props": {
       "blockClass": "col-venta-telef",
-      "marginLeft":7
+      "marginLeft": 7
     }
   },
   "flex-layout.row#call-center": {
-    "title":"Row call center",
+    "title": "Row call center",
     "children": [
       "flex-layout.col#call-center-logo",
       "flex-layout.col#call-center"
-    ]
+    ],
+    "props": {
+      "blockClass":"container-call-center"
+    }
   },
 
   "flex-layout.col#call-center-logo": {
-    "title":"Col call center--logo",
-    "children":[
-      "rich-text#logo-tel"
-    ],
-    "props":{
+    "title": "Col call center--logo",
+    "children": ["rich-text#logo-tel"],
+    "props": {
       "width": "15%"
     }
   },
   "flex-layout.col#call-center": {
-    "title":"Col call center--link",
-    "children":[
-      "rich-text#text-contact"
+    "title": "Col call center--link",
+    "children": [
+      "rich-text#venta-telefonica",
+      "rich-text#numero-telef",
+      "rich-text#horario"
     ],
-    "props":{
+    "props": {
       "width": "85%"
     }
   },
   "rich-text#logo-tel": {
-    "title":"logo tel call center",
+    "title": "logo tel call center",
     "props": {
       "text": "",
       "blockClass": "logo-tel"
     }
   },
-  "rich-text#text-contact": {
-    "title":"call center--link",
+  "rich-text#telefono": {
     "props": {
-      "text": "[VENTA TELEFÓNICA](/)[601 786 8928](/)[LUNES A VIERNES 9 AM A 6 PM](/)",
+      "text": "Lunes a Viernes 8 am a 16:59 Hrs"
+    }
+  },
+  "rich-text#venta-telefonica": {
+    "title": "call center--link",
+    "props": {
+      "text": "[Venta Telefónica](/)",
+      "blockClass": "link-call-center"
+    }
+  },
+  "rich-text#numero-telef": {
+    "props": {
+      "text": "[601 786 8928](/)",
+      "blockClass": "number-call-center"
+    }
+  },
+  "rich-text#horario": {
+    "props": {
+      "text": "[Lunes a Viernes 8 am a 16:59 Hrs](/)",
       "blockClass": "link-call-center"
     }
   },
@@ -64,12 +84,15 @@
   },
   /* menu */
   "flex-layout.col#col-ayuda": {
-    "title":"col container menu",
-    "children": ["vtex.menu@2.x:menu#menu-superior", "flex-layout.col#container_cart--col"],
+    "title": "col container menu",
+    "children": [
+      "vtex.menu@2.x:menu#menu-superior",
+      "flex-layout.col#container_cart--col"
+    ],
     "props": {
       "blockClass": "col-menu-top",
       "width": "55%",
-      "verticalAlign":"button"
+      "verticalAlign": "button"
     }
   },
   "vtex.menu@2.x:menu#menu-superior": {
@@ -84,7 +107,7 @@
     }
   },
   "menu-item#ayuda": {
-    "title":"menu item ayuda",
+    "title": "menu item ayuda",
     "props": {
       "id": "menu-item-ayuda",
       "type": "custom",
@@ -115,7 +138,7 @@
     }
   },
   "menu-item#more-options": {
-    "title":"men item more-options",
+    "title": "men item more-options",
     "props": {
       "iconProps": {
         "id": "icon-puntos",
@@ -127,7 +150,10 @@
     "blocks": ["submenu#submenu-more-options"]
   },
   "submenu#submenu-more-options": {
-    "children": ["menu#submenu-more-options"]
+    "children": ["menu#submenu-more-options"],
+    "props":{
+      "blockClass":"submenu-more-options"
+    }
   },
   "menu#submenu-more-options": {
     "title": "Sub menu more options",
@@ -143,7 +169,7 @@
     }
   },
   "menu-item#submenu-micuenta": {
-    "title":"sub menu item micuenta",
+    "title": "sub menu item micuenta",
     "props": {
       "id": "menu-item-seguimiento-pedido",
       "type": "custom",
@@ -164,7 +190,7 @@
     }
   },
   "menu-item#submenu-ayuda": {
-    "title":"sub menu item ayuda",
+    "title": "sub menu item ayuda",
     "props": {
       "id": "id-submenu-ayuda",
       "type": "custom",
@@ -185,7 +211,7 @@
     }
   },
   "menu-item#submenu-login-sony": {
-    "title":"sub menu item login sony",
+    "title": "sub menu item login sony",
     "props": {
       "id": "id-login-sony",
       "type": "custom",
@@ -207,7 +233,7 @@
     "children": ["login"]
   },
   "menu-item#submenu-sitio-sony": {
-    "title":"sub menu item sitio sony",
+    "title": "sub menu item sitio sony",
     "props": {
       "id": "id-sitio-sony",
       "type": "custom",
@@ -228,7 +254,7 @@
     }
   },
   "menu-item#sitio-sony": {
-    "title":"menu item sitio-sony",
+    "title": "menu item sitio-sony",
     "props": {
       "id": "id-item-sitio-sony",
       "type": "custom",

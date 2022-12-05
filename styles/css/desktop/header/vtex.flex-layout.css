@@ -2,9 +2,6 @@
   color: white;
 }
 
-.flexColChild--col-search {
-}
-
 .flexCol--minicart-desktop {
   margin-left: -20px;
 }
@@ -22,24 +19,60 @@
   width: 100%;
 }
 
+.flexColChild--col-logo-sony :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 30% !important;
+}
+
 /* logo */
+
 .flexColChild--col-logo-sony {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
-.flexCol--col-menu-top {
-  flex-direction: row;
-  align-items: center;
-  gap: 12px;
-  justify-content: start;
+.flexCol--col-search {
+  padding: 4px 0px 0px 13px;
 }
 
+.flexRow--container-call-center{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.flexRowContent--menu-top{
+  height: 100%;
+}
+
+@media screen and (min-width: 1191px) {
+  .flexCol--col-menu-top {
+    padding-top: 10px;
+    flex-direction: row;
+    align-items: center;
+    gap: 19px;
+    justify-content: start;
+  }
+}
+
+
+@media screen and (min-width: 768px ) and (max-width: 1190px) {
+  .flexCol--col-menu-top {
+    padding-top: 10px;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    justify-content: start;
+  }
+}
 .flexRowContent--container-logo-and-drawer {
   padding: 17px 5.5rem 0px 0px;
 }
 
-.flexCol--col-search {
-  padding: 4px 0px 0px 13px;
+
+/* minicart */
+
+.flexCol--col-minicart{
+  padding-bottom: 12px;
+
 }
